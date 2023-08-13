@@ -1,0 +1,41 @@
+{% load static %}
+
+<link rel<link rel="stylesheet" type="text/css" href="{% static 'index/style.css' %}" />
+
+<!-- <img src="{% static 'index/kao_logo.png' %}"> -->
+
+<ul>
+    <li><a href= "{% url 'about_page' %}">About</a></li>    
+    <li><a href="default.asp">Products</a></li>
+    <li><a href="news.asp">Events</a></li>
+    <li><a href="contact.asp">Contact</a></li>
+
+</ul>
+
+<div class="dropdown">
+  <button class="dropbtn">Languages</button>
+  <div class="dropdown-content">
+    <a href="#">
+      <img src="{% static 'index/flag_eng.png'%}" alt="English"
+      <span>
+        English
+      </span>
+    </a>
+  <a href="#">
+      <img src="{% static 'index/flag_de.png'%}" alt="German"
+      <span>
+        Deutsch
+      </span>
+    </a>
+ <a href="#">
+      <img src="{% static 'index/flag_tur.png'%}" alt="English"
+      <span>
+       Turkce 
+      </span>
+    </a>
+  
+ 
+
+  
+  </div>
+</div>
