@@ -1,3 +1,29 @@
+.custom-image {
+    width: 2086px; /* Adjust the width as needed */
+    height: 771px; /* Maintain the aspect ratio */
+    /* or, if you want to set a specific height as well */
+    /* height: 200px; */
+}
+
+.quote-image{
+    position: absolute;
+    top: 50px;
+    left: 850px;
+    width: auto;
+    height: auto;
+}
+
+
+.left-container {
+    width: 25%; /* Adjust the width as needed */
+    float: left; /* Float the left section to the left */
+    padding: 10px; /* Add some padding for spacing */
+}
+
+.italic-text {
+    font-style: italic; /* Apply italic style to the text */
+}
+
 .dropbtn{
     background-color: #707c70;
     color: white;
@@ -45,14 +71,11 @@
   background-color: #3e8e41;
 }
 
-
-
-
-
 ul
 {
     list-style-type: none;
-    margin: 50px -10;
+    margin: -10;
+    margin-left: 100;
     padding: 0;
     overflow: hidden;
     float: left;
@@ -71,7 +94,7 @@ li a{
     padding: 14px 16px;
     text-decoration: none;
     background-color:gray;
-    margin-top: 75;
+    margin-top: 10;
 }
 
 li a:hover
@@ -80,9 +103,12 @@ li a:hover
 
 }
 
-body{
-    background-image: url('measuring_1_alternative.png');
-    background-repeat: no-repeat;
+
+.kao_logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: auto;
 
 }
-

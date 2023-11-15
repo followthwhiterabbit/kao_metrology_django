@@ -1,1 +1,65 @@
-<h1>this is the about page of the website</h1>
+
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'about/sytle.css' %}" />
+
+<image class= "kao_logo" src="{% static 'about/kao_logo.png' %}" alt="logo"> 
+
+
+
+<ul>
+    <li><a href="{% url 'index' %}">Menu</a>  
+    <li><a href="default.asp">Products</a></li>
+    <li><a href="news.asp">Events</a></li>
+    <li><a href="contact.asp">Contact</a></li>
+
+</ul>
+
+<br>
+
+</br>
+
+<h1 class="title">ABOUT US</h1>
+
+<div class="left-container">
+<i class="italic-text">
+    KAO was founded in Istanbul in 1995 by an idealistic and dynamic team with twenty years of experience in machinery and electronics.
+     The company aimed to produce technological devices needed by the industry. With a strong R&D team and modern production lines, 
+     KAO has been able to create remarkable products in terms of technical specifications, ergonomics, and aesthetics to keep up with the incredible pace of today's technology.
+    The company has successfully produced test devices with measurement precision beyond world standards and extremely user-friendly interfaces in the field of metrology.
+
+    As KAO-Metroloji, we aim to collaborate with industrialists to contribute to creating a more efficient and powerful future. 
+    Therefore, we see every product we create as a helper that opens the door to new possibilities. 
+    Please don't hesitate to share your thoughts on our products and technologies encountered on our website.
+    Wishing for every tomorrow to be brighter than today...
+
+</i>
+</div>
+
+
+
+
+<!-- <img src="{% static 'about/devices_about_2.png' %}"> -->
+
+<!-- <img id = "center" src= "{% static 'about/devices_about_2.png' %}"/> -->
+
+
+
+
+<image class="quote-image" src="{% static 'about/quote_updated.png' %}" alt="quote">
+
+
+<image class="custom-image" src="{% static 'about/modular_devices.jpg' %}" alt="Description">
+
+
+
+
+
+
+
+
+
+
+
+
+
