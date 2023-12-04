@@ -1,0 +1,187 @@
+ #movingImage {
+      position: absolute;
+      top: 400px;
+      margin-left: 300px;
+      transform: translate(0, -50%);
+      width:450px;
+      height: auto;
+
+    }
+
+    #movingImage img {
+      width: 100%; /* Make the image fill the container */
+      height: auto;
+      transition: width 2s, height 4s;
+      transition-timing-function: ease-out;
+
+    }
+
+    #movingImage:hover img
+    {
+      width: 550px;
+      transition-timing-function: ease-in;
+      transition: width 2s, height 4s;
+    }
+/*---------------------second image coming ------------------ */ 
+ #KAOXImage{
+      position: absolute;
+      top: 400px;
+      margin-left: 900px;
+      transform: translate(0, -50%);
+      width:450px;
+      height: auto;
+      transition: margin-left 2s ease-out; /* Transition for margin-left */
+
+    }
+
+    #KAOXImage img {
+      width: 100%; /* Make the image fill the container */
+      height: auto;
+      transition: width 2s, height 4s;
+      transition-timing-function: ease-out;
+
+    }
+
+    #KAOXImage:hover img
+    {
+      width: 550px;
+      transition-timing-function: ease-in;
+      transition: width 2s, height 4s;
+    }
+/*-------------------------third image coming ----------------- * /
+*/
+
+#KA_100{
+      position: absolute;
+      top: 750px;
+      margin-left: 300px;
+      transform: translate(0, -50%);
+      width:450px;
+      height: auto;
+
+    }
+
+    #KA_100 img {
+      width: 100%; 
+      height: auto;
+      transition: width 2s, height 4s;
+      transition-timing-function: ease-out;
+
+    }
+
+    #KA_100:hover img
+    {
+      width: 550px;
+      transition-timing-function: ease-in;
+      transition: width 2s, height 4s;
+    }
+
+/* --------------- fourth image coming ------------------ */ 
+#KA_200{
+    position: absolute;
+    top: 750px;
+    margin-left: 900px;
+    transform: translate(0, -50%);
+    width:450px;
+    height: auto;
+
+  }
+
+  #KA_200 img {
+    width: 100%; 
+    height: auto;
+    transition: width 2s, height 4s;
+    transition-timing-function: ease-out;
+
+  }
+
+  #KA_200:hover img
+  {
+    width: 550px;
+    transition-timing-function: ease-in;
+    transition: width 2s, height 4s;
+  }
+
+
+
+
+
+
+
+
+      /*--------------------------------------*/
+
+
+
+
+
+
+
+
+
+    .products_text
+    {
+        transition: font-size 0.9s;
+        font-weight:800; 
+        margin-top: 100px;
+        margin-left: 40%;
+        color: black;
+        
+    }
+
+    .products_text:hover
+    {
+        transition-timing-function: ease-out;
+        transition: fo 5s height 7s;
+        font-size: 2em;
+    }
+
+   
+    ul
+     {
+        position: relative;
+        list-style-type: none;
+        margin: -55px 110;
+        padding: 0;
+        overflow: hidden;
+        float: left;
+        display: block;
+        opacity: 0.95;
+        z-index: 3;
+    }
+    
+    li 
+    {
+        float: left;
+        display: block;
+    }
+
+    li a 
+    {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        background-color: gray;
+        margin-top: 10;
+        opacity: 0.95;
+    }
+
+    
+
+li a:hover 
+    {
+      background-color: #111;
+      transform: translateY(-6px); /* Move the list item up by 5 pixels, adjust as needed */
+      transition: transform 0.7s ease; /* Add a smooth transition effect */
+
+    }
+
+
+    #company_logo
+    {
+        left: 0;
+        top: 0;
+
+    }

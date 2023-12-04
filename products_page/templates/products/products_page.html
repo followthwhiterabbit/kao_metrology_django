@@ -1,0 +1,46 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'products/style.css' %}" /> 
+
+<div id="company_logo">
+
+  <img src = "{% static 'products/kao_logo.png'%}" alt="moving-image">
+</div>
+
+
+<ul>
+        <li><a href="{% url 'index' %}" class="shake-on-click">Menu</a></li>    
+        <li><a href="{% url 'products_page' %}" class="shake-on-click">Products</a></li>
+        <li><a href="{% url 'events_page' %}" class="shake-on-click">Events</a></li>
+        <li><a href="{% url 'contact_page' %}" class="shake-on-click">Contact</a></li>
+
+</ul>
+
+
+<div class="products_text">
+    Dimensional measurement
+
+</div>
+
+
+<div id="movingImage">
+  <img src = "{% static 'products/MiniSX+.png'%}" alt="moving-image">
+</div>
+
+<div id="KAOXImage">
+
+  <img src = "{% static 'products/KAOX_Alternative.png'%}" alt="moving-image2">
+
+</div>
+
+<div id="KA_100"> 
+  <img src = "{% static 'products/KA100_Alternative_2.png'%}" alt="moving-image3">
+</div>
+
+<div id="KA_200">
+  <img src = "{% static 'products/KA200.png'%}" alt="moving-image4">
+</div>
+
+
+
+

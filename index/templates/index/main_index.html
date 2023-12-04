@@ -1,14 +1,32 @@
 {% load static %}
 
-<link rel="stylesheet" type="text/css" href="{% static 'index/style.css' %}" />
+
+<link rel="stylesheet" type="text/css" href="{% static 'index/style.css' %}" /> 
 
 <!-- <img src="{% static 'index/kao_logo.png' %}"> -->
 
+<!-- <img src = "{% static 'index/measuring_1_alternative.png' %}">  --> 
+
+<img class="custom-image" src="{% static 'index/measuring_1_alternative.png' %}" alt="Description of the image">
+
+
+  <a href="https://www.linkedin.com/company/kao-metrology/" target="_blank" class="linkedin-logo">
+        <img src="{% static 'index/linkedin_logo.png' %}" alt="LinkedIn Logo">
+    </a>
+
+
+
+<!-- <img class="mini_sx" src="{% static 'index/MiniSX_PLUS.jpg' %}" alt="device_mini_sx"> -->
+
+
+
+
+
 <ul>
-    <li><a href= "{% url 'about_page' %}">About</a></li>    
-    <li><a href="default.asp">Products</a></li>
-    <li><a href="news.asp">Events</a></li>
-    <li><a href="{% url 'contact_page' %}">Contact</a></li>
+        <li><a href="{% url 'about_page' %}" class="shake-on-click">About</a></li>    
+        <li><a href="{% url 'products_page' %}" class="shake-on-click">Products</a></li>
+        <li><a href="{% url 'events_page' %}" class="shake-on-click">Events</a></li>
+        <li><a href="{% url 'contact_page' %}" class="shake-on-click">Contact</a></li>
 
 </ul>
 
@@ -16,19 +34,19 @@
   <button class="dropbtn">Languages</button>
   <div class="dropdown-content">
     <a href="#">
-      <img src="{% static 'index/flag_eng.png'%}" alt="English"
+      <img src="{% static 'index/flag_eng.png'%}" alt="English">
       <span>
         English
       </span>
     </a>
   <a href="#">
-      <img src="{% static 'index/flag_de.png'%}" alt="German"
+      <img src="{% static 'index/flag_de.png'%}" alt="German">
       <span>
         Deutsch
       </span>
     </a>
  <a href="#">
-      <img src="{% static 'index/flag_tur.png'%}" alt="English"
+      <img src="{% static 'index/flag_tur.png'%}" alt="English">
       <span>
        Turkce 
       </span>
@@ -39,3 +57,19 @@
   
   </div>
 </div>
+
+<!--
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7019257635514294272" height="454" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+-->
+
+
+<video id="trial_video_background" autoplay loop muted>
+
+    <source src="{% static 'index/trial_video_in_background.mp4'%}" type="video/mp4">
+
+</video>
+
+
+
+
+

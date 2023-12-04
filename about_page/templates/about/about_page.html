@@ -6,15 +6,14 @@
 <image class= "kao_logo" src="{% static 'about/kao_logo.png' %}" alt="logo"> 
 
 
-
 <ul>
-    <li><a href="{% url 'index' %}">Menu</a>  
-    <li><a href="default.asp">Products</a></li>
-    <li><a href="news.asp">Events</a></li>
-    <li><a href="{% url 'contact_page' %}">Contact</a></li>
-
+        <li><a href="{% url 'about_page' %}" class="shake-on-click">About</a></li>    
+        <li><a href="{% url 'products_page' %}" class="shake-on-click">Products</a></li>
+        <li><a href="{% url 'events_page' %}" class="shake-on-click">Events</a></li>
+        <li><a href="{% url 'contact_page' %}" class="shake-on-click">Contact</a></li>
 
 </ul>
+
 
 <br>
 
