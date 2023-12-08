@@ -1,10 +1,12 @@
- #movingImage {
+ #movingImage 
+ {
       position: absolute;
       top: 400px;
-      margin-left: 300px;
+      margin-left: 50px;
       transform: translate(0, -50%);
-      width:450px;
+      width:350px;
       height: auto;
+      z-index: 5;
 
     }
 
@@ -13,7 +15,6 @@
       height: auto;
       transition: width 2s, height 4s;
       transition-timing-function: ease-out;
-
     }
 
     #movingImage:hover img
@@ -26,12 +27,12 @@
  #KAOXImage{
       position: absolute;
       top: 400px;
-      margin-left: 900px;
+      margin-left: 450px;
       transform: translate(0, -50%);
-      width:450px;
+      width:350px;
       height: auto;
       transition: margin-left 2s ease-out; /* Transition for margin-left */
-
+      z-index: 4;
     }
 
     #KAOXImage img {
@@ -53,12 +54,12 @@
 
 #KA_100{
       position: absolute;
-      top: 750px;
-      margin-left: 300px;
+      top: 650px;
+      margin-left: 50px;
       transform: translate(0, -50%);
-      width:450px;
+      width:350px;
       height: auto;
-
+      z-index: 4;
     }
 
     #KA_100 img {
@@ -79,12 +80,12 @@
 /* --------------- fourth image coming ------------------ */ 
 #KA_200{
     position: absolute;
-    top: 750px;
-    margin-left: 900px;
+    top: 650px;
+    margin-left: 450px;
     transform: translate(0, -50%);
-    width:450px;
+    width:350px;
     height: auto;
-
+    z-index: 3;
   }
 
   #KA_200 img {
@@ -102,8 +103,87 @@
     transition: width 2s, height 4s;
   }
 
+/* -------------------Fifth Image Coming -------------- */ 
+#KX_100{
+    position: absolute;
+    top: 400px;
+    margin-left: 850px;
+    transform: translate(0, -50%);
+    width:350px;
+    height: auto;
+    z-index: 3;
 
+  }
 
+  #KX_100 img {
+    width: 100%; 
+    height: auto;
+    transition: width 2s, height 4s;
+    transition-timing-function: ease-out;
+
+  }
+
+  #KX_100:hover img
+  {
+    width: 550px;
+    transition-timing-function: ease-in;
+    transition: width 2s, height 4s;
+  }
+
+/* --------------- sixth image coming ----------------- */ 
+#KD_200{
+    position: absolute;
+    top: 650px;
+    margin-left: 850px;
+    transform: translate(0, -50%);
+    width:350px;
+    height: auto;
+    z-index: 2;
+
+  }
+
+  #KD_200 img {
+    width: 100%; 
+    height: auto;
+    transition: width 2s, height 4s;
+    transition-timing-function: ease-out;
+
+  }
+
+  #KD_200:hover img
+  {
+    width: 550px;
+    transition-timing-function: ease-in;
+    transition: width 2s, height 4s;
+  }
+
+ /*-------------------seventh image coming here ----------------- */ 
+
+#KF_60
+{ position: absolute;
+    top: 400px;
+    margin-left: 1300px;
+    transform: translate(0, -50%);
+    width:350px;
+    height: auto;
+    z-index: 2;
+
+  }
+
+  #KF_60 img {
+    width: 100%; 
+    height: auto;
+    transition: width 2s, height 4s;
+    transition-timing-function: ease-out;
+
+  }
+
+  #KF_60:hover img
+  {
+    width: 550px;
+    transition-timing-function: ease-in;
+    transition: width 2s, height 4s;
+  }
 
 
 
@@ -118,7 +198,8 @@
 
 
 
-
+/*
+// i don't use this part anymore 
     .products_text
     {
         transition: font-size 0.9s;
@@ -136,7 +217,8 @@
         font-size: 2em;
     }
 
-   
+ */
+
     ul
      {
         position: relative;
@@ -185,3 +267,214 @@ li a:hover
         top: 0;
 
     }
+
+
+    .Leak_text
+    {
+        transition: font-size 0.9s;
+        margin-top: 45%;
+        margin-left:  40%;
+        font-weight: 800;
+        color: black;
+
+
+    }
+
+    .Leak_text:hover
+    {
+        transition-timing-function: ease-out;
+        transition: fo 5s height 7s;
+        font-size: 2em;
+
+    }
+
+/*
+   .rounded-rectangle {
+      width: 1700px; 
+      padding: 20px; 
+      border: 2px solid #000; 
+      border-radius: 15px; 
+      backdrop-filter: blur(50px);
+    }
+
+    .rectangle-text {
+      text-align: center;
+    } 
+*/
+
+/*
+    .hidden-text {
+      display: none;
+      margin-top:50px;
+    }
+
+    .trigger-text:hover + .hidden-text {
+      display: block;
+    }
+
+    .trigger-text
+    {
+      margin-top: -800px;
+      }
+*/
+
+.rounded-rectangle {
+      width: 800px; /* Adjust the width as needed */
+      height: 460px; /* Adjust the height as needed */
+      position: absolute; /* Use absolute positioning */
+      top: 280px; /* Adjust the top position as needed */
+      left: 25px; /* Adjust the left position as needed */
+      border-radius: 15px; /* Adjust the border-radius for rounded corners */
+      background-color: #f0f0f0; /* Set the background color as needed */
+      border: 2px solid #000; /* Optional: Add a border for better visibility */
+      opacity: 0.2;
+      z-index: 1;
+    }
+
+    .rounded-rectangle-2
+    {
+      width: 400px; /* Adjust the width as needed */
+      height: 460px; /* Adjust the height as needed */
+      position: absolute; /* Use absolute positioning */
+      top: 280px; /* Adjust the top position as needed */
+      left: 850px; /* Adjust the left position as needed */
+      border-radius: 15px; /* Adjust the border-radius for rounded corners */
+      background-color: #f0f0f0; /* Set the background color as needed */
+      border: 2px solid #000; /* Optional: Add a border for better visibility */
+      opacity: 0.2;
+      z-index: 1;
+    }
+
+.rounded-rectangle-3
+    {
+      width: 400px; /* Adjust the width as needed */
+      height: 460px; /* Adjust the height as needed */
+      position: absolute; /* Use absolute positioning */
+      top: 280px; /* Adjust the top position as needed */
+      left: 1275px; /* Adjust the left position as needed */
+      border-radius: 15px; /* Adjust the border-radius for rounded corners */
+      background-color: #f0f0f0; /* Set the background color as needed */
+      border: 2px solid #000; /* Optional: Add a border for better visibility */
+      opacity: 0.2;
+      z-index: 1;
+    }
+
+
+#click-icon
+{
+  left: 75px;
+  top: 325px;
+  position: absolute;
+  z-index: 6;
+  opacity: 0.7;
+}
+
+#click-icon-2
+{
+  left: 425px;
+  top: 325px;
+  position: absolute;
+  z-index: 4;
+  opacity: 0.7;
+}
+
+#click-icon-3
+{
+  left: 860px;
+  top: 325px;
+  position: absolute;
+  z-index: 3;
+  opacity: 0.7;
+}
+
+#click-icon-4
+{
+  left: 1285px;
+  top: 325px;
+  position: absolute;
+  z-index: 2;
+  opacity: 0.7;
+}
+
+
+#click-icon-5
+{
+  left: 75px;
+  top: 525px;
+  position: absolute;
+  z-index: 7;
+  opacity: 0.7;
+}
+
+
+#click-icon-6
+{
+  left: 425px;
+  top: 525px;
+  position: absolute;
+  z-index: 2;
+  opacity: 0.7;
+}
+
+
+#click-icon-7
+{
+  left: 860px;
+  top: 525px;
+  position: absolute;
+  z-index: 2;
+  opacity: 0.7;
+}
+
+
+
+
+
+    /* texts will come here */ 
+.text1
+{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text1:hover
+{
+  color: #ff5733; 
+  transform: scale(1.1);
+}
+
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blinking-text-callibrators {
+  animation: blink 1s infinite; /* Adjust the animation duration as needed */
+  position: absolute;
+  top: 235px;
+  left: 1400px;
+  color: red;
+  font-weight: bold;
+ }
+
+ .blinking-text-airgages
+ {
+  animation: blink 1s infinite; /* Adjust the animation duration as needed */
+  position: absolute;
+  top: 235px;
+  left: 400px;
+  color: red;
+  font-weight: bold;
+
+ }
+
+ .blinking-text-leaktesting
+ {
+  animation: blink 1s infinite; /* Adjust the animation duration as needed */
+  position: absolute;
+  top: 235px;
+  left: 950px;
+  color: red;
+  font-weight: bold;
+ }
