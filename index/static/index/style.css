@@ -11060,9 +11060,14 @@ hr {
 
 .modular_metrology
 {
-  left: 250px;
+  margin-left: 10%;
 }
 
+
+.leak_image
+{
+  margin-left: 10%;
+}
 
 .custom-shape {
   position: relative;
@@ -11107,5 +11112,71 @@ hr {
   height: 500px;
   width: 400px;
   margin-top: -25px;
-  margin-left: 150px;
+  margin-left:10%;
+}
+
+
+
+.loader {
+  --s: 30px; /* the size of the wave */
+  --b: 11px; /* the thickness of the line*/
+  margin-top: 55px;
+  position: absolute;
+  height: calc(2* var(--s));
+  aspect-ratio: 2.5;
+  display: grid;
+  padding: 10px;
+  filter: blur(7px) contrast(20) hue-rotate(20deg);
+  background: #fff;
+  mix-blend-mode: darken;
+}
+.loader::before{
+  content: "";
+  --_g: calc(-.6*var(--s)), #0000 calc(99% - var(--b)),red calc(101% - var(--b)) 99%,#0000 101%;
+  --_r: calc(1.166*var(--s) + var(--b)/2) at left 50%;
+  background :
+    radial-gradient(var(--_r) bottom var(--_g)) 
+      calc(50% - var(--s)) calc(50% - var(--s))/calc(4*var(--s)) calc(2*var(--s)),
+    radial-gradient(var(--_r) top    var(--_g)) 
+      calc(50% + var(--s)) calc(50% + var(--s))/calc(4*var(--s)) calc(2*var(--s));
+  animation: m 1s infinite linear;
+}
+@keyframes m {
+  to {
+    background-position: 
+      calc(50% - 5*var(--s)) calc(50% - var(--s)),
+      calc(50% - 3*var(--s)) calc(50% + var(--s))
+  }
+}
+
+.card-who-are-we
+{
+  margin-left: 30%;
+}
+
+.card-collobrations
+{
+  position: absolute;
+}
+
+.cursor-1
+{
+  position: absolute;
+  left:250px;
+  top:200px;
+  z-index: 5;
+}
+
+
+ .card-who-are-we:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3); /* Add a box shadow for highlighting */
+  }
+
+  .btn-primary:hover {
+    background-color: rgb(255, 0, 0); /* Change button background color on hover */
+  }
+  
+.card-collobrations:hover
+{
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3); /* Add a box shadow for highlighting */
 }

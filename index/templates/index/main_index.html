@@ -100,6 +100,8 @@ this is a waste of time now
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body>
+    <div class="loader"></div>
+
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
@@ -138,6 +140,7 @@ this is a waste of time now
 </div>
 
 
+      <img src="{% static 'index/Cursor.png' %}"  class="cursor-1" width="75" height="75">
 
 
         <img src="{% static 'index/kao_logo.png' %}" class="logo-img">
@@ -167,7 +170,7 @@ this is a waste of time now
 
     <div class="carousel-item" data-bs-interval="25">
     <a href="{% url 'products_page' %}">
-      <img class="d-block w-75" src="{% static 'index/leaktesting.gif' %}" alt="Third slide">
+      <img class="d-block w-75 leak_image" src="{% static 'index/leaktesting.gif' %}" alt="Third slide">
       <h1>Leak-Testing Devices</h1>
       </a>
     </div>
@@ -192,8 +195,6 @@ this is a waste of time now
     </div>
   </a>
 
-
-
 <div class="carousel-item" data-bs-interval="25">
   
     <a href="{% url 'products_page' %}">
@@ -205,14 +206,14 @@ this is a waste of time now
     </div>
 
 
-<div class="carousel-item" data-bs-interval="25">
+<div class="carousel-item" data-bs-interval="25"> 
+    <a href="{% url 'products_page' %}">
       <img class="probe-image"  src="{% static 'index/probes_new.jpg' %}" alt="Seventh slide">
        <div class="Probes">
           <h1>Probes</h1>
        </div>
+       </a>
     </div>
-
-
 
 
     
@@ -227,10 +228,28 @@ this is a waste of time now
   </a>
 </div>
 
-<figure class="figure">
-  <img src="{% static 'index/probes_new.jpg' %}" class="figure-img img-fluid rounded" alt="...">
-  <figcaption class="figure-caption">A caption for the above image.</figcaption>
-</figure>
+<div class="card-container" style="display: flex; background-color: rgb(244, 244, 245);" >
+  
+<div class="card-who-are-we" style="width: 18rem; margin-left: 20%; margin-top: 10%; background-color: rgb(244, 244, 245);">
+  <img src="{% static 'index/why_us.png' %}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Why Kao Metrology ? </h5>
+    <p class="card-text">30 Years of Metrology Experience</p>
+    <a href="{% url 'about_page' %}" class="btn btn-primary" style="background-color:rgb(200, 0, 0) ;" >Who are we ? </a>
+  </div>
+</div>
+
+<div class="card-collobrations" style="width: 18rem; margin-left: 40%; margin-top: 10%; background-color: rgb(244, 244, 245);;">
+  <img src="{% static 'index/more_than_metrology.png' %}" class="card-img-top" alt="...">
+  <div class="card-body-collob">
+    <h5 class="card-title">R&D Collobrations</h5>
+    <p class="card-text">We offer R&D Collobrations and look for Distributors for our products with budget-friendly options. </p>
+    <a href="{% url 'about_page' %}" class="btn btn-primary" style="background-color:rgb(200, 0, 0) ;">Contact us</a>
+  </div>
+</div>
+
+</div>
+
 
         </div>
 
@@ -239,4 +258,8 @@ this is a waste of time now
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>
+
+
+
+
 
