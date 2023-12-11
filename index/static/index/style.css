@@ -6009,8 +6009,13 @@ textarea.form-control-lg {
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
+
+.carousel-inner.dragging{
+  transition:none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
     transition: none;
@@ -11066,6 +11071,7 @@ hr {
 
 .leak_image
 {
+  margin-top: -3%;
   margin-left: 10%;
 }
 
@@ -11161,8 +11167,9 @@ hr {
 
 .cursor-1
 {
+  pointer-events: none;
   position: absolute;
-  left:250px;
+  left:350px;
   top:200px;
   z-index: 5;
 }
@@ -11179,4 +11186,100 @@ hr {
 .card-collobrations:hover
 {
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.3); /* Add a box shadow for highlighting */
+}
+
+
+.sliding-text-container {
+  z-index: 100;
+  position: absolute;
+  overflow: hidden;
+  height: 200px; /* Adjust the height according to your design */
+}
+
+.sliding-text {
+  color: rgb(0, 0, 0); 
+  /*font-family: "Roboto",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  z-index: 100;
+  left:1200px;
+  top:400px;
+  position: absolute;
+  font-size: 30px;
+  animation: slide-up 5s forwards; /* Adjust the duration as needed */
+  animation-iteration-count: 1; 
+  font-weight: bolder;
+}
+
+.sliding-text-2 {
+  color: rgb(0, 0, 0); 
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /*font-family: "Roboto",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
+  z-index: 100;
+  left:1000px;
+  top:450px;
+  position: absolute;
+  font-size: 30px;
+  animation: slide-up 5s forwards; /* Adjust the duration as needed */
+  animation-iteration-count: 1; 
+  font-weight: bolder;
+}
+
+
+
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-600%);
+  }
+}
+
+.airgages
+{
+  margin-left: 45%;
+}
+
+.leakim
+{
+  margin-left: 38%;
+}
+
+.Callibrators
+{
+  margin-left: 39%;
+}
+
+.modularim
+{
+  margin-left: 39%;
+}
+
+.Probes
+{
+  margin-left: 44%;
+}
+
+.card-group
+{
+  margin-top: 50%;
+}
+
+.card{
+  width: 50px;
+}
+
+
+
+.cardquality
+{
+  margin-top: 15%;
+  margin-left: 20%;
+}
+
+.card-text-new{
+  margin-left: 14%;
+  font-size: 30px;
+
 }
