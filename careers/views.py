@@ -6,10 +6,10 @@ from django.http import Http404
 
 # Create your views here.
     # return HttpResponse("website under construction !!!")
-def events_func(request):
-    template = loader.get_template("events/events.html")
+def careers_ins(request):
+    template = loader.get_template("careers/careers.html")
     context = {
-        "events":"our_events",
+        "careers_page":"join us",
         }
      
     return HttpResponse(template.render(context, request))

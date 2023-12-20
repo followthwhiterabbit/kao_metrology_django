@@ -6,7 +6,9 @@
 
  <script src="{% static 'index/scripts.js' %}"></script> 
  
-<link rel="stylesheet" type="text/css" href="{% static 'index/style.css' %}" /> 
+ <link rel="stylesheet" type="text/css" href="{% static 'index/style.css' %}" /> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 <!-- <img src = "{% static 'index/measuring_1_alternative.png' %}"> -->
@@ -32,7 +34,6 @@
 <ul>
         <li><a href="{% url 'about_page' %}" class="shake-on-click">About</a></li>    
         <li><a href="{% url 'products_page' %}" class="shake-on-click">Products</a></li>
-        <li><a href="{% url 'events_page' %}" class="shake-on-click">Events</a></li>
         <li><a href="{% url 'contact_page' %}" class="shake-on-click">Contact</a></li>
 
 </ul>
@@ -112,11 +113,13 @@ this is a waste of time now
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'index' %}">Menu</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">Company</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">Products</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">Careers</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">News&Events</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'careers' %}">Careers</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'newsnevents_page' %}">News&Events</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}">Contact</a></li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Languages</a>
@@ -141,6 +144,8 @@ this is a waste of time now
   <div class="positive-slope-line"></div>
   <div class="end-horizontal-line"></div>
 </div>
+
+
 
 
       <img src="{% static 'index/Cursor.png' %}"  class="cursor-1" width="75" height="75">
@@ -170,8 +175,8 @@ this is a waste of time now
     <div class="carousel-item active" data-bs-interval="25">
       <img class="d-block w-100" src="{% static 'index/measuring_1_alternative.png' %}" alt="First slide">
              <div class="sliding-text-container=">
-          <p class="sliding-text" id="animated-text">Kao Metrology</p>
-          <p class="sliding-text-2" id="animated-text-2">Fastest, Easiest &  the Most Reliant Measurement</p>
+          <p class="sliding-text fst-italic" id="animated-text">Kao Metrology</p>
+          <p class="sliding-text-2 fst-italic" id="animated-text-2">Fastest, Easiest &  the Most Reliant Measurement</p>
             </div>
         
     </div>
@@ -254,10 +259,73 @@ this is a waste of time now
 </div>
 
 
+<!--
+
+<div class="card-quote">
+  <div class="card-header">
+    From the CEO
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p>Kao was founded in Istanbul in 1995 by an idealistic and dynamic team with thirty years of experience in machinery, electronics and metrology.</p>
+      <p>With a strong R&D team and modern production lines, Kao has been able to create remarkable products in terms of the technical specifications, ergonomics, aesthetics and the durability. </p>
+      <p>Kao has been producing metrological test devices with measurement precision beyond world dtandards and extremenly user-friendly interfaces in the field of metrology./p>
+      <p>As Kao-Metrology, we aim to colloborate with industrialists to contribute to creating a more efficient and powerful metrological systems for a reliable future.</p>
+      <p>Therefore, we see every product we develop as a helper that opens the door to new possibilities.</p>
+      <p>Please don't hesitate to share your thoughts on our products and technologies you encountered on our website.</p>
+      <p>Wishing for every tomorrow to be brighter than today...</p>
+        <footer class="blockquote-footer">Can Karaalioglu<cite title="Source Title">, CEO and the Founder</cite></footer>
+    </blockquote>
+  </div>
+</div>
+
+-->
+
+
+     
+<section class="vh-50" style="background-color: #1877F2;">
+  <dizv class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-200">
+      <div class="col col-lg-12">
+        <div class="card mb-4" style="border-radius: 30px;">
+          <div class="card-body p-12">
+
+            <div class="text-center mb-4 pb-2">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-quotes/bulb.webp"
+                alt="Bulb" width="100">
+            </div>
+
+            <figure class="text-center mb-4 pb-2" >
+              <blockquote class="blockquote custom-width-from-the-ceo">
+                <p class="pb-3-new">
+                  <i class="fas fa-quote-left fa-xs text-primary"></i>
+
+                  <div class="wider-text">
+        <span class="lead font-italic">
+            Kao was founded in Istanbul in 1995 by an idealistic and dynamic team with thirty years of experience in machinery, electronics, and metrology. With a strong R&D team and modern production lines, Kao has been able to create remarkable products in terms of the technical specifications, ergonomics, aesthetics, and durability. Kao has been producing metrological test devices with measurement precision beyond world standards and extremely user-friendly interfaces in the field of metrology As Kao-Metrology, we aim to collaborate with industrialists to contribute to creating a more efficient and powerful metrological system for a reliable future. Therefore, we see every product we develop as a helper that opens the door to new possibilities. Please don't hesitate to share your thoughts on our products and technologies you encountered on our website. Wishing for every tomorrow to be brighter than today...
+        </span>
+    </div>
+                  <i class="fas fa-quote-right fa-xs text-primary"></i>
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0">
+                From the CEO
+              </figcaption>
+            </figure>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
 <div class="card-container" style="display: flex; background-color: rgb(244, 244, 245);" >
   
-<div class="card-who-are-we" style="width: 18rem; margin-left: 10%; margin-top: 10%; background-color: rgb(244, 244, 245);">
+<div class="card-who-are-we" style="width: 18rem; margin-left: 10%; margin-top: 20%; background-color: rgb(244, 244, 245);">
   <img src="{% static 'index/why_us.png' %}" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Why Kao Metrology ? </h5>
@@ -266,7 +334,7 @@ this is a waste of time now
   </div>
 </div>
 
-<div class="card-collobrations" style="width: 17rem; margin-left: 35%; margin-top: 10%; background-color: rgb(244, 244, 245);;">
+<div class="card-collobrations" style="width: 17rem; margin-left: 35%; margin-top: 20%; background-color: rgb(244, 244, 245);;">
   <img src="{% static 'index/more_than_metrology.png' %}" class="card-img-top" alt="...">
   <div class="card-body-collob">
     <h5 class="card-title">R&D Collobrations</h5>
@@ -275,7 +343,7 @@ this is a waste of time now
   </div>
 </div>
 
-<div class="card-collobrations" style="width: 33rem; margin-left: 60%; margin-top: 10%; background-color: rgb(244, 244, 245);;">
+<div class="card-collobrations" style="width: 33rem; margin-left: 60%; margin-top: 20%; background-color: rgb(244, 244, 245);;">
   <img src="{% static 'index/work_woman.jpg' %}" class="card-img-top" alt="...">
   <div class="card-body-work">
     <h5 class="card-title">Great Place to Work</h5>
@@ -286,20 +354,39 @@ this is a waste of time now
 </div>
 
 
-<div class="card-container-2" style="display: flex; background-color: rgb(255, 255, 245);" >
 
-
+<div class="card-container-2" style="display: flex; background-color: rgb(255, 255, 255);" >
+<div class="rounded-rectangle"></div>
+<div class="vertical-line-1"></div>
+<div class="vertical-line-2"></div>
  <div class="cardquality" style="width: 20rem;">
   <img src="{% static 'index/quality_checked_trial.png' %}" class="card-img-top" alt="...">
   <div class="card-body">
-    <p class="card-text-new">Quality Checked  </p>
+    <h2 class = "card-title-quality-assurance">Quality Assured</h2>
+    <p class="card-text-new">The same quality and the expertise is assured for every piece of device we deliver... </p>
   </div>
 </div> 
 
+ <div class="cardfastdelivery" style="width: 20rem;">
+  <img src="{% static 'index/fast_delivery_icon.jpg' %}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class = "card-title-delivery">Fast & Reliable Delivery</h3>
+    <p class="card-text-new">We deliver our products faster and safer than our duplicate companies. </p >
+  </div>
+</div> 
+
+<div class="cardcustomer" style="width: 20rem;">
+  <img src="{% static 'index/customer_support.jpg' %}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h2 class = "card-title-customer-support">Customer Support</h2>
+    <p class="card-text-new">We provide excellent customer support with the use of customer feedback mechanism we implement.</p>
+  </div>
+</div> 
+
+
+
 </div>
 
-
-        </div>
 
 
 

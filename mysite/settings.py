@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-6x$tjy^k$7lb5utvb6&3w+2kj#f3m#_d8g*l9mfr%2@r39&pfa
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0', '172.17.0.1']
+
+
+
+
+
 
 
 # Application definition
@@ -36,7 +41,8 @@ INSTALLED_APPS = [
     'about_page.apps.AboutPageConfig',
     'contact_page.apps.ContactConfig',
     'products_page.apps.ProductsPageConfig', 
-    'events_page.apps.EventsPageConfig',
+    'careers.apps.CareersConfig',
+    'newsnevents_page.apps.NewsneventsPageConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

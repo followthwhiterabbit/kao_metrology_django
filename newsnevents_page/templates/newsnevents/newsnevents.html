@@ -1,12 +1,10 @@
 {% load static %}
 
- <link rel="stylesheet" type="text/css" href="{% static 'index/style.css' %}" /> 
+ <link rel="stylesheet" type="text/css" href="{% static 'newsnevents/style_alternative.css' %}" /> 
 
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
@@ -14,14 +12,13 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
+                        
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'index' %}">Menu</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">Company</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">Products</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'careers' %}">Careers</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'newsnevents_page' %}">News&Events</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}">Contact</a></li> 
-
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}">Contact</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Languages</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -37,3 +34,13 @@
                 </div>
             </div>
         </nav>
+
+<div class="custom-shape">
+  <div class="horizontal-line"></div>
+  <div class="positive-slope-line"></div>
+  <div class="end-horizontal-line"></div>
+</div>
+
+<div id="company_logo">
+    <img src="{% static 'index/kao_logo.png' %}" class="logo-img">
+</div>  
