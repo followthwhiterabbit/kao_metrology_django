@@ -11133,7 +11133,21 @@ textarea.form-control-lg {
       z-index: 1;
     }
 
+.rounded-rectangle-accessories
+{
+      width: 220px; /* Adjust the width as needed */
+      height: 460px; /* Adjust the height as needed */
+      position: absolute; /* Use absolute positioning */
+      top: 180px; /* Adjust the top position as needed */
+      left: 1660px; /* Adjust the left position as needed */
+      border-radius: 15px; /* Adjust the border-radius for rounded corners */
+      background-color: #f0f0f0; /* Set the background color as needed */
+      border: 2px solid #000; /* Optional: Add a border for better visibility */
+      opacity: 0.2;
+      z-index: 1;
 
+
+}
 
 
 
@@ -11479,14 +11493,14 @@ textarea.form-control-lg {
             width: 600px;
             font-size: larger;
             display:flex;
-            top: 300px; 
+            top: 250px; 
             left: 1000px;
         }
 
 #KA_100:hover .text-box-item-13 {
             font-size: larger;
             display:flex;
-            top: 300px; 
+            top: 250px; 
             left: 775px;
         }
 
@@ -11555,6 +11569,63 @@ textarea.form-control-lg {
         }
 
 
+/* KX200 will come here */ 
+
+#KD_200:hover .text-box-item-6 {
+            display:flex;
+            top: 300px; 
+            left: -850px;
+        }
+
+#KD_200:hover .text-box-item-7 {
+            width: 300px;
+            font-size: larger;
+            display:flex;
+            top: 300px; 
+            left: -550px;
+        }
+
+#KD_200:hover .text-box-item-8 {
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 335px; 
+            left: -550px;
+        }
+
+#KD_200:hover .text-box-item-9 {
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 370px; 
+            left: -550px;
+        }
+
+#KD_200:hover .text-box-item-10 {
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 405px; 
+            left: -550px;
+        }
+
+#KD_200:hover .text-box-item-11 {
+            width: 900px;
+            font-size:medium;
+            display:flex;
+            top: 320px; 
+            left: 100px;
+        }
+
+#KD_200:hover .text-box-item-13 {
+            font-size: larger;
+            display:flex;
+            top: 300px; 
+            left: 500px;
+        }
+
+
+
 /*---------------MINISX ---------------*/
 #movingImage:hover .text-box-item-6 {
             display:flex;
@@ -11617,20 +11688,112 @@ textarea.form-control-lg {
             left: 850px;
         }
 
-/*-------------------------------------*/ 
+/*---KA0X Image hover---------------*/ 
+
+#KAOXImage:hover .text-box-item-6 {
+            display:flex;
+            top: 500px; 
+            left: -375px;
+        }
+
+#KAOXImage:hover .text-box-item-7 {
+            width: 300px;
+            font-size: larger;
+            display:flex;
+            top: 500px; 
+            left:-100px;
+        }
+
+#KAOXImage:hover .text-box-item-8 {
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 535px; 
+            left: -100px;
+        }
+
+#KAOXImage:hover .text-box-item-9 {
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 570px; 
+            left: -100px;
+        }
+
+#KAOXImage:hover .text-box-item-10 {
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 605px; 
+            left: -100px;
+        }
+
+#KAOXImage:hover .text-box-item-11 {
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 640px; 
+            left: -95px;
+        }
+
+#KAOXImage:hover .text-box-item-12 {
+            width: 600px;
+            font-size: larger;
+            display:flex;
+            top: 500px; 
+            left: 650px;
+        }
+
+#KAOXImage:hover .text-box-item-13 {
+            font-size: larger;
+            display:flex;
+            top: 500px; 
+            left: 475px;
+        }
+
+/*-------------------------- KFC60 comes here -------------------*/
+
+#KF_60:hover .text-box-item-6 {
+            display:flex;
+            top: 500px; 
+            left: -1200px;
+        }
+
+#KF_60:hover .text-box-item-7 {
+            width: 450px;
+            font-size: larger;
+            display:flex;
+            top: 500px; 
+            left:-900px;
+        }
+
+#KF_60:hover .text-box-item-12 {
+            width: 600px;
+            font-size: larger;
+            display:flex;
+            top: 500px; 
+            left: -100px;
+        }
+
+#KF_60:hover .text-box-item-13 {
+            width: 200px;
+            font-size: larger;
+            display:flex;
+            top: 500px; 
+            left: -400px;
+        }
 
 
 
-
-
+/*---------------------------------------------------------------*/ 
 
 
 #KA_200:hover .rounded-rectangle-5 {
-    width: 2000px;
+    width: 1850px;
     height: 250px;
     position:absolute; 
     left:-400px;
-    top:300px;
+    top:275px;
     border-radius: 15px;
     background-color: rgba(0, 0, 255, 1);
     border: 2px solid #000;
@@ -11642,7 +11805,7 @@ textarea.form-control-lg {
 #KD_200:hover .rounded-rectangle-5
 {
     width: 2000px;
-    height: 150px;
+    height: 250px;
     position:absolute; 
     left:-850px;
     top:300px;
@@ -11657,7 +11820,7 @@ textarea.form-control-lg {
 
 #KX_100:hover .rounded-rectangle-5
 {
-    width: 2000px;
+    width: 1850px;
     height: 250px;
     position:absolute; 
     left:-850px;
@@ -11680,7 +11843,7 @@ textarea.form-control-lg {
 
 #movingImage:hover .rounded-rectangle-5
 {
-    width: 2000px;
+    width: 1850px;
     height: 250px;
     position:absolute; 
     left:-25px;
@@ -11695,8 +11858,8 @@ textarea.form-control-lg {
 
 #KAOXImage:hover .rounded-rectangle-5
 {
-    width: 2000px;
-    height: 150px;
+    width: 1850px;
+    height: 250px;
     position:absolute; 
     left:-420px;
     top:500px;
@@ -11710,7 +11873,7 @@ textarea.form-control-lg {
 
 #KA_100:hover .rounded-rectangle-5
 {
-    width: 2000px;
+    width: 1850px;
     height: 250px;
     position:absolute; 
     left:-25px;
@@ -11724,8 +11887,8 @@ textarea.form-control-lg {
 
 #KF_60:hover .rounded-rectangle-5
 {
-    width: 2000px;
-    height: 150px;
+    width: 1850px;
+    height: 250px;
     position:absolute; 
     left:-1250px;
     top:500px;
@@ -12098,18 +12261,19 @@ textarea.form-control-lg {
 
 #click-icon
 {
-  left: 75px;
-  top: 115px;
+  left: 45px;
+  top: 110px;
   position: absolute;
-  width: 20%;
   z-index: 6;
   opacity: 0.7;
+  width: 5px !important;
 }
 
 #click-icon-2
 {
-  left: 425px;
-  top: 225px;
+  display: none;
+  left: 170px;
+  top: 115px;
   position: absolute;
   z-index: 4;
   opacity: 0.7;
@@ -12117,8 +12281,9 @@ textarea.form-control-lg {
 
 #click-icon-3
 {
-  left: 860px;
-  top: 225px;
+  display: none;
+  left: 75px;
+  top: 200px;
   position: absolute;
   z-index: 3;
   opacity: 0.7;
@@ -12126,8 +12291,9 @@ textarea.form-control-lg {
 
 #click-icon-4
 {
-  left: 1285px;
-  top: 225px;
+  display: none;
+  left: 170px;
+  top: 200px;
   position: absolute;
   z-index: 2;
   opacity: 0.7;
@@ -12136,8 +12302,8 @@ textarea.form-control-lg {
 
 #click-icon-5
 {
-  left: 75px;
-  top: 425px;
+  left: 40px;
+  top: 300px;
   position: absolute;
   z-index: 7;
   opacity: 0.7;
@@ -12146,8 +12312,9 @@ textarea.form-control-lg {
 
 #click-icon-6
 {
-  left: 425px;
-  top: 425px;
+  display:none;
+  left: 170px;
+  top: 325px;
   position: absolute;
   z-index: 2;
   opacity: 0.7;
@@ -12156,7 +12323,7 @@ textarea.form-control-lg {
 
 #click-icon-7
 {
-  left: 860px;
+  left: 40px;
   top: 425px;
   position: absolute;
   z-index: 2;
@@ -12165,7 +12332,7 @@ textarea.form-control-lg {
 
 #click-icon-8
 {
-  left: 1285px;
+  left: 190px;
   top: 425px;
   position: absolute;
   z-index: 2;
@@ -12173,9 +12340,88 @@ textarea.form-control-lg {
 }
 
 
+/* hovers ------------------------------- */
 
 
+#movingImage:hover .rounded-rectangle-5
+{
+    width: 375px;
+    height: 100px;
+    position:absolute; 
+    left:-80px;
+    top:430px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 255, 1);
+    border: 2px solid #000;
+    opacity: 0.2;
+    z-index: 1;
+}
 
+
+/* MINI SX IPHONE 6/7/8              */ 
+#movingImage:hover .text-box-item-6 {
+            display:flex;
+            top: 440px; 
+            left: -80px;
+            font-size:xx-small; 
+        }
+
+#movingImage:hover .text-box-item-7 {
+            width: 150px;
+            font-size:5px;
+            display:flex;
+            top: 440px; 
+            left:0px;
+        }
+
+#movingImage:hover .text-box-item-8 {
+            width: 400px;
+            font-size: 5px;
+            display:flex;
+            top: 450px; 
+            left: 0px;
+        }
+
+#movingImage:hover .text-box-item-9 {
+            width: 400px;
+            font-size: 5px;
+            display:flex;
+            top: 460px; 
+            left: 0px;
+        }
+
+#movingImage:hover .text-box-item-10 {
+            width: 400px;
+            font-size: 5px; 
+            display:flex;
+            top: 470px; 
+            left: 0px;
+        }
+
+#movingImage:hover .text-box-item-11 {
+            width: 400px;
+            font-size: 5px;
+            display:flex;
+            top: 485px; 
+            left: 5px;
+        }
+
+#movingImage:hover .text-box-item-12 {
+            width: 100px;
+            font-size: 5px;
+            display:flex;
+            top: 430px; 
+            left: 175px;
+        }
+
+#movingImage:hover .text-box-item-13 {
+            font-size: 5px;
+            display:flex;
+            top: 430px; 
+            left: 135px;
+        }
+
+/* KA0x will come here  */ 
 
 
 
