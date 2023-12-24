@@ -2124,6 +2124,16 @@ progress {
   -webkit-overflow-scrolling: touch;
 }
 
+
+@media (max-width: 375px) {
+  .table-responsive-sm {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+
+
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     overflow-x: auto;
@@ -3927,7 +3937,7 @@ textarea.form-control-lg {
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-padding-y: 0.3125rem; 
-  --bs-navbar-brand-margin-end: 20rem;
+  --bs-navbar-brand-margin-end: rem;
   --bs-navbar-brand-font-size: 1.25rem;
   --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
@@ -3967,7 +3977,7 @@ textarea.form-control-lg {
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
   white-space: nowrap;
-  margin-left: -170;
+  margin-left: -150;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
@@ -3983,7 +3993,7 @@ textarea.form-control-lg {
   display:flex;
   position: absolute;
   flex-direction: column;
-  padding-left: 0;
+  padding-left: 125;
   margin-bottom: 0;
   margin-left: 100px;
   list-style: none;
@@ -11397,3 +11407,6 @@ hr {
   {
     margin-bottom: 0;
   }
+
+
+
