@@ -11099,9 +11099,9 @@ textarea.form-control-lg {
       top: 180px; /* Adjust the top position as needed */
       left: 10px; /* Adjust the left position as needed */
       border-radius: 15px; /* Adjust the border-radius for rounded corners */
-      background-color: #f0f0f0; /* Set the background color as needed */
+      background-color: #ffffff; /* Set the background color as needed */
       border: 2px solid #000; /* Optional: Add a border for better visibility */
-      opacity: 0.2;
+      opacity: 1;
       z-index: 1;
     }
 
@@ -11113,9 +11113,9 @@ textarea.form-control-lg {
       top: 180px; /* Adjust the top position as needed */
       left: 820px; /* Adjust the left position as needed */
       border-radius: 15px; /* Adjust the border-radius for rounded corners */
-      background-color: #f0f0f0; /* Set the background color as needed */
+      background-color: #ffffff; /* Set the background color as needed */
       border: 2px solid #000; /* Optional: Add a border for better visibility */
-      opacity: 0.2;
+      opacity: 1;
       z-index: 1;
     }
 
@@ -11127,9 +11127,9 @@ textarea.form-control-lg {
       top: 180px; /* Adjust the top position as needed */
       left: 1225px; /* Adjust the left position as needed */
       border-radius: 15px; /* Adjust the border-radius for rounded corners */
-      background-color: #f0f0f0; /* Set the background color as needed */
+      background-color: #ffffff; /* Set the background color as needed */
       border: 2px solid #000; /* Optional: Add a border for better visibility */
-      opacity: 0.2;
+      opacity: 1;
       z-index: 1;
     }
 
@@ -11143,7 +11143,7 @@ textarea.form-control-lg {
       border-radius: 15px; /* Adjust the border-radius for rounded corners */
       background-color: #f0f0f0; /* Set the background color as needed */
       border: 2px solid #000; /* Optional: Add a border for better visibility */
-      opacity: 0.2;
+      opacity: 1;
       z-index: 1;
 
 
@@ -11151,7 +11151,21 @@ textarea.form-control-lg {
 
 
 
+#accessories img
+{
+  position: absolute;
+  top: 56px;
+  left: 0px;
+  z-index: 0;
+}
 
+#background2 img
+{
+  position: absolute;
+  top: 56px;
+  left: 896px;
+  z-index: 0;
+}
 
 
 #click-icon
@@ -11293,6 +11307,16 @@ textarea.form-control-lg {
   font-weight: bold;
  }
 
+ .blinking-text-accessories
+ {
+  animation: blink 1s infinite; /* Adjust the animation duration as needed */
+  position: absolute;
+  top: 135px;
+  left: 1720px;
+  color: red;
+  font-weight: bold;
+ }
+
 
 
 
@@ -11391,52 +11415,66 @@ textarea.form-control-lg {
 /* KX 100 */ 
 
   #KX_100:hover .text-box-item-6 {
+            color: #000;
             display:flex;
             top: 500px; 
             left: -850px;
+            z-index: 999;
         }
 
   #KX_100:hover .text-box-item-7 {
+            color: #000;
             font-size: larger;
             display:flex;
             top: 500px; 
             left: -550px;
+            z-index: 999;
         }
 
  #KX_100:hover .text-box-item-8 {
+            color: #000;
             font-size: larger;
             display:flex;
             top: 535px; 
             left: -550px;
+            z-index: 999;
         }
 
 #KX_100:hover .text-box-item-9 {
+            color: #000;
             font-size: larger;
             display:flex;
             top: 570px; 
             left: -550px;
+            z-index: 999;
         }
 
 #KX_100:hover .text-box-item-10 {
+            color: #000;
             font-size: larger;
             display:flex;
             top: 605px; 
             left: -550px;
+            z-index: 999;
         }
 
 #KX_100:hover .text-box-item-11 {
+            color: #000;
             font-size:large; 
             display:flex;
             top: 500px; 
             left: -125px;
+            z-index: 999;
         }
 
 #KX_100:hover .text-box-item-12 {
+            color: #000;
             font-size:large; 
             display:flex; 
             width: 500px;
             top:500px;
             left: 350px;
+            z-index: 999;
         }
 
 
@@ -11447,6 +11485,9 @@ textarea.form-control-lg {
             display:flex;
             top: 250px; 
             left: 0px;
+            color: #000;
+            z-index: 999;
+
         }
 
 #KA_100:hover .text-box-item-7 {
@@ -11455,6 +11496,8 @@ textarea.form-control-lg {
             display:flex;
             top: 250px; 
             left: 275px;
+            color: #000;
+            z-index: 999;
         }
 
 #KA_100:hover .text-box-item-8 {
@@ -11463,6 +11506,8 @@ textarea.form-control-lg {
             display:flex;
             top: 285px; 
             left: 275px;
+            color: #000;
+            z-index: 999;
         }
 
 #KA_100:hover .text-box-item-9 {
@@ -11471,6 +11516,8 @@ textarea.form-control-lg {
             display:flex;
             top: 320px; 
             left: 275px;
+            color: #000;
+            z-index: 999;
         }
 
 #KA_100:hover .text-box-item-10 {
@@ -11479,6 +11526,8 @@ textarea.form-control-lg {
             display:flex;
             top: 355px; 
             left: 275px;
+            color: #000;
+            z-index: 999;
         }
 
 #KA_100:hover .text-box-item-11 {
@@ -11487,6 +11536,8 @@ textarea.form-control-lg {
             display:flex;
             top: 390px; 
             left: 275px;
+            color: #000;
+            z-index: 999;
         }
 
 #KA_100:hover .text-box-item-12 {
@@ -11495,6 +11546,8 @@ textarea.form-control-lg {
             display:flex;
             top: 250px; 
             left: 1000px;
+            color: #000;
+            z-index: 999;
         }
 
 #KA_100:hover .text-box-item-13 {
@@ -11502,6 +11555,8 @@ textarea.form-control-lg {
             display:flex;
             top: 250px; 
             left: 775px;
+            color: #000;
+            z-index: 999;
         }
 
     
@@ -11511,6 +11566,8 @@ textarea.form-control-lg {
             display:flex;
             top: 300px; 
             left: -350px;
+            color: #000;
+            z-index: 999;
         }
 
 #KA_200:hover .text-box-item-7 {
@@ -11519,6 +11576,9 @@ textarea.form-control-lg {
             display:flex;
             top: 300px; 
             left: -50px;
+            color: #000;
+            z-index: 999;
+
         }
 
 #KA_200:hover .text-box-item-8 {
@@ -11527,6 +11587,9 @@ textarea.form-control-lg {
             display:flex;
             top: 335px; 
             left: -50px;
+            color: #000;
+            z-index: 999;
+
         }
 
 #KA_200:hover .text-box-item-9 {
@@ -11535,6 +11598,9 @@ textarea.form-control-lg {
             display:flex;
             top: 370px; 
             left: -50px;
+            color: #000;
+            z-index: 999;
+
         }
 
 #KA_200:hover .text-box-item-10 {
@@ -11543,6 +11609,8 @@ textarea.form-control-lg {
             display:flex;
             top: 405px; 
             left: -50px;
+            color: #000;
+            z-index: 999;
         }
 
 #KA_200:hover .text-box-item-11 {
@@ -11551,6 +11619,9 @@ textarea.form-control-lg {
             display:flex;
             top: 440px; 
             left: -50px;
+            color: #000;
+            z-index: 999;
+
         }
 
 #KA_200:hover .text-box-item-12 {
@@ -11559,6 +11630,9 @@ textarea.form-control-lg {
             display:flex;
             top: 300px; 
             left: 650px;
+            color: #000;
+            z-index: 999;
+
         }
 
 #KA_200:hover .text-box-item-13 {
@@ -11566,221 +11640,280 @@ textarea.form-control-lg {
             display:flex;
             top: 300px; 
             left: 500px;
+            color: #000;
+            z-index: 999;
+
         }
 
 
 /* KX200 will come here */ 
 
 #KD_200:hover .text-box-item-6 {
+            color: #000;
             display:flex;
             top: 300px; 
             left: -850px;
+            z-index: 999;
         }
 
 #KD_200:hover .text-box-item-7 {
+            color: #000;
             width: 300px;
             font-size: larger;
             display:flex;
             top: 300px; 
             left: -550px;
+            z-index: 999;
         }
 
 #KD_200:hover .text-box-item-8 {
+            color: #000;
             width: 400px;
             font-size: larger;
             display:flex;
             top: 335px; 
             left: -550px;
+            z-index: 999;
         }
 
 #KD_200:hover .text-box-item-9 {
+            color: #000;
             width: 400px;
             font-size: larger;
             display:flex;
             top: 370px; 
             left: -550px;
+            z-index: 999;
         }
 
 #KD_200:hover .text-box-item-10 {
+            color: #000;
             width: 400px;
             font-size: larger;
             display:flex;
             top: 405px; 
             left: -550px;
+            z-index: 999;
         }
 
 #KD_200:hover .text-box-item-11 {
+            color: #000;
             width: 900px;
             font-size:medium;
             display:flex;
             top: 320px; 
             left: 100px;
+            z-index: 999;
         }
 
 #KD_200:hover .text-box-item-13 {
+            color: #000;
             font-size: larger;
             display:flex;
             top: 300px; 
             left: 500px;
+            z-index: 999;
         }
 
 
 
 /*---------------MINISX ---------------*/
 #movingImage:hover .text-box-item-6 {
+            color: #000;
             display:flex;
             top: 500px; 
             left: 0px;
+            z-index: 999;
         }
 
 #movingImage:hover .text-box-item-7 {
+            color: #000;
             width: 300px;
             font-size: larger;
             display:flex;
             top: 500px; 
             left:275px;
+            z-index: 999;
         }
 
 #movingImage:hover .text-box-item-8 {
+            color: #000;
             width: 400px;
             font-size: larger;
             display:flex;
             top: 535px; 
             left: 275px;
+            z-index: 999;
         }
 
 #movingImage:hover .text-box-item-9 {
+            color: #000;
             width: 400px;
             font-size: larger;
             display:flex;
             top: 570px; 
             left: 275px;
+            z-index: 999;
         }
 
 #movingImage:hover .text-box-item-10 {
+            color: #000;
             width: 400px;
             font-size: larger;
             display:flex;
             top: 605px; 
             left: 275px;
+            z-index: 999;
         }
 
 #movingImage:hover .text-box-item-11 {
+            color: #000;
             width: 400px;
             font-size: larger;
             display:flex;
             top: 640px; 
             left: 275px;
+            z-index: 999;
         }
 
 #movingImage:hover .text-box-item-12 {
+            color: #000;
             width: 600px;
             font-size: larger;
             display:flex;
             top: 500px; 
             left: 1050px;
+            z-index: 999;
         }
 
 #movingImage:hover .text-box-item-13 {
+            color: #000;
             font-size: larger;
             display:flex;
             top: 500px; 
             left: 850px;
+            z-index: 999;
         }
 
 /*---KA0X Image hover---------------*/ 
 
 #KAOXImage:hover .text-box-item-6 {
+            color: #000;
             display:flex;
             top: 500px; 
             left: -375px;
+            z-index: 999;
         }
 
 #KAOXImage:hover .text-box-item-7 {
+            color: #000;
             width: 300px;
             font-size: larger;
             display:flex;
             top: 500px; 
             left:-100px;
+            z-index: 999;
         }
 
 #KAOXImage:hover .text-box-item-8 {
+            color: #000;
             width: 400px;
             font-size: larger;
             display:flex;
             top: 535px; 
             left: -100px;
+            z-index: 999;
         }
 
 #KAOXImage:hover .text-box-item-9 {
+            color: #000;
             width: 400px;
             font-size: larger;
             display:flex;
             top: 570px; 
             left: -100px;
+            z-index: 999;
         }
 
 #KAOXImage:hover .text-box-item-10 {
+            color: #000;
             width: 400px;
             font-size: larger;
             display:flex;
             top: 605px; 
             left: -100px;
+            z-index: 999;
         }
 
 #KAOXImage:hover .text-box-item-11 {
+            color: #000;
             width: 400px;
             font-size: larger;
             display:flex;
             top: 640px; 
             left: -95px;
+            z-index: 999;
         }
 
 #KAOXImage:hover .text-box-item-12 {
+            
+            color: #000;
             width: 600px;
             font-size: larger;
             display:flex;
             top: 500px; 
             left: 650px;
+            z-index: 999;
         }
 
 #KAOXImage:hover .text-box-item-13 {
+            color: #000;
             font-size: larger;
             display:flex;
             top: 500px; 
             left: 475px;
+            z-index: 999;
         }
 
 /*-------------------------- KFC60 comes here -------------------*/
 
 #KF_60:hover .text-box-item-6 {
+            color:#000;
             display:flex;
             top: 500px; 
             left: -1200px;
+            z-index: 999;
         }
 
 #KF_60:hover .text-box-item-7 {
+            color:#000;
             width: 450px;
             font-size: larger;
             display:flex;
             top: 500px; 
             left:-900px;
+            z-index: 999;
         }
 
 #KF_60:hover .text-box-item-12 {
+
+            color:#000;
             width: 600px;
             font-size: larger;
             display:flex;
             top: 500px; 
             left: -100px;
+            z-index: 999;
         }
 
 #KF_60:hover .text-box-item-13 {
+            color:#000;
             width: 200px;
             font-size: larger;
             display:flex;
             top: 500px; 
             left: -400px;
+            z-index: 999;
         }
 
 
@@ -11789,16 +11922,18 @@ textarea.form-control-lg {
 
 
 #KA_200:hover .rounded-rectangle-5 {
+
     width: 1850px;
     height: 250px;
     position:absolute; 
     left:-400px;
     top:275px;
     border-radius: 15px;
-    background-color: rgba(0, 0, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
     border: 2px solid #000;
-    opacity: 0.2;
-    z-index: 1;
+    opacity: 1;
+    z-index: 999;
+
 }
 
 
@@ -11810,10 +11945,10 @@ textarea.form-control-lg {
     left:-850px;
     top:300px;
     border-radius: 15px;
-    background-color: rgba(0, 0, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
     border: 2px solid #000;
-    opacity: 0.2;
-    z-index: 1;
+    opacity: 1;
+    z-index: 999;
 }
 
 
@@ -11826,9 +11961,9 @@ textarea.form-control-lg {
     left:-850px;
     top:500px;
     border-radius: 15px;
-    background-color: rgba(0, 0, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
     border: 2px solid #000;
-    opacity: 0.2;
+    opacity: 1;
     z-index: 1;
 }
 
@@ -11849,10 +11984,10 @@ textarea.form-control-lg {
     left:-25px;
     top:500px;
     border-radius: 15px;
-    background-color: rgba(0, 0, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
     border: 2px solid #000;
-    opacity: 0.2;
-    z-index: 1;
+    opacity: 1;
+    z-index: 999;
 }
 
 
@@ -11864,10 +11999,10 @@ textarea.form-control-lg {
     left:-420px;
     top:500px;
     border-radius: 15px;
-    background-color: rgba(0, 0, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
     border: 2px solid #000;
-    opacity: 0.2;
-    z-index: 1;
+    opacity: 1;
+    z-index: 999;
 }
 
 
@@ -11879,10 +12014,10 @@ textarea.form-control-lg {
     left:-25px;
     top:250px;
     border-radius: 15px;
-    background-color: rgba(0, 0, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
     border: 2px solid #000;
-    opacity: 0.2;
-    z-index: 1;
+    opacity: 1;
+    z-index: 999;
 }
 
 #KF_60:hover .rounded-rectangle-5
@@ -11893,9 +12028,9 @@ textarea.form-control-lg {
     left:-1250px;
     top:500px;
     border-radius: 15px;
-    background-color: rgba(0, 0, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
     border: 2px solid #000;
-    opacity: 0.2;
+    opacity: 1;
     z-index: 1;
 }
 
@@ -12422,6 +12557,9 @@ textarea.form-control-lg {
         }
 
 /* KA0x will come here  */ 
+
+
+
 
 
 
