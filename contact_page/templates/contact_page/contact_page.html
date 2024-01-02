@@ -1,6 +1,11 @@
 {% load static %}
 
+
+
+
+
  <link rel="stylesheet" type="text/css" href="{% static 'index/style.css' %}" /> 
+
 
 
 
@@ -37,3 +42,66 @@
                 </div>
             </div>
         </nav>
+
+        <!--
+    <div class="container-contact-page">
+    <form onsubmit="sendEmail(); reset(); return false; ">
+        <h3>GET IN TOUCH WITH US!</h3>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Email id" required>
+        <input type="text" id="phone" placeholder="Phone No." required>
+        <textarea id="message" rows="4" placeholder="Reach us for further information about our products."></textarea>
+        <button type="submit">SEND</button>
+
+    </form>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12044.499649022328!2d28.7119864!3d41.0006391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa0fb16d7bc9d%3A0x415f5b54bf6d0006!2sKAO%20Elektronik%20ve%20Bilgisayar%20San.Tic.Ltd.%C5%9Eti!5e0!3m2!1sen!2spl!4v1703979517447!5m2!1sen!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+</div>
+-->
+
+<!--
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<script>
+    function sendEmail(){
+        Email.send({
+        Host : "smtp.elasticmail.com",
+        Username : "kaan.karaalioglu@kaometrology.com",
+        Password : "162534Kaan*",
+        To : 'karaaliogluseyit@gmail.com',
+        From : document.getElementById("element").value,
+        Subject : "This is the subject",
+        Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+}
+    
+</script>
+
+
+-->
+
+<form method="POST" action="{% url 'contact_page' %}">
+ {% csrf_token %} 
+
+ <input type="text" name="name" placeholder="title of the email" required>
+ <br>
+ <br>
+
+<input type="email" name="email" placeholder="The company e-mail address" required>
+<br>
+<br>
+
+<textarea name="message" placeholder="message to be delivered" required></textarea> 
+<br>
+<br>
+<button class="btn btn-primary mt-2" type="submit">send</button>
+<br>
+<br>
+
+ </form>
+

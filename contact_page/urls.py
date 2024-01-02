@@ -6,3 +6,6 @@ urlpatterns = [
     path("", views.contact_func, name="contact_page"),
 ]
 
+
+
+

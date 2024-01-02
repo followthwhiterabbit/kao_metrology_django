@@ -23,7 +23,6 @@ urlpatterns = [
     path("about/", include("about_page.urls")),
     path("polls/", include("polls.urls")), 
     path("contact/", include("contact_page.urls")),
-    path("about/contact", include("contact_page.urls")),
     path("about/products", include("products_page.urls")),
     path("admin/", admin.site.urls),
     path("products/", include("products_page.urls") ),
