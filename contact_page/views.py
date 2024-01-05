@@ -23,7 +23,6 @@ def contact_func(request, ):
     if request.method == 'POST':
         message = request.POST['message']
         email = request.POST['email']
-        name = request.POST['name']
         first_name = request.POST['first_name']
         second_name = request.POST['surname']
         captcha_response = request.POST.get('g-recaptcha-response', '')
@@ -47,7 +46,7 @@ def contact_func(request, ):
 
 
         send_mail(
-        name, #title, 
+        'FORM INQUIRY', #title, 
         return_message,
         'kaan.karaalioglu@kaometrology.com',
         [request.POST['email']], #receiver email

@@ -11430,7 +11430,7 @@ form
   flex-direction: column;
   padding: 2vw 4vw;
   width: 100%;
-  max-width: 550px;
+  max-width: 650px;
   border-radius: 0px;
   margin-left: -50%;
 }
@@ -11513,9 +11513,14 @@ position: relative;
 
 .message-us
 {
-  display: flex;
-  margin-left: -20px;
-  height: 150px;
-  
-
+  margin-left: -25px;
+  width: 500px;
 }
+
+.message-us textarea
+{
+  width: 150%;
+}
+
+
+
