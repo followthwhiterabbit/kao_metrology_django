@@ -85,23 +85,51 @@
 
 -->
 
+
+<div class="container-contact-page">
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <form method="POST" action="{% url 'contact_page' %}">
  {% csrf_token %} 
+ 
+<h3 class="get_in_touch">GET IN TOUCH WITH US</h3>
 
- <input type="text" name="name" placeholder="title of the email" required>
+<div class="name-fields">
+<input type="text_name" name="first_name" placeholder="First Name" required>
  <br>
  <br>
 
-<input type="email" name="email" placeholder="The company e-mail address" required>
+<input type="text_surname" name="surname" placeholder="Last Name" required>
+ <br>
+ <br>
+</div>
+
+<div class="email-title">
+<input type="text" name="name" placeholder="Email Title" required>
+ <br>
+ <br>
+</div>
+
+<div class="business-email">
+<input type="email" name="email" placeholder="Business Email Address*" required>
+<br>
+<br>
+</div>
+
+<div class="message-us">
+<textarea name="message" placeholder="Reach us for further information about our products." required></textarea> 
+<br>
+<br>
+</div>
+
+<div class="g-recaptcha" data-sitekey="6LetokcpAAAAAJme6hGTF17WM32BmBfW0tYEI-K0"></div>
+
+{{ form.captcha }}
+
+<button class="btn_send btn-primary mt-2" type="submit">send</button>
 <br>
 <br>
 
-<textarea name="message" placeholder="message to be delivered" required></textarea> 
-<br>
-<br>
-<button class="btn btn-primary mt-2" type="submit">send</button>
-<br>
-<br>
 
  </form>
 
+</div>

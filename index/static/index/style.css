@@ -11429,10 +11429,10 @@ form
   display: flex;
   flex-direction: column;
   padding: 2vw 4vw;
-  width: 90%;
-  max-width: 600px;
-  border-radius: 50px;
-  margin-left: -10%;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 0px;
+  margin-left: -50%;
 }
 
 form h3 
@@ -11446,8 +11446,8 @@ form h3
 form input, form textarea
 {
   border: 0; 
-  margin: 10px 0; 
-  padding: 20px;
+  margin: 15px 0; 
+  padding: 5px;
   outline: none; 
   background: #f5f5f5;
   font-size: 16px;
@@ -11458,7 +11458,7 @@ form input, form textarea
 form button
 {
   padding: 15px;
-  background-color: orangered;
+  background-color: red; 
   color: #fff; 
   font-size: 18px;
   border: 0; 
@@ -11481,7 +11481,41 @@ iframe
 
 }
 
-form
+.get_in_touch
 {
-  margin-left: 20%;
+position: relative;
+}
+
+.name-fields
+{
+  display: flex;
+  gap: 10px;
+  
+  margin-left: -20px;
+ }
+
+.name-fields input
+{
+  flex: 1; 
+}
+
+.email-title
+{
+  display: flex; 
+  margin-left: -20px;
+}
+
+.business-email
+{
+  display: flex; 
+  margin-left: -20px;
+}
+
+.message-us
+{
+  display: flex;
+  margin-left: -20px;
+  height: 150px;
+  
+
 }

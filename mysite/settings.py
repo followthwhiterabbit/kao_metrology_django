@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_recaptcha',
 ]
 
 MIDDLEWARE = [
@@ -134,14 +135,29 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+#EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 
-EMAIL_HOST =  'smtp.gmail.com'
+#EMAIL_HOST =  'smtp.gmail.com'
+#EMAIL_USE_TLS = True
+#EMAIL_PORT =  587
+#EMAIL_HOST_USER =  'karaaliogluseyit@gmail.com'
+#EMAIL_HOST_PASSWORD =  'dcxxnbjtzbosptbx'
+
+
+EMAIL_BACKEND = 'django_smtp_ssl.SSLEmailBackend'
+
+
+
+EMAIL_HOST =  'mail.kaometrology.com'
 EMAIL_USE_TLS = True
-EMAIL_PORT =  587
-EMAIL_HOST_USER =  'karaaliogluseyit@gmail.com'
-EMAIL_HOST_PASSWORD =  'dcxxnbjtzbosptbx'
+EMAIL_PORT =  465
+EMAIL_HOST_USER =  'kaan.karaalioglu@kaometrology.com'
+EMAIL_HOST_PASSWORD =  '162534Kaan*'
+
+
+RECAPTCHA_PUBLIC_KEY = '6LetokcpAAAAAJme6hGTF17WM32BmBfW0tYEI-K0'
+RECAPTCHA_PRIVATE_KEY = '6LetokcpAAAAAMdGTd73Lp1PAKZFEGnet_RG4jt8A'
 
 
 
