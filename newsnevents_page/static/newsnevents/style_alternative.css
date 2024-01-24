@@ -5861,19 +5861,20 @@ textarea.form-control-lg {
 .carousel-control-prev,
 .carousel-control-next {
   position: absolute;
-  top: 0;
+  top: 500px;
+  left: 1750px;
   bottom: 0;
   z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
-  padding: 0;
+  width: 10%;
+  padding: 50px;
   color: #fff;
   text-align: center;
   background: none;
   border: 0;
-  opacity: 0.5;
+  opacity: 1;
   transition: opacity 0.15s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -11217,3 +11218,25 @@ textarea.form-control-lg {
   color: red;
   font-weight: bold;
  }
+
+
+
+
+.hall-text-1
+{
+  font-weight: 800;
+  font-size: xx-large;
+  color: black;
+  font-family: "DM Sans", sans-serif;
+
+}
+
+
+.hall-text-2
+{
+  font-weight: 800;
+  font-size: xx-large;
+  color: red;
+  font-family: "DM Sans", sans-serif;
+
+}

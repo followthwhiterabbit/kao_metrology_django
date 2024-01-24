@@ -6,23 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!--
-
-<div id="company_logo">
-
-  <img src = "{% static 'products/kao_logo.png'%}" alt="moving-image">
-</div>
-
-
-<ul>
-        <li><a href="{% url 'index' %}" class="shake-on-click">Menu</a></li>    
-        <li><a href="{% url 'products_page' %}" class="shake-on-click">Products</a></li>
-        <li><a href="{% url 'contact_page' %}" class="shake-on-click">Contact</a></li>
-
-</ul>
-
--->
-
 
 <!--
 <div class="products_text">
@@ -53,10 +36,8 @@ It is used for a wide variety of applications. Pneumatic gauges are effective in
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'index' %}">Menu</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">Company</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">Menu</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">Products</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'careers' %}">Careers</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'newsnevents_page' %}">News&Events</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}">Contact</a></li>   
                       
@@ -77,28 +58,677 @@ It is used for a wide variety of applications. Pneumatic gauges are effective in
             </div>
         </nav>
 
-<div class="custom-shape">
-  <div class="horizontal-line"></div>
-  <div class="positive-slope-line"></div>
-  <div class="end-horizontal-line"></div>
-</div>
-
 <div id="company_logo">
     <img src="{% static 'about/kao_logo.png' %}" class="logo-img">
 </div>  
 
 
- <div class="timeline">
-  <div class="container left">
-    <div class="content">
-      <h2>2017</h2>
-      <p>Lorem ipsum..</p>
+    <img src="{% static 'about/Cursor.png' %}"  class="cursor-1" width="75" height="75">
+
+
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="25">
+      <img class="d-block w-100" src="{% static 'about/measuring_1_alternative.png' %}" alt="First slide">
+             <div class="sliding-text-container=">
+          <p class="sliding-text fst-italic" id="animated-text">Kao Metrology</p>
+          <p class="sliding-text-2 fst-italic" id="animated-text-2">Fastest, Easiest &  the Most Reliant Measurement</p>
+            </div>
+        
+    </div>
+
+
+    <div class="carousel-item" data-bs-interval="25">
+    <a href="{% url 'products_page' %}">
+      <img class="d-block w-75 modular_image"  src="{% static 'about/modular_devices.jpg' %}" alt="Second slide">
+       <div class="airgages" >
+          <h1>AirGages</h1>
+       </div>
+       </a>
+    </div>
+
+
+    <div class="carousel-item" data-bs-interval="25">
+    <a href="{% url 'products_page' %}">
+      <img class="d-block w-75 leak_image" src="{% static 'about/leaktesting.gif' %}" alt="Third slide">
+      <div class="leakim">
+      <h1>Leak-Testing Devices</h1>
+      </div>
+      </a>
+    </div>
+
+<div class="carousel-item" data-bs-interval="25">
+    <a href="{% url 'products_page' %}">
+      <img class="callibrator-image"  src="{% static 'about/KFC60.JPG' %}" alt="Fourth slide">
+       <div class="Callibrators">
+          <h1>Flow Callibrators</h1>
+       </div>
+       </a>
+    </div>
+
+
+    
+<div class="carousel-item" data-bs-interval="25">
+    <a href="{% url 'products_page' %}">
+      <img class="pressure-scanners"  src="{% static 'about/scanner_2.JPG' %}" alt="Fifth slide">
+       <div class="Pressure Scanners">
+          <h1>Pressure Scanners</h1>
+       </div>
+    </div>
+  </a>
+
+<div class="carousel-item" data-bs-interval="25">
+  
+    <a href="{% url 'products_page' %}">
+      <img class="modular_metrology"  src="{% static 'about/modular_metrology.png' %}" alt="Sixth slide">
+       <div class="Modularim">
+          <h1>Modular Metrology</h1>
+       </div>
+       </a>
+    </div>
+
+
+<div class="carousel-item" data-bs-interval="25"> 
+
+    <a href="{% url 'products_page' %}">
+      <img class="probe-image"  src="{% static 'about/probes_new.jpg' %}" alt="Seventh slide">
+       <div class="Probes">
+          <h1>Probes</h1>
+       </div>
+       </a>
+    </div>
+
+
+    
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only"></span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only"></span>
+  </a>
+
+
+
+ </div>
+
+
+     
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="snipcss-3iUoy">
+  <section id="top-1" class="engine">
+   
+  </section>
+  <noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-PFK425"
+            height="0" width="0" style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
+  <section class="menu cid-ryfQpXufii" once="menu" id="menu01-21">
+    
+  </section>
+  
+  
+  <section class="cid-ryh8XVUoGh" id="content04-3a">
+    <div class="container align-center">
+      <div class="row justify-content-md-center">
+        <div class="mbr-black col-md-10 col-lg-6">
+          <h3 class="mbr-section-subtitle mbr-semibold align-center mbr-light mbr-fonts-style display-5">
+            HISTORY
+          </h3>
+          <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
+            About Us
+          </h1>
+          <p class="mbr-text pb-3 mbr-fonts-style display-7">
+            Kao was founded in Istanbul in 1995 by an idealistic and dynamic team with thirty years of experience in machinery, electronics, and metrology. With a strong R&D team and modern production lines, Kao has been able to create remarkable products in terms of the technical specifications, ergonomics, aesthetics, and durability. Kao has been producing metrological test devices with measurement precision beyond world standards and extremely user-friendly interfaces in the field of metrology As Kao-Metrology, we aim to collaborate with industrialists to contribute to creating a more efficient and powerful metrological system for a reliable future. Therefore, we see every product we develop as a helper that opens the door to new possibilities. Please don't hesitate to share your thoughts on our products and technologies you encountered on our website. Wishing for every tomorrow to be brighter than today... 
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="features3 cid-rym4BqMZP3" id="features05-3t">
+    <div class="container">
+      <div class="row">
+        <div class="card p-3 col-12 col-md-8 col-lg-4">
+          <div class="card-wrapper">
+            <div class="card-box">
+              <div class="card-img">
+                <img src = "{% static 'about/environment_friendly.jpg'%}" alt="env_friendly" width="300" height="300" >
+              </div>
+              <h4 class="card-title align-center custom-left-first mbr-bold mbr-black mbr-fonts-style display-5">
+                Environment-Friendly
+              </h4>
+              <p class="mbr-text align-center custom-left-third mbr-black mbr-fonts-style display-7">
+             Discover our eco-friendly metrology devices, meticulously crafted for precision and minimal air consumption. Committed to sustainability, our advanced technology not only guarantees accuracy but also minimizes environmental impact. Choose a cleaner, greener solution for your measurements and a healthier atmosphere. 
+              </p>
+              <div class="mbr-section-btn align-center">
+                <a href= "{% url 'products_page' %}" class="btn btn-md btn-red-outline display-4">
+
+                  View More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-3 col-12 col-md-8 col-lg-4">
+          <div class="card-wrapper">
+            <div class="card-box">
+              <div class="card-img">
+                <img src = "{% static 'about/fast-delivery_image.png'%}" alt="fast_delivery" width="300" height="300" >
+              </div>
+              <h4 class="card-title align-center custom-left mbr-bold mbr-black mbr-fonts-style display-5">
+                Fast Delivery Time
+              </h4>
+              <p class="mbr-text align-center custom-left-third mbr-black mbr-fonts-style display-7">
+                
+              </p>
+              <div class="mbr-section-btn align-center">
+                <a href= "{% url 'products_page' %}" class="btn btn-md btn-red-outline display-4">
+                  View More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-3 col-12 col-md-8 col-lg-4">
+          <div class="card-wrapper ">
+            <div class="card-box">
+              <div class="card-img ">
+                <img src = "{% static 'about/quality_assured.jpeg'%}" alt="quality_assured" width="300" height="300"  >
+              </div>
+              <h4 class="card-title align-center custom-left mbr-bold mbr-black mbr-fonts-style display-5">
+                Quality Assured
+              </h4>
+              <p class="mbr-text align-center custom-left-third mbr-black mbr-fonts-style display-7">
+                Quality of Our Products are assured for every device we deliver.
+              </p>
+              <div class="mbr-section-btn align-center">
+                <a href= "{% url 'products_page' %}" class="btn btn-md btn-red-outline display-4">
+                  View More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="header3 cid-ryh9am114g" id="content01-3d">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-lg-6 py-5 m-auto">
+          <div class="media-content">
+            <h1 class="mbr-section-title align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+              We Know Our Product
+            </h1>
+            <div class="mbr-section-text mbr-white pb-3 ">
+              <p class="mbr-text align-right align-right mbr-fonts-style display-7">
+                Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Nulla eget lectus eu ex ornare porta euismod a
+                libero. Phasellus vehicula placerat enim at egestas. Aliquam suscipit felis in massa
+                hendrerit tristique. In augue diam, pellentesque nec pulvinar in, sagittis ac nulla. Sed eu
+                lectus vitae justo vehicula viverra. Aenean vel urna vitae massa consequat blandit. Quisque
+                sodales sapien vitae malesuada ultricies. Curabitur pretium ipsum non nunc facilisis semper.
+              </p>
+            </div>
+            <div class="mbr-section-btn align-right">
+              <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'products_page' %}"  >
+                View More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <div class="mbr-figure">
+            <img src="{% static 'about/modular_devices.jpg' %}" alt="Mobirise">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cid-ryh9cEwEwT" id="content04-3e">
+    <div class="container align-center">
+      <div class="row justify-content-md-center">
+        <div class="mbr-black col-md-10 col-lg-6">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cid-ryhbKc0wrA" id="image03-3p">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="image-block">
+            <img src="{% static 'about/kao_logo.png' %}" alt="Mobirise">
+            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-7">
+                  OUR WORK
+                </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </figcaption>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="image-block">
+            <img src="https://mobirise.com/extensions/photom4/assets/images/background3.jpg" alt="Mobirise">
+            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-7">
+                  BEST PHOTO
+                </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </figcaption>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="image-block">
+            <img src="https://mobirise.com/extensions/photom4/assets/images/background1.jpg" alt="Mobirise">
+            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-7">
+                  CLIENTS ART
+                </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </figcaption>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cid-ryhbBS90as" id="content04-3n">
+    <div class="container align-center">
+      <div class="row justify-content-md-center">
+        <div class="mbr-black col-md-10 col-lg-6">
+          <h3 class="mbr-section-subtitle mbr-semibold align-center mbr-light mbr-fonts-style display-5">
+            TESTIMONIALS
+          </h3>
+          <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
+            Write About Us
+          </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="testimonials1 cid-ryh93nf0oj" id="testimonials-slider04-3c">
+    <div class="container">
+      <div class="media-container-row">
+        <div class="mbr-testimonial col-12 col-lg-12  col-md-12">
+          <div class="panel-item">
+            <div class="card-block">
+              <p class="mbr-text align-center mbr-fonts-style pb-4 display-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper elementum felis
+                in bibendum.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="testimonial-photo">
+                <img src="https://mobirise.com/extensions/photom4/assets/images/face2.jpg">
+              </div>
+              <div class="name">
+                <div class="mbr-author-name align-left mbr-fonts-style display-5">
+                  Ann Smith
+                </div>
+                <small class="mbr-author-desc align-left mbr-italic mbr-light mbr-fonts-style display-7">
+                  Manager
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="header8 cid-ryhaeS2jHO" id="video01-3k">
+    <div class="mbr-overlay style-i9wgX" id="style-i9wgX">
+    </div>
+    <div class="container align-center">
+      <div class="row justify-content-md-center">
+        <div class="mbr-white col-md-10">
+          <h1 class="mbr-section-title align-center py-2 mbr-fonts-style display-1">
+            Watch Video
+          </h1>
+          <div class="mbr-media show-modal align-center py-2" data-modal=".modalWindow">
+            <div class="icon-wrap">
+              <span class="mbr-iconfont mobi-mbri-play mobi-mbri">
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="modalWindow style-IORtK" id="style-IORtK">
+        <div class="modalWindow-container">
+          <div class="modalWindow-video-container">
+            <div class="modalWindow-video">
+              <iframe width="100%" height="100%" frameborder="0" allowfullscreen="1" src="https://youtube.com/embed/J21qu_vspfg?rel=0&amp;enablejsapi=1" data-gtm-yt-inspected-19="true" data-gtm-yt-inspected-27="true">
+              </iframe>
+            </div>
+            <a class="close" role="button" data-dismiss="modal">
+              <span aria-hidden="true" class="mbri-close mbr-iconfont closeModal">
+              </span>
+              <span class="sr-only">
+                Close
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="map1 cid-ryha8paJop" id="map01-3h">
+    <div class="google-map">
+      <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCy9r70T3NYf3PhvVflTo0_zdif2_IoIYs&amp;q=place_id:ChIJn6wOs6lZwokRLKy1iqRcoKw" allowfullscreen="" data-gtm-yt-inspected-19="true" data-gtm-yt-inspected-27="true">
+      </iframe>
+    </div>
+  </section>
+  <section class="header3 cid-ryha7dvnCF" id="social01-3g">
+    <div class="container">
+      <div class="mbr-section-btn align-center pb-3">
+        <a class="btn btn-sm btn-black display-4" href="https://mobirise.co">
+          <span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn">
+          </span>
+          FOLLOW US
+        </a>
+      </div>
+      <div class="row mbr-jc-c">
+        <div class="item col-6 col-md-3 col-lg-x">
+          <div class="img-wrap">
+            <span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn">
+            </span>
+            <img src="https://mobirise.com/extensions/photom4/assets/images/01.jpg" alt="Mobirise">
+          </div>
+        </div>
+        <div class="item col-6 col-md-3 col-lg-x">
+          <div class="img-wrap">
+            <span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn">
+            </span>
+            <img src="https://mobirise.com/extensions/photom4/assets/images/02.jpg" alt="Mobirise">
+          </div>
+        </div>
+        <div class="item col-6 col-md-3 col-lg-x">
+          <div class="img-wrap">
+            <span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn">
+            </span>
+            <img src="https://mobirise.com/extensions/photom4/assets/images/03.jpg" alt="Mobirise">
+          </div>
+        </div>
+        <div class="item col-6 col-md-3 col-lg-x">
+          <div class="img-wrap">
+            <span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn">
+            </span>
+            <img src="https://mobirise.com/extensions/photom4/assets/images/04.jpg" alt="Mobirise">
+          </div>
+        </div>
+        <div class="item col-6 col-md-3 col-lg-x">
+          <div class="img-wrap">
+            <span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn">
+            </span>
+            <img src="https://mobirise.com/extensions/photom4/assets/images/background1.jpg" alt="Mobirise">
+          </div>
+        </div>
+        <div class="item col-6 col-md-3 col-lg-x">
+          <div class="img-wrap">
+            <span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn">
+            </span>
+            <img src="https://mobirise.com/extensions/photom4/assets/images/background2.jpg" alt="Mobirise">
+          </div>
+        </div>
+        <div class="item col-6 col-md-3 col-lg-x">
+          <div class="img-wrap">
+            <span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn">
+            </span>
+            <img src="https://mobirise.com/extensions/photom4/assets/images/background3.jpg" alt="Mobirise">
+          </div>
+        </div>
+        <div class="item col-6 col-md-3 col-lg-x">
+          <div class="img-wrap">
+            <span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn">
+            </span>
+            <img src="https://mobirise.com/extensions/photom4/assets/images/background4.jpg" alt="Mobirise">
+          </div>
+        </div>
+        <div class="item col-6 col-md-3 col-lg-x">
+          <div class="img-wrap">
+            <span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn">
+            </span>
+            <img src="https://mobirise.com/extensions/photom4/assets/images/background5.jpg" alt="Mobirise">
+          </div>
+        </div>
+        <div class="item col-6 col-md-3 col-lg-x">
+          <div class="img-wrap">
+            <span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn">
+            </span>
+            <img src="https://mobirise.com/extensions/photom4/assets/images/background4.jpg" alt="Mobirise">
+          </div>
+        </div>
+        <div class="item col-6 col-md-3 col-lg-x">
+          <div class="img-wrap">
+            <span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn">
+            </span>
+            <img src="https://mobirise.com/extensions/photom4/assets/images/background3.jpg" alt="Mobirise">
+          </div>
+        </div>
+        <div class="item col-6 col-md-3 col-lg-x">
+          <div class="img-wrap">
+            <span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn">
+            </span>
+            <img src="https://mobirise.com/extensions/photom4/assets/images/background2.jpg" alt="Mobirise">
+          </div>
+        </div>
+        <div class="item col-6 col-md-3 col-lg-x">
+          <div class="img-wrap">
+            <span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn">
+            </span>
+            <img src="https://mobirise.com/extensions/photom4/assets/images/04.jpg" alt="Mobirise">
+          </div>
+        </div>
+        <div class="item col-6 col-md-3 col-lg-x">
+          <div class="img-wrap">
+            <span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn">
+            </span>
+            <img src="https://mobirise.com/extensions/photom4/assets/images/03.jpg" alt="Mobirise">
+          </div>
+        </div>
+        <div class="item col-6 col-md-3 col-lg-x">
+          <div class="img-wrap">
+            <span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn">
+            </span>
+            <img src="https://mobirise.com/extensions/photom4/assets/images/02.jpg" alt="Mobirise">
+          </div>
+        </div>
+        <div class="item col-6 col-md-3 col-lg-x">
+          <div class="img-wrap">
+            <span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn">
+            </span>
+            <img src="https://mobirise.com/extensions/photom4/assets/images/01.jpg" alt="Mobirise">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section once="footers" class="cid-ryha9vUPBi" id="footer01-3j">
+    <div class="container">
+      <div class="media-container-row align-center mbr-white">
+        <div class="col-12">
+          <p class="mbr-text mb-0 mbr-fonts-style display-7">
+            © Copyright 2019 Mobirise - All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <iframe allow="join-ad-interest-group" data-tagging-id="AW-1071863997" data-load-time="1704746206457" height="0" width="0" src="https://td.doubleclick.net/td/rul/1071863997?random=1704746206455&amp;cv=11&amp;fst=1704746206455&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He4130v71321738&amp;gcd=11l1l1l1l1&amp;dma_cps=sypham&amp;dma=1&amp;u_w=1920&amp;u_h=1080&amp;url=https%3A%2F%2Fmobirise.com%2Fextensions%2Fphotom4%2Fphotoshopdemo%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Photography%20Shop%20Demo%20-%20PhotoM4&amp;fledge=1&amp;uaa=x86&amp;uab=64&amp;uafvl=Google%2520Chrome%3B119.0.6045.105%7CChromium%3B119.0.6045.105%7CNot%253FA_Brand%3B24.0.0.0&amp;uamb=0&amp;uap=Linux&amp;uapv=6.2.0&amp;uaw=0" data-gtm-yt-inspected-19="true" data-gtm-yt-inspected-27="true" id="style-yjkdi" class="style-yjkdi">
+  </iframe>
+  <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1123285727682531&amp;ev=PageView&amp;noscript=1">
+  </noscript>
+  <div id="snipcss-panel-container" class="style-XGDkj">
+    <div id="snipcss-button-relative-container">
+      <div class="snipcss_birdcontainer style-t4ckj" id="style-t4ckj">
+        <img class="snipcss_bird style-NiHjt" src="chrome-extension://hbdnoadcmapfbngbodpppofgagiclicf/img/kiwi_transparent_run_text.png" id="style-NiHjt">
+      </div>
+      <button id="snipcss-close" class="">
+        <span id="snipcss-close-svg">
+          <svg viewBox="0 0 24 24" class="close">
+            <path d="M 2 2 L 22 22 M 2 22 L22 2" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+            </path>
+          </svg>
+        </span>
+      </button>
+    </div>
+    <div class="snipcss-shadowcontainer">
     </div>
   </div>
-  <div class="container right">
-    <div class="content">
-      <h2>2016</h2>
-      <p>Lorem ipsum..</p>
+  <div class="snipcss-modal snipcss-micromodal-slide" id="modal-pick-resolution" aria-hidden="true">
+    <div class="snipcss-modal__overlay" tabindex="-1">
+      <div class="snipcss-modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+        <div class="snipcss-modal__header">
+          <h2 class="snipcss-modal__title snipcss-popup-title" id="modal-editfulltask-title">
+            Pick Resolutions to Extract Styles
+          </h2>
+          <button class="snipcss-modal__close" aria-label="Close modal" data-micromodal-close="">
+          </button>
+        </div>
+        <div class="snipcss-modal__content" id="snipcss-modal-content">
+          <div class="snipcss-resolution-type-header">
+            Large Screens
+          </div>
+          <div class="snipcss-checkbox-container">
+            <input class="snipcss_checkbox" value="default" id="checkresolution_default" type="checkbox" checked="&quot;checked&quot;">
+            <label class="snipcss_label" for="checkresolution_default">
+              Desktop (current resolution)
+            </label>
+          </div>
+          <div class="snipcss-checkbox-container">
+            <input class="snipcss_checkbox" value="largedesktop" id="checkresolution_largedesktop" type="checkbox">
+            <label class="snipcss_label" for="checkresolution_largedesktop">
+              Large Desktop (1920x1080)
+            </label>
+          </div>
+          <div class="snipcss-checkbox-container">
+            <input class="snipcss_checkbox" value="ipadlandscape" id="checkresolution_ipadlandscape" type="checkbox">
+            <label class="snipcss_label" for="checkresolution_ipadlandscape">
+              iPad Landscape (1024x768)
+            </label>
+          </div>
+          <div class="snipcss-resolution-type-header">
+            Mobile Screens 
+            <span class="snipcss-probadge snipcss-probadge-primary proversion">
+              Pro Version
+            </span>
+          </div>
+          <div class="snipcss-checkbox-container">
+            <input class="snipcss_checkbox" value="iphonexs" id="checkresolution_iphonexs" type="checkbox">
+            <label class="snipcss_label" for="checkresolution_iphonexs">
+              iPhone XS (320x568, zoom=2.0)
+            </label>
+          </div>
+          <div class="snipcss-checkbox-container">
+            <input class="snipcss_checkbox" value="ipadvertical" id="checkresolution_ipadvertical" type="checkbox">
+            <label class="snipcss_label" for="checkresolution_ipadvertical">
+              iPad Vertical 
+              <span>
+                (768x1024, zoom=2.5)
+              </span>
+            </label>
+          </div>
+          <div class="snipcss-checkbox-container">
+            <input class="snipcss_checkbox" value="pixel" id="checkresolution_pixel" type="checkbox">
+            <label class="snipcss_label" for="checkresolution_pixel">
+              Pixel 
+              <span>
+                (823x411, zoom=2.5)
+              </span>
+            </label>
+          </div>
+          <div class="warning-nopro-container">
+            <p class="warning-nopro">
+              With 
+              <a class="snipcss-pro-link" target="_blank" href="https://www.snipcss.com/pricing">
+                SnipCSS Pro
+              </a>
+              you can select mobile resolutions 
+              at the same time as other resolutions to get all responsive styles.  With the Free
+              extension you can only select larger screens.
+            </p>
+          </div>
+        </div>
+        <div class="snipcss-modal__footer">
+          <button id="snipcss_modal_ok" class="snipcss-button">
+            Save
+          </button>
+        </div>
+      </div>
     </div>
   </div>
-</div> 
+  <div class="edge_builder edge_builder_top style-N7h7I" id="style-N7h7I">
+  </div>
+  <div class="edge_builder edge_builder_right style-3srZJ" id="style-3srZJ">
+  </div>
+  <div class="edge_builder edge_builder_bottom style-L7Ees" id="style-L7Ees">
+  </div>
+  <div class="edge_builder edge_builder_left style-3LELr" id="style-3LELr">
+  </div>
+  <div class="edge_builder2 edge_builder_top style-t8ShW" id="style-t8ShW">
+  </div>
+  <div class="edge_builder2 edge_builder_right style-tvFeZ" id="style-tvFeZ">
+  </div>
+  <div class="edge_builder2 edge_builder_bottom style-o3xz5" id="style-o3xz5">
+  </div>
+  <div class="edge_builder2 edge_builder_left style-WbN9Z" id="style-WbN9Z">
+  </div>
+  <div data-tether-id="1" id="style-j3K8q" class="style-j3K8q">
+  </div>
+  <canvas width="70" height="70" id="snipcss-kiwi" class="style-xM3jI">
+  </canvas>
+</div>

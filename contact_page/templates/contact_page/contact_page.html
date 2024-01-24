@@ -4,7 +4,7 @@
 
 
 
- <link rel="stylesheet" type="text/css" href="{% static 'index/style.css' %}" /> 
+ <link rel="stylesheet" type="text/css" href="{% static 'contact/style.css' %}" /> 
 
 
 
@@ -20,10 +20,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'index' %}">Menu</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">Company</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">Menu</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">Products</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'careers' %}">Careers</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'newsnevents_page' %}">News&Events</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}">Contact</a></li> 
 
@@ -99,7 +97,7 @@
 
 -->
 
- <img src="{% static 'index/airgages.png' %}" class="contact-background">
+ <img src="{% static 'contact/airgages.png' %}" class="contact-background">
 
 
 <div class="container-contact-page">
@@ -155,9 +153,12 @@
 <br>
 </div>
 
-<div class="g-recaptcha" data-sitekey="6LetokcpAAAAAJme6hGTF17WM32BmBfW0tYEI-K0"></div>
+
 
 {{ form.captcha }}
+
+<div class="g-recaptcha" data-sitekey="6LetokcpAAAAAJme6hGTF17WM32BmBfW0tYEI-K0"></div>
+
 
 <button class="btn_send btn-primary mt-2" type="submit">send</button>
 <br>
@@ -189,3 +190,11 @@
 
 
  </div>
+
+<footer class="footer">
+      <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+      </div>
+    </footer>
+
+      

@@ -37,7 +37,6 @@ ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0', '172.17.0.1']
 
 INSTALLED_APPS = [
     'polls.apps.PollsConfig',
-    'index.apps.IndexConfig',
     'about_page.apps.AboutPageConfig',
     'contact_page.apps.ContactConfig',
     'products_page.apps.ProductsPageConfig', 
