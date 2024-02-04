@@ -1930,6 +1930,9 @@ progress {
   -webkit-overflow-scrolling: touch;
 }
 
+
+
+
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     overflow-x: auto;
@@ -3726,7 +3729,7 @@ textarea.form-control-lg {
 }
 
 .navbar {
- --bs-navbar-padding-x: 1.5rem;
+  --bs-navbar-padding-x: 1.5rem;
   --bs-navbar-padding-y: 0.8rem;
   --bs-navbar-color: rgba(0, 0, 0, 0.55);
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
@@ -3751,7 +3754,7 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+  padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x); 
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -3771,8 +3774,16 @@ textarea.form-control-lg {
   margin-right: var(--bs-navbar-brand-margin-end);
   font-size: var(--bs-navbar-brand-font-size);
   color: var(--bs-navbar-brand-color);
-  text-decoration: none;
+  text-decoration: none;  
   white-space: nowrap;
+  display: inline-block; 
+  padding-top: 0rem; 
+  padding-bottom: .3125rem; 
+  margin-right: 2rem; 
+  font-size: 1rem; 
+  line-height: inherit; 
+  white-space: nowrap;
+  
 }
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
@@ -5861,20 +5872,19 @@ textarea.form-control-lg {
 .carousel-control-prev,
 .carousel-control-next {
   position: absolute;
-  top: 500px;
-  left: 1750px;
+  top: 0;
   bottom: 0;
   z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 10%;
-  padding: 50px;
-  color: #fff;
+  width: 15%;
+  padding: 0;
+  background-color: #000;
   text-align: center;
   background: none;
   border: 0;
-  opacity: 1;
+  opacity: 0.5;
   transition: opacity 0.15s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -5886,10 +5896,11 @@ textarea.form-control-lg {
 .carousel-control-prev:hover, .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
-  color: #fff;
+  background-color: #000000;
   text-decoration: none;
   outline: 0;
   opacity: 0.9;
+
 }
 
 .carousel-control-prev {
@@ -5950,7 +5961,7 @@ textarea.form-control-lg {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #000;
   background-clip: padding-box;
   border: 0;
   border-top: 10px solid transparent;
@@ -10830,7 +10841,7 @@ textarea.form-control-lg {
 #movingImage 
  {
       position: absolute;
-      top: 400px;
+      top: 300px;
       margin-left: 50px;
       transform: translate(0, -50%);
       width:350px;
@@ -10855,7 +10866,7 @@ textarea.form-control-lg {
 /*---------------------second image coming ------------------ */ 
  #KAOXImage{
       position: absolute;
-      top: 400px;
+      top: 300px;
       margin-left: 450px;
       transform: translate(0, -50%);
       width:350px;
@@ -10883,7 +10894,7 @@ textarea.form-control-lg {
 
 #KA_100{
       position: absolute;
-      top: 650px;
+      top: 550px;
       margin-left: 50px;
       transform: translate(0, -50%);
       width:350px;
@@ -10909,7 +10920,7 @@ textarea.form-control-lg {
 /* --------------- fourth image coming ------------------ */ 
 #KA_200{
     position: absolute;
-    top: 650px;
+    top: 550px;
     margin-left: 450px;
     transform: translate(0, -50%);
     width:350px;
@@ -10935,8 +10946,8 @@ textarea.form-control-lg {
 /* -------------------Fifth Image Coming -------------- */ 
 #KX_100{
     position: absolute;
-    top: 400px;
-    margin-left: 850px;
+    top: 300px;
+    margin-left: 875px;
     transform: translate(0, -50%);
     width:350px;
     height: auto;
@@ -10955,6 +10966,7 @@ textarea.form-control-lg {
   #KX_100:hover img
   {
     width: 550px;
+    overflow: hidden;
     transition-timing-function: ease-in;
     transition: width 2s, height 4s;
   }
@@ -10962,8 +10974,8 @@ textarea.form-control-lg {
 /* --------------- sixth image coming ----------------- */ 
 #KD_200{
     position: absolute;
-    top: 650px;
-    margin-left: 850px;
+    top: 550px;
+    margin-left: 875px;
     transform: translate(0, -50%);
     width:350px;
     height: auto;
@@ -10990,7 +11002,7 @@ textarea.form-control-lg {
 
 #KF_60
 { position: absolute;
-    top: 400px;
+    top: 300px;
     margin-left: 1300px;
     transform: translate(0, -50%);
     width:350px;
@@ -11013,6 +11025,37 @@ textarea.form-control-lg {
     transition-timing-function: ease-in;
     transition: width 2s, height 4s;
   }
+
+
+/*-----------------8th image coming here ------------ */ 
+
+#pressure
+{ position: absolute;
+    top: 530px;
+    margin-left: 1310px;
+    transform: translate(0, -50%);
+    width:200px;
+    height: auto;
+    z-index: 2;
+
+  }
+
+  #pressure img {
+    width: 100%; 
+    height: auto;
+    transition: width 2s, height 4s;
+    transition-timing-function: ease-out;
+
+  }
+
+  #pressure:hover img
+  {
+    width: 550px;
+    transition-timing-function: ease-in;
+    transition: width 2s, height 4s;
+  }
+
+
 
 
 
@@ -11062,12 +11105,12 @@ textarea.form-control-lg {
       width: 800px; /* Adjust the width as needed */
       height: 460px; /* Adjust the height as needed */
       position: absolute; /* Use absolute positioning */
-      top: 280px; /* Adjust the top position as needed */
-      left: 25px; /* Adjust the left position as needed */
+      top: 180px; /* Adjust the top position as needed */
+      left: 10px; /* Adjust the left position as needed */
       border-radius: 15px; /* Adjust the border-radius for rounded corners */
-      background-color: #f0f0f0; /* Set the background color as needed */
+      background-color: #ffffff; /* Set the background color as needed */
       border: 2px solid #000; /* Optional: Add a border for better visibility */
-      opacity: 0.2;
+      opacity: 1;
       z-index: 1;
     }
 
@@ -11076,34 +11119,68 @@ textarea.form-control-lg {
       width: 400px; /* Adjust the width as needed */
       height: 460px; /* Adjust the height as needed */
       position: absolute; /* Use absolute positioning */
-      top: 280px; /* Adjust the top position as needed */
-      left: 850px; /* Adjust the left position as needed */
+      top: 180px; /* Adjust the top position as needed */
+      left: 820px; /* Adjust the left position as needed */
       border-radius: 15px; /* Adjust the border-radius for rounded corners */
-      background-color: #f0f0f0; /* Set the background color as needed */
+      background-color: #ffffff; /* Set the background color as needed */
       border: 2px solid #000; /* Optional: Add a border for better visibility */
-      opacity: 0.2;
+      opacity: 1;
       z-index: 1;
     }
 
 .rounded-rectangle-3
     {
-      width: 400px; /* Adjust the width as needed */
+      width: 430px; /* Adjust the width as needed */
       height: 460px; /* Adjust the height as needed */
       position: absolute; /* Use absolute positioning */
-      top: 280px; /* Adjust the top position as needed */
-      left: 1275px; /* Adjust the left position as needed */
+      top: 180px; /* Adjust the top position as needed */
+      left: 1225px; /* Adjust the left position as needed */
+      border-radius: 15px; /* Adjust the border-radius for rounded corners */
+      background-color: #ffffff; /* Set the background color as needed */
+      border: 2px solid #000; /* Optional: Add a border for better visibility */
+      opacity: 1;
+      z-index: 1;
+    }
+
+.rounded-rectangle-accessories
+{
+      width: 220px; /* Adjust the width as needed */
+      height: 460px; /* Adjust the height as needed */
+      position: absolute; /* Use absolute positioning */
+      top: 180px; /* Adjust the top position as needed */
+      left: 1660px; /* Adjust the left position as needed */
       border-radius: 15px; /* Adjust the border-radius for rounded corners */
       background-color: #f0f0f0; /* Set the background color as needed */
       border: 2px solid #000; /* Optional: Add a border for better visibility */
-      opacity: 0.2;
+      opacity: 1;
       z-index: 1;
-    }
+
+
+}
+
+
+
+#accessories img
+{
+  position: absolute;
+  top: 56px;
+  left: 0px;
+  z-index: 0;
+}
+
+#background2 img
+{
+  position: absolute;
+  top: 56px;
+  left: 896px;
+  z-index: 0;
+}
 
 
 #click-icon
 {
   left: 75px;
-  top: 325px;
+  top: 225px;
   position: absolute;
   z-index: 6;
   opacity: 0.7;
@@ -11112,7 +11189,7 @@ textarea.form-control-lg {
 #click-icon-2
 {
   left: 425px;
-  top: 325px;
+  top: 225px;
   position: absolute;
   z-index: 4;
   opacity: 0.7;
@@ -11121,7 +11198,7 @@ textarea.form-control-lg {
 #click-icon-3
 {
   left: 860px;
-  top: 325px;
+  top: 225px;
   position: absolute;
   z-index: 3;
   opacity: 0.7;
@@ -11130,7 +11207,7 @@ textarea.form-control-lg {
 #click-icon-4
 {
   left: 1285px;
-  top: 325px;
+  top: 225px;
   position: absolute;
   z-index: 2;
   opacity: 0.7;
@@ -11140,7 +11217,7 @@ textarea.form-control-lg {
 #click-icon-5
 {
   left: 75px;
-  top: 525px;
+  top: 425px;
   position: absolute;
   z-index: 7;
   opacity: 0.7;
@@ -11150,7 +11227,7 @@ textarea.form-control-lg {
 #click-icon-6
 {
   left: 425px;
-  top: 525px;
+  top: 425px;
   position: absolute;
   z-index: 2;
   opacity: 0.7;
@@ -11160,7 +11237,16 @@ textarea.form-control-lg {
 #click-icon-7
 {
   left: 860px;
-  top: 525px;
+  top: 425px;
+  position: absolute;
+  z-index: 2;
+  opacity: 0.7;
+}
+
+#click-icon-8
+{
+  left: 1285px;
+  top: 425px;
   position: absolute;
   z-index: 2;
   opacity: 0.7;
@@ -11192,7 +11278,7 @@ textarea.form-control-lg {
 .blinking-text-callibrators {
   animation: blink 1s infinite; /* Adjust the animation duration as needed */
   position: absolute;
-  top: 235px;
+  top: 135px;
   left: 1400px;
   color: red;
   font-weight: bold;
@@ -11202,7 +11288,7 @@ textarea.form-control-lg {
  {
   animation: blink 1s infinite; /* Adjust the animation duration as needed */
   position: absolute;
-  top: 235px;
+  top: 135px;
   left: 400px;
   color: red;
   font-weight: bold;
@@ -11213,8 +11299,29 @@ textarea.form-control-lg {
  {
   animation: blink 1s infinite; /* Adjust the animation duration as needed */
   position: absolute;
-  top: 235px;
+  top: 135px;
   left: 950px;
+  color: red;
+  font-weight: bold;
+ }
+
+
+ .blinking-text-pressure_scanner
+ {
+  animation: blink 1s infinite; /* Adjust the animation duration as needed */
+  position: absolute;
+  top: 415px;
+  left: 1325px;
+  color: red;
+  font-weight: bold;
+ }
+
+ .blinking-text-accessories
+ {
+  animation: blink 1s infinite; /* Adjust the animation duration as needed */
+  position: absolute;
+  top: 135px;
+  left: 1720px;
   color: red;
   font-weight: bold;
  }
@@ -11222,21 +11329,1252 @@ textarea.form-control-lg {
 
 
 
-.hall-text-1
-{
-  font-weight: 800;
-  font-size: xx-large;
-  color: black;
-  font-family: "DM Sans", sans-serif;
+
+  .text-box-item-6 {
+    position: absolute;      
+    top: 800px; 
+    left: -800px;
+    background-color: rgba(256, 256, 256, 0.7);
+    color: #000; 
+    padding: 5px;
+    display: none;
+    font-size: xx-large;
+        }
+
+  .text-box-item-7 {
+    position: absolute;      
+    top: 800px; 
+    left: -800px;
+    background-color: rgba(256, 256, 256, 0.7);
+    color: #000; 
+    padding: 5px;
+    display: none;
+    font-size: xx-large;
+        }
+
+ .text-box-item-8 {
+    position: absolute;      
+    top: 800px; 
+    left: -800px;
+    background-color: rgba(256, 256, 256, 0.7);
+    color: #000; 
+    padding: 5px;
+    display: none;
+    font-size: xx-large;
+        }
+
+ .text-box-item-9 {
+    position: absolute;      
+    top: 800px; 
+    left: -800px;
+    background-color: rgba(256, 256, 256, 0.7);
+    color: #000; 
+    padding: 5px;
+    display: none;
+    font-size: xx-large;
+        }
+
+ .text-box-item-10 {
+    position: absolute;      
+    top: 800px; 
+    left: -800px;
+    background-color: rgba(256, 256, 256, 0.7);
+    color: #000; 
+    padding: 5px;
+    display: none;
+    font-size: xx-large;
+        }
+
+.text-box-item-11 {
+    position: absolute;      
+    top: 800px; 
+    left: -600px;
+    background-color: rgba(256, 256, 256, 0.7);
+    color: #000; 
+    padding: 0px;
+    display: none;
+    font-size: large;
+        }
+
+.text-box-item-12 {
+    position:absolute;
+    top: 800px; 
+    left: 500px;
+    background-color: rgba(256, 256, 256, 0.7);
+    color: #000; 
+    padding: 5px;
+    display:none;
+    font-size: large;
+        }
+
+.text-box-item-13 {
+    position:absolute;
+    top: 800px; 
+    left: 500px;
+    background-color: rgba(256, 256, 256, 0.7);
+    color: #000; 
+    padding: 5px;
+    display:none;
+    font-size: xx-large;
+        }
+
+
+
+
+/* KX 100 */ 
+
+  #KX_100:hover .text-box-item-6 {
+            color: #000;
+            display:flex;
+            top: 510px; 
+            left: -850px;
+            z-index: 999;
+        }
+
+  #KX_100:hover .text-box-item-7 {
+            color: #000;
+            font-size: larger;
+            display:flex;
+            top: 510px; 
+            left: -550px;
+            z-index: 999;
+        }
+
+ #KX_100:hover .text-box-item-8 {
+            color: #000;
+            font-size: larger;
+            display:flex;
+            top: 535px; 
+            left: -550px;
+            z-index: 999;
+        }
+
+#KX_100:hover .text-box-item-9 {
+            color: #000;
+            font-size: larger;
+            display:flex;
+            top: 570px; 
+            left: -550px;
+            z-index: 999;
+        }
+
+#KX_100:hover .text-box-item-10 {
+            color: #000;
+            font-size: larger;
+            display:flex;
+            top: 605px; 
+            left: -550px;
+            z-index: 999;
+        }
+
+#KX_100:hover .text-box-item-11 {
+            color: #000;
+            font-size:medium;
+            display:flex;
+            top: 515px; 
+            left: -125px;
+            z-index: 999;
+        }
+
+#KX_100:hover .text-box-item-12 {
+            color: #000;
+            font-size:medium; 
+            display:flex; 
+            width: 510px;
+            top:515px;
+            left: 350px;
+            z-index: 999;
+        }
+
+
+/*-----------------KA-100 -------------------*/
+
+
+#KA_100:hover .text-box-item-6 {
+            display:flex;
+            top: 255px; 
+            left: 0px;
+            color: #000;
+            z-index: 999;
+
+        }
+
+#KA_100:hover .text-box-item-7 {
+            width: 300px;
+            font-size: larger;
+            display:flex;
+            top: 255px; 
+            left: 275px;
+            color: #000;
+            z-index: 999;
+        }
+
+#KA_100:hover .text-box-item-8 {
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 285px; 
+            left: 275px;
+            color: #000;
+            z-index: 999;
+        }
+
+#KA_100:hover .text-box-item-9 {
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 320px; 
+            left: 275px;
+            color: #000;
+            z-index: 999;
+        }
+
+#KA_100:hover .text-box-item-10 {
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 355px; 
+            left: 275px;
+            color: #000;
+            z-index: 999;
+        }
+
+#KA_100:hover .text-box-item-11 {
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 390px; 
+            left: 275px;
+            color: #000;
+            z-index: 999;
+        }
+
+#KA_100:hover .text-box-item-12 {
+            width: 600px;
+            font-size: larger;
+            display:flex;
+            top: 255px; 
+            left: 1000px;
+            color: #000;
+            z-index: 999;
+        }
+
+#KA_100:hover .text-box-item-13 {
+            font-size: larger;
+            display:flex;
+            top: 255px; 
+            left: 775px;
+            color: #000;
+            z-index: 999;
+        }
+
+    
+/* --------------KA-200 ------------*/ 
+
+#KA_200:hover .text-box-item-6 {
+            display:flex;
+            top: 300px; 
+            left: -350px;
+            color: #000;
+            z-index: 999;
+        }
+
+#KA_200:hover .text-box-item-7 {
+            width: 300px;
+            font-size: larger;
+            display:flex;
+            top: 300px; 
+            left: -50px;
+            color: #000;
+            z-index: 999;
+
+        }
+
+#KA_200:hover .text-box-item-8 {
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 335px; 
+            left: -50px;
+            color: #000;
+            z-index: 999;
+
+        }
+
+#KA_200:hover .text-box-item-9 {
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 370px; 
+            left: -50px;
+            color: #000;
+            z-index: 999;
+
+        }
+
+#KA_200:hover .text-box-item-10 {
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 405px; 
+            left: -50px;
+            color: #000;
+            z-index: 999;
+        }
+
+#KA_200:hover .text-box-item-11 {
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 440px; 
+            left: -50px;
+            color: #000;
+            z-index: 999;
+
+        }
+
+#KA_200:hover .text-box-item-12 {
+            width: 600px;
+            font-size: larger;
+            display:flex;
+            top: 290px; 
+            left: 650px;
+            color: #000;
+            z-index: 999;
+
+        }
+
+#KA_200:hover .text-box-item-13 {
+            font-size: larger;
+            display:flex;
+            top: 300px; 
+            left: 500px;
+            color: #000;
+            z-index: 999;
+
+        }
+
+
+/* KX200 will come here */ 
+
+#KD_200:hover .text-box-item-6 {
+            color: #000;
+            display:flex;
+            top: 305px; 
+            left: -845px;
+            z-index: 999;
+        }
+
+#KD_200:hover .text-box-item-7 {
+            color: #000;
+            width: 300px;
+            font-size: larger;
+            display:flex;
+            top: 305px; 
+            left: -550px;
+            z-index: 999;
+        }
+
+#KD_200:hover .text-box-item-8 {
+            color: #000;
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 335px; 
+            left: -550px;
+            z-index: 999;
+        }
+
+#KD_200:hover .text-box-item-9 {
+            color: #000;
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 370px; 
+            left: -550px;
+            z-index: 999;
+        }
+
+#KD_200:hover .text-box-item-10 {
+            color: #000;
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 405px; 
+            left: -550px;
+            z-index: 999;
+        }
+
+#KD_200:hover .text-box-item-11 {
+            color: #000;
+            width: 900px;
+            font-size:medium;
+            display:flex;
+            top: 320px; 
+            left: 100px;
+            z-index: 999;
+        }
+
+#KD_200:hover .text-box-item-13 {
+            color: #000;
+            font-size: larger;
+            display:flex;
+            top: 300px; 
+            left: 500px;
+            z-index: 999;
+        }
+
+
+
+/*---------------MINISX ---------------*/
+#movingImage:hover .text-box-item-6 {
+            color: #000;
+            display:flex;
+            top: 510px; 
+            left: 0px;
+            z-index: 999;
+        }
+
+#movingImage:hover .text-box-item-7 {
+            color: #000;
+            width: 300px;
+            font-size: larger;
+            display:flex;
+            top: 510px; 
+            left:275px;
+            z-index: 999;
+        }
+
+#movingImage:hover .text-box-item-8 {
+            color: #000;
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 535px; 
+            left: 275px;
+            z-index: 999;
+        }
+
+#movingImage:hover .text-box-item-9 {
+            color: #000;
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 570px; 
+            left: 275px;
+            z-index: 999;
+        }
+
+#movingImage:hover .text-box-item-10 {
+            color: #000;
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 605px; 
+            left: 275px;
+            z-index: 999;
+        }
+
+#movingImage:hover .text-box-item-11 {
+            color: #000;
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 640px; 
+            left: 275px;
+            z-index: 999;
+        }
+
+#movingImage:hover .text-box-item-12 {
+            color: #000;
+            width: 600px;
+            font-size: larger;
+            display:flex;
+            top: 510px; 
+            left: 1050px;
+            z-index: 999;
+        }
+
+#movingImage:hover .text-box-item-13 {
+            color: #000;
+            font-size: larger;
+            display:flex;
+            top: 510px; 
+            left: 850px;
+            z-index: 999;
+        }
+
+/*---KA0X Image hover---------------*/ 
+
+#KAOXImage:hover .text-box-item-6 {
+            color: #000;
+            display:flex;
+            top: 510px; 
+            left: -375px;
+            z-index: 999;
+        }
+
+#KAOXImage:hover .text-box-item-7 {
+            color: #000;
+            width: 300px;
+            font-size: larger;
+            display:flex;
+            top: 510px; 
+            left:-100px;
+            z-index: 999;
+        }
+
+#KAOXImage:hover .text-box-item-8 {
+            color: #000;
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 535px; 
+            left: -100px;
+            z-index: 999;
+        }
+
+#KAOXImage:hover .text-box-item-9 {
+            color: #000;
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 570px; 
+            left: -100px;
+            z-index: 999;
+        }
+
+#KAOXImage:hover .text-box-item-10 {
+            color: #000;
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 605px; 
+            left: -100px;
+            z-index: 999;
+        }
+
+#KAOXImage:hover .text-box-item-11 {
+            color: #000;
+            width: 400px;
+            font-size: larger;
+            display:flex;
+            top: 640px; 
+            left: -95px;
+            z-index: 999;
+        }
+
+#KAOXImage:hover .text-box-item-12 {
+            
+            color: #000;
+            width: 600px;
+            font-size:large;
+            display:flex;
+            top: 505px; 
+            left: 650px;
+            z-index: 999;
+        }
+
+#KAOXImage:hover .text-box-item-13 {
+            color: #000;
+            font-size: larger;
+            display:flex;
+            top: 510px; 
+            left: 475px;
+            z-index: 999;
+        }
+
+/*-------------------------- KFC60 comes here -------------------*/
+
+#KF_60:hover .text-box-item-6 {
+            color:#000;
+            display:flex;
+            top: 510px; 
+            left: -1200px;
+            z-index: 999;
+        }
+
+#KF_60:hover .text-box-item-7 {
+            color:#000;
+            width: 450px;
+            font-size: larger;
+            display:flex;
+            top: 510px; 
+            left:-900px;
+            z-index: 999;
+        }
+
+#KF_60:hover .text-box-item-12 {
+
+            color:#000;
+            width: 600px;
+            font-size: large;
+            display:flex;
+            top: 505px; 
+            left: -100px;
+            z-index: 999;
+        }
+
+#KF_60:hover .text-box-item-13 {
+            color:#000;
+            width: 200px;
+            font-size: larger;
+            display:flex;
+            top: 505px; 
+            left: -400px;
+            z-index: 999;
+        }
+
+
+
+/*---------------------------------------------------------------*/ 
+
+
+#KA_200:hover .rounded-rectangle-5 {
+
+    width: 1850px;
+    height: 250px;
+    position:absolute; 
+    left:-400px;
+    top:275px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid #000;
+    opacity: 1;
+    z-index: 999;
 
 }
 
 
-.hall-text-2
+#KD_200:hover .rounded-rectangle-5
 {
-  font-weight: 800;
-  font-size: xx-large;
-  color: red;
-  font-family: "DM Sans", sans-serif;
+    width: 2000px;
+    height: 250px;
+    position:absolute; 
+    left:-850px;
+    top:300px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid #000;
+    opacity: 1;
+    z-index: 999;
+}
 
+
+
+#KX_100:hover .rounded-rectangle-5
+{
+    width: 1850px;
+    height: 250px;
+    position:absolute; 
+    left:-850px;
+    top:500px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid #000;
+    opacity: 1;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+#movingImage:hover .rounded-rectangle-5
+{
+    width: 1850px;
+    height: 250px;
+    position:absolute; 
+    left:-25px;
+    top:500px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid #000;
+    opacity: 1;
+    z-index: 999;
+}
+
+
+#KAOXImage:hover .rounded-rectangle-5
+{
+    width: 1850px;
+    height: 250px;
+    position:absolute; 
+    left:-420px;
+    top:500px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid #000;
+    opacity: 1;
+    z-index: 999;
+}
+
+
+#KA_100:hover .rounded-rectangle-5
+{
+    width: 1850px;
+    height: 250px;
+    position:absolute; 
+    left:-25px;
+    top:250px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid #000;
+    opacity: 1;
+    z-index: 999;
+}
+
+#KF_60:hover .rounded-rectangle-5
+{
+    width: 1850px;
+    height: 250px;
+    position:absolute; 
+    left:-1250px;
+    top:500px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid #000;
+    opacity: 1;
+    z-index: 1;
+}
+
+
+#pressure:hover .rounded-rectangle-5
+{
+    width: 2000px;
+    height: 150px;
+    position:absolute; 
+    left:-1700px;
+    top:450px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 255, 1);
+    border: 2px solid #000;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+
+@media screen and (max-width: 375px)
+{
+  body{
+    background-color: white;
+  }
+
+     #company_logo
+  {
+        position: absolute; 
+        left:-10px;
+        top:0px;
+    }
+
+
+
+
+
+
+ .rounded-rectangle {
+      width: 220px; /* Adjust the width as needed */
+      height: 175px; /* Adjust the height as needed */
+      position: absolute; /* Use absolute positioning */
+      top: 120px; /* Adjust the top position as needed */
+      left: 70px; /* Adjust the left position as needed */
+      border-radius: 15px; /* Adjust the border-radius for rounded corners */
+      background-color: #f0f0f0; /* Set the background color as needed */
+      border: 2px solid #000; /* Optional: Add a border for better visibility */
+      opacity: 0.2;
+      z-index: 1;
+    }
+
+     .rounded-rectangle-2
+    {
+      width: 220px; /* Adjust the width as needed */
+      height: 75px; /* Adjust the height as needed */
+      position: absolute; /* Use absolute positioning */
+      top: 320px; /* Adjust the top position as needed */
+      left: 70px; /* Adjust the left position as needed */
+      border-radius: 15px; /* Adjust the border-radius for rounded corners */
+      background-color: #f0f0f0; /* Set the background color as needed */
+      border: 2px solid #000; /* Optional: Add a border for better visibility */
+      opacity: 0.2;
+      z-index: 1;
+    }
+
+.rounded-rectangle-3
+    {
+      width: 120px; /* Adjust the width as needed */
+      height: 100px; /* Adjust the height as needed */
+      position: absolute; /* Use absolute positioning */
+      top: 420px; /* Adjust the top position as needed */
+      left: 60px; /* Adjust the left position as needed */
+      border-radius: 15px; /* Adjust the border-radius for rounded corners */
+      background-color: #f0f0f0; /* Set the background color as needed */
+      border: 2px solid #000; /* Optional: Add a border for better visibility */
+      opacity: 0.2;
+      z-index: 1;
+    }
+
+.rounded-rectangle-4
+    {
+      width: 120px; /* Adjust the width as needed */
+      height: 100px; /* Adjust the height as needed */
+      position: absolute; /* Use absolute positioning */
+      top: 420px; /* Adjust the top position as needed */
+      left: 190px; /* Adjust the left position as needed */
+      border-radius: 15px; /* Adjust the border-radius for rounded corners */
+      background-color: #f0f0f0; /* Set the background color as needed */
+      border: 2px solid #000; /* Optional: Add a border for better visibility */
+      opacity: 0.2;
+      z-index: 1;
+    }
+
+
+
+
+
+ .blinking-text-airgages
+ {
+  animation: blink 1s infinite; /* Adjust the animation duration as needed */
+  position: absolute;
+  top: 100px;
+  left: 145px;
+  color: red;
+  font-weight: bold;
+  font-size: small;
+
+ }
+
+.blinking-text-callibrators {
+  animation: blink 1s infinite; /* Adjust the animation duration as needed */
+  position: absolute;
+  top: 400px;
+  left: 75px;
+  color: red;
+  font-weight: bold;
+  font-size:small;
+ }
+
+ .blinking-text-leaktesting
+ {
+  animation: blink 1s infinite; /* Adjust the animation duration as needed */
+  position: absolute;
+  top: 300px;
+  left: 105px;
+  color: red;
+  font-weight: bold;
+  font-size:small;
+ }
+
+
+ .blinking-text-pressure_scanner
+ {
+  animation: blink 1s infinite; /* Adjust the animation duration as needed */
+  position: absolute;
+  top: 400px;
+  left: 185px;
+  color: red;
+  font-weight: bold;
+  font-size: small;
+ }
+
+
+
+
+
+
+
+
+    #movingImage 
+ {
+      position: absolute;
+      top: 170px;
+      margin-left: 80px;
+      transform: translate(0, -50%);
+      width:100px;
+      height: auto;
+      z-index: 5;
+
+    }
+
+    #movingImage img {
+      width: 100%; /* Make the image fill the container */
+      height: auto;
+      transition: width 2s, height 4s;
+      transition-timing-function: ease-out;
+    }
+
+    #movingImage:hover img
+    {
+      width: 250px;
+      transition-timing-function: ease-in;
+      transition: width 2s, height 4s;
+    }
+
+
+#KAOXImage{
+      position: absolute;
+      top: 170px;
+      margin-left: 180px;
+      transform: translate(0, -50%);
+      width:100px;
+      height: auto;
+      transition: margin-left 2s ease-out; /* Transition for margin-left */
+      z-index: 4;
+    }
+
+    #KAOXImage img {
+      width: 100%; /* Make the image fill the container */
+      height: auto;
+      transition: width 2s, height 4s;
+      transition-timing-function: ease-out;
+
+    }
+
+    #KAOXImage:hover img
+    {
+      width: 250px;
+      transition-timing-function: ease-in;
+      transition: width 2s, height 4s;
+    }
+
+
+#KA_100{
+      position: absolute;
+      top: 250px;
+      margin-left: 80px;
+      transform: translate(0, -50%);
+      width:100px;
+      height: auto;
+      z-index: 4;
+    }
+
+    #KA_100 img {
+      width: 100%; 
+      height: auto;
+      transition: width 2s, height 4s;
+      transition-timing-function: ease-out;
+
+    }
+
+    #KA_100:hover img
+    {
+      width: 250px;
+      transition-timing-function: ease-in;
+      transition: width 2s, height 4s;
+    }
+
+
+
+#KA_200{
+    position: absolute;
+    top: 250px;
+    margin-left: 180px;
+    transform: translate(0, -50%);
+    width:100px;
+    height: auto;
+    z-index: 3;
+  }
+
+  #KA_200 img {
+    width: 100%; 
+    height: auto;
+    transition: width 2s, height 4s;
+    transition-timing-function: ease-out;
+
+  }
+
+  #KA_200:hover img
+  {
+    width: 250px;
+    transition-timing-function: ease-in;
+    transition: width 2s, height 4s;
+  }
+
+
+#KX_100{
+    position: absolute;
+    top: 350px;
+    margin-left: 80px;
+    transform: translate(0, -50%);
+    width:100px;
+    height: auto;
+    z-index: 3;
+
+  }
+
+  #KX_100 img {
+    width: 100%; 
+    height: auto;
+    transition: width 2s, height 4s;
+    transition-timing-function: ease-out;
+
+  }
+
+  #KX_100:hover img
+  {
+    width: 250px;
+    overflow: hidden;
+    transition-timing-function: ease-in;
+    transition: width 2s, height 4s;
+  }
+
+
+
+ #KD_200{
+    position: absolute;
+    top: 350px;
+    margin-left: 190px;
+    transform: translate(-50, 0);
+    width:100px;
+    height: auto;
+    z-index: 2;
+
+  }
+
+  #KD_200 img {
+    width: 100%; 
+    height: auto;
+    transition: width 2s, height 4s;
+    transition-timing-function: ease-out;
+
+  }
+
+  #KD_200:hover img
+  {
+    width: 200px;
+    transition-timing-function: ease-in;
+    transition: width 2s, height 4s;
+    transform: translate(-50, -50%) scaleX(-1); 
+  }
+
+ #KF_60
+{ position: absolute;
+    top: 470px;
+    margin-left: 75px;
+    transform: translate(0, -50%);
+    width:100px;
+    height: auto;
+    z-index: 3;
+
+  }
+
+  #KF_60 img {
+    width: 100%; 
+    height: auto;
+    transition: width 2s, height 4s;
+    transition-timing-function: ease-out;
+
+  }
+
+  #KF_60:hover img
+  {
+    width: 250px;
+    transition-timing-function: ease-in;
+    transition: width 2s, height 4s;
+  }
+
+#pressure
+{ position: absolute;
+    top: 470px;
+    margin-left: 210px;
+    transform: translate(0, -50%);
+    width:90px;
+    height: auto;
+    z-index: 2;
+
+  }
+
+  #pressure img {
+    width: 100%; 
+    height: auto;
+    transition: width 2s, height 4s;
+    transition-timing-function: ease-out;
+
+  }
+
+  #pressure:hover img
+  {
+    width: 250px;
+    transition-timing-function: ease-in;
+    transition: width 2s, height 4s;
+  }
+
+#click-icon
+{
+  left: 45px;
+  top: 110px;
+  position: absolute;
+  z-index: 6;
+  opacity: 0.7;
+  width: 5px !important;
+}
+
+#click-icon-2
+{
+  display: none;
+  left: 170px;
+  top: 115px;
+  position: absolute;
+  z-index: 4;
+  opacity: 0.7;
+}
+
+#click-icon-3
+{
+  display: none;
+  left: 75px;
+  top: 200px;
+  position: absolute;
+  z-index: 3;
+  opacity: 0.7;
+}
+
+#click-icon-4
+{
+  display: none;
+  left: 170px;
+  top: 200px;
+  position: absolute;
+  z-index: 2;
+  opacity: 0.7;
+}
+
+
+#click-icon-5
+{
+  left: 40px;
+  top: 300px;
+  position: absolute;
+  z-index: 7;
+  opacity: 0.7;
+}
+
+
+#click-icon-6
+{
+  display:none;
+  left: 170px;
+  top: 325px;
+  position: absolute;
+  z-index: 2;
+  opacity: 0.7;
+}
+
+
+#click-icon-7
+{
+  left: 40px;
+  top: 425px;
+  position: absolute;
+  z-index: 2;
+  opacity: 0.7;
+}
+
+#click-icon-8
+{
+  left: 190px;
+  top: 425px;
+  position: absolute;
+  z-index: 2;
+  opacity: 0.7;
+}
+
+
+/* hovers ------------------------------- */
+
+
+#movingImage:hover .rounded-rectangle-5
+{
+    width: 375px;
+    height: 100px;
+    position:absolute; 
+    left:-80px;
+    top:430px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 255, 1);
+    border: 2px solid #000;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+
+/* MINI SX IPHONE 6/7/8              */ 
+#movingImage:hover .text-box-item-6 {
+            display:flex;
+            top: 440px; 
+            left: -80px;
+            font-size:xx-small; 
+        }
+
+#movingImage:hover .text-box-item-7 {
+            width: 150px;
+            font-size:5px;
+            display:flex;
+            top: 440px; 
+            left:0px;
+        }
+
+#movingImage:hover .text-box-item-8 {
+            width: 400px;
+            font-size: 5px;
+            display:flex;
+            top: 450px; 
+            left: 0px;
+        }
+
+#movingImage:hover .text-box-item-9 {
+            width: 400px;
+            font-size: 5px;
+            display:flex;
+            top: 460px; 
+            left: 0px;
+        }
+
+#movingImage:hover .text-box-item-10 {
+            width: 400px;
+            font-size: 5px; 
+            display:flex;
+            top: 470px; 
+            left: 0px;
+        }
+
+#movingImage:hover .text-box-item-11 {
+            width: 400px;
+            font-size: 5px;
+            display:flex;
+            top: 485px; 
+            left: 5px;
+        }
+
+#movingImage:hover .text-box-item-12 {
+            width: 100px;
+            font-size: 5px;
+            display:flex;
+            top: 430px; 
+            left: 175px;
+        }
+
+#movingImage:hover .text-box-item-13 {
+            font-size: 5px;
+            display:flex;
+            top: 430px; 
+            left: 135px;
+        }
+
+/* KA0x will come here  */ 
+
+
+
+
+
+
+
+
+
+
+  
 }

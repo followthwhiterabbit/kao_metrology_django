@@ -2,15 +2,14 @@
 
  <link rel="stylesheet" type="text/css" href="{% static 'about/style_alternative.css' %}" /> 
 
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar-eski  navbar-nav-eski navbar-brand-eski navbar-expand-lg navbar-dark-eski bg-dark-eski">
             <div class="container">
-                <a class="navbar-brand" href="#">MEASURING AND CONTROL SYSTEMS MANIFACTURING</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="navbar-brand-eski">MEASURING AND CONTROL SYSTEMS MANIFACTURING</a>
+                <button class="navbar-toggler-eski" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse-eski" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">Menu</a></li>
@@ -44,7 +43,7 @@
 
 
  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
+  <ol class="carousel-indicators" style="list-style-type: none;">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -52,20 +51,18 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-
   </ol>
+
   <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="25">
+    <div class="carousel-item active" data-bs-interval="5">
       <img class="d-block w-100" src="{% static 'about/measuring_1_alternative.png' %}" alt="First slide">
-             <div class="sliding-text-container=">
-          <p class="sliding-text fst-italic" id="animated-text">Kao Metrology</p>
-          <p class="sliding-text-2 fst-italic" id="animated-text-2">Fastest, Easiest &  the Most Reliant Measurement</p>
+             <div class="sliding-text-container">
             </div>
         
     </div>
 
 
-    <div class="carousel-item" data-bs-interval="25">
+    <div class="carousel-item" data-bs-interval="5">
     <a href="{% url 'products_page' %}">
       <img class="d-block w-75 modular_image"  src="{% static 'about/modular_devices.jpg' %}" alt="Second slide">
        <div class="airgages" >
@@ -75,7 +72,7 @@
     </div>
 
 
-    <div class="carousel-item" data-bs-interval="25">
+    <div class="carousel-item" data-bs-interval="5">
     <a href="{% url 'products_page' %}">
       <img class="d-block w-75 leak_image" src="{% static 'about/leaktesting.gif' %}" alt="Third slide">
       <div class="leakim">
@@ -84,7 +81,7 @@
       </a>
     </div>
 
-<div class="carousel-item" data-bs-interval="25">
+<div class="carousel-item" data-bs-interval="5">
     <a href="{% url 'products_page' %}">
       <img class="callibrator-image"  src="{% static 'about/KFC60.JPG' %}" alt="Fourth slide">
        <div class="Callibrators">
@@ -95,16 +92,17 @@
 
 
     
-<div class="carousel-item" data-bs-interval="25">
+<div class="carousel-item" data-bs-interval="5">
     <a href="{% url 'products_page' %}">
       <img class="pressure-scanners"  src="{% static 'about/scanner_2.JPG' %}" alt="Fifth slide">
        <div class="Pressure Scanners">
           <h1>Pressure Scanners</h1>
        </div>
+        </a>
     </div>
-  </a>
 
-<div class="carousel-item" data-bs-interval="25">
+
+<div class="carousel-item" data-bs-interval="5">
   
     <a href="{% url 'products_page' %}">
       <img class="modular_metrology"  src="{% static 'about/modular_metrology.png' %}" alt="Sixth slide">
@@ -115,7 +113,7 @@
     </div>
 
 
-<div class="carousel-item" data-bs-interval="25"> 
+<div class="carousel-item" data-bs-interval="5"> 
 
     <a href="{% url 'products_page' %}">
       <img class="probe-image"  src="{% static 'about/probes_new.jpg' %}" alt="Seventh slide">
@@ -133,17 +131,17 @@
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only"></span>
   </a>
+
   <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only"></span>
   </a>
 
 
-
  </div>
 
 
-     
+
 
 
 
@@ -157,124 +155,22 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 
-
-
-
-
-
-
-
-
-<div class="snipcss-3iUoy">
-  <section id="top-1" class="engine">
    
-  </section>
-  <noscript>
-    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-PFK425"
-            height="0" width="0" style="display:none;visibility:hidden">
-    </iframe>
-  </noscript>
-  <section class="menu cid-ryfQpXufii" once="menu" id="menu01-21">
-    
-  </section>
-  
-
-<br>
-<br>   
-<br> 
 
 
-  <section class="cid-ryh8XVUoGh" id="content04-3a">
-    <div class="container align-center">
-      <div class="row justify-content-md-center">
-        <div class="mbr-black col-md-10 col-lg-6">
-          <h3 class="mbr-section-subtitle mbr-semibold align-center mbr-light mbr-fonts-style display-5">
-            HISTORY
-          </h3>
-          <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
-            About Us
-          </h1>
-          <p class="mbr-text pb-3 mbr-fonts-style display-7">
-            Kao was founded in Istanbul in 1995 by an idealistic and dynamic team with thirty years of experience in machinery, electronics, and metrology. With a strong R&D team and modern production lines, Kao has been able to create remarkable products in terms of the technical specifications, ergonomics, aesthetics, and durability. Kao has been producing metrological test devices with measurement precision beyond world standards and extremely user-friendly interfaces in the field of metrology As Kao-Metrology, we aim to collaborate with industrialists to contribute to creating a more efficient and powerful metrological system for a reliable future. Therefore, we see every product we develop as a helper that opens the door to new possibilities. Please don't hesitate to share your thoughts on our products and technologies you encountered on our website. Wishing for every tomorrow to be brighter than today... 
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="features3 cid-rym4BqMZP3" id="features05-3t">
-    <div class="container">
-      <div class="row">
-        <div class="card p-3 col-12 col-md-8 col-lg-4">
-          <div class="card-wrapper">
-            <div class="card-box">
-              <div class="card-img">
-                <img src = "{% static 'about/environment_friendly.jpg'%}" alt="env_friendly" width="300" height="300" >
-              </div>
-              <h4 class="card-title align-center custom-left-first mbr-bold mbr-black mbr-fonts-style display-5">
-                Environment-Friendly
-              </h4>
-              <p class="mbr-text align-center custom-left-third mbr-black mbr-fonts-style display-7">
-             Discover our eco-friendly metrology devices, meticulously crafted for precision and minimal air consumption. Committed to sustainability, our advanced technology not only guarantees accuracy but also minimizes environmental impact. Choose a cleaner, greener solution for your measurements and a healthier atmosphere. 
-              </p>
-              <div class="mbr-section-btn align-center">
-                <a href= "{% url 'products_page' %}" class="btn btn-md btn-red-outline display-4">
 
-                  View More
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card p-3 col-12 col-md-8 col-lg-4">
-          <div class="card-wrapper">
-            <div class="card-box">
-              <div class="card-img">
-                <img src = "{% static 'about/fast-delivery_image.png'%}" alt="fast_delivery" width="300" height="300" >
-              </div>
-              <h4 class="card-title align-center custom-left mbr-bold mbr-black mbr-fonts-style display-5">
-                Fast Delivery Time
-              </h4>
-              <p class="mbr-text align-center custom-left-third mbr-black mbr-fonts-style display-7">
-                
-              </p>
-              <div class="mbr-section-btn align-center">
-                <a href= "{% url 'products_page' %}" class="btn btn-md btn-red-outline display-4">
-                  View More
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card p-3 col-12 col-md-8 col-lg-4">
-          <div class="card-wrapper ">
-            <div class="card-box">
-              <div class="card-img ">
-                <img src = "{% static 'about/quality_assured.jpeg'%}" alt="quality_assured" width="300" height="300"  >
-              </div>
-              <h4 class="card-title align-center custom-left mbr-bold mbr-black mbr-fonts-style display-5">
-                Quality Assured
-              </h4>
-              <p class="mbr-text align-center custom-left-third mbr-black mbr-fonts-style display-7">
-                Quality of Our Products are assured for every device we deliver.
-              </p>
-              <div class="mbr-section-btn align-center">
-                <a href= "{% url 'products_page' %}" class="btn btn-md btn-red-outline display-4">
-                  View More
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
+
+
+
+
   <section class="header3 cid-ryh9am114g" id="content01-3d">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 col-lg-6 py-5 m-auto">
           <div class="media-content">
             <h1 class="mbr-section-title align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              We Know Our Product
+              Metrology is our passion 
             </h1>
             <div class="mbr-section-text mbr-white pb-3 ">
               <p class="mbr-text align-right align-right mbr-fonts-style display-7">
@@ -297,15 +193,77 @@
 
 
 
-        
+        <!--
         <div class="col-md-12 col-lg-6">
           <div class="mbr-figure">
             <img src="{% static 'about/modular_devices.jpg' %}" alt="Mobirise">
           </div>
         </div>
       </div>
+
+    -->
+      
     </div>
   </section>
+
+    <section class="cid-ryhbKc0wrA" id="image03-3p">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="image-block">
+            <img src="{% static 'about/MiniSX_PLUS.JPG' %}" alt="Mobirise">
+            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
+                  DIMENSIONAL MEASUREMENT 
+                </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+                  We are the masters of Air-gaging with 30+ years of experience. 
+                </p>
+              </div>
+            </figcaption>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="image-block">
+            <img src="{% static 'about/KD201.JPG' %}" alt="Mobirise">
+             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+               <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2">
+                  LEAK TESTING 
+                </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+                  Our Touch Screen Leak Testing Systems offer portability, secure setup and precision beyond world standards. 
+                </p>
+              </div>
+            </figcaption>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="image-block">
+            <img src="{% static 'about/KFC60.JPG' %}" alt="Mobirise">
+            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <div class="wrap">
+                <h4 class="pb-4 mbr-white mbr-bold align-center mbr-fonts-style display-2">
+                  CALLIBRATORS
+                </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+                  Our KAO Flow Callibrator offers precise, fast and +12 hours Usage with regular batteries. 
+                </p>
+              </div>
+            </figcaption>
+          </div>
+        </div>
+      </div>
+      
+
+      
+    </div>
+  </section>
+
+  
+
+  
 
 <section class="header3 cid-ryh9am114g" id="content01-3d">
     <div class="container-fluid">
@@ -359,14 +317,14 @@
       <div class="row">
         <div class="col-lg-4">
           <div class="image-block">
-            <img src="{% static 'about/MiniSX_PLUS.JPG' %}" alt="Mobirise">
+            <img src="{% static 'about/scanner_2.JPG' %}" alt="Mobirise">
             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
               <div class="wrap">
-                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-7"> 
-                  DIMENSIONAL MEASUREMENT 
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
+                  PRESSURE SCANNERS 
                 </h4>
-                <p class="pb-2 mbr-white align-center mbr-fonts-style display-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+                  High-Tech Precision Scanning 
                 </p>
               </div>
             </figcaption>
@@ -374,14 +332,14 @@
         </div>
         <div class="col-lg-4">
           <div class="image-block">
-            <img src="{% static 'about/KD201.JPG' %}" alt="Mobirise">
+            <img src="{% static 'about/probes.jpg' %}" alt="Mobirise">
              <figcaption class="mbr-figure-caption mbr-figure-caption-over">
                <div class="wrap">
-                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-7">
-                  LEAK TESTING 
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2">
+                  PROBES 
                 </h4>
-                <p class="pb-2 mbr-white align-center mbr-fonts-style display-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+                  Delivering probes geared to your unique necessities. 
                 </p>
               </div>
             </figcaption>
@@ -392,55 +350,89 @@
             <img src="{% static 'about/IO16_exp.jpg' %}" alt="Mobirise">
             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
               <div class="wrap">
-                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-7">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2">
                   ACCESORIES 
                 </h4>
-                <p class="pb-2 mbr-white align-center mbr-fonts-style display-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+                  Discover accessories and tools for our products 
                 </p>
               </div>
             </figcaption>
           </div>
         </div>
       </div>
+      
+
+      
     </div>
   </section>
-  <section class="cid-ryhbBS90as" id="content04-3n">
-    <div class="container align-center">
-      <div class="row justify-content-md-center">
-        <div class="mbr-black col-md-10 col-lg-6">
-          <h3 class="mbr-section-subtitle mbr-semibold align-center mbr-light mbr-fonts-style display-5">
-            TESTIMONIALS
-          </h3>
-          <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
-            Write About Us
-          </h1>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="testimonials1 cid-ryh93nf0oj" id="testimonials-slider04-3c">
+
+
+        
+         
+   
+
+
+ <section class="features3 cid-rym4BqMZP3" id="features05-3t">
     <div class="container">
-      <div class="media-container-row">
-        <div class="mbr-testimonial col-12 col-lg-12  col-md-12">
-          <div class="panel-item">
-            <div class="card-block">
-              <p class="mbr-text align-center mbr-fonts-style pb-4 display-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper elementum felis
-                in bibendum.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="testimonial-photo">
-                <img src="https://mobirise.com/extensions/photom4/assets/images/face2.jpg">
+      <div class="row">
+        <div class="card p-3 col-12 col-md-8 col-lg-4">
+          <div class="card-wrapper">
+            <div class="card-box">
+              <div class="card-img">
+                <img src = "{% static 'about/environment_friendly.jpg'%}" alt="env_friendly" width="300" height="300" >
               </div>
-              <div class="name">
-                <div class="mbr-author-name align-left mbr-fonts-style display-5">
-                  Ann Smith
-                </div>
-                <small class="mbr-author-desc align-left mbr-italic mbr-light mbr-fonts-style display-7">
-                  Manager
-                </small>
+              <h4 class="card-title align-center custom-left-first mbr-bold mbr-black mbr-fonts-style display-5">
+                Environment-Friendly
+              </h4>
+              <p class="mbr-text align-center custom-left-third mbr-black mbr-fonts-style display-7">
+           
+              </p>
+              <div class="mbr-section-btn align-center">
+                <a href= "{% url 'products_page' %}" class="btn btn-md btn-red-outline display-4">
+
+                  View More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-3 col-12 col-md-8 col-lg-4">
+          <div class="card-wrapper">
+            <div class="card-box">
+              <div class="card-img">
+                <img src = "{% static 'about/fast-delivery_image.png'%}" alt="fast_delivery" width="300" height="300" >
+              </div>
+              <h4 class="card-title align-center custom-left mbr-bold mbr-black mbr-fonts-style display-5">
+                Fast Delivery Time
+              </h4>
+              <p class="mbr-text align-center custom-left-third mbr-black mbr-fonts-style display-7">
+                
+              </p>
+              <div class="mbr-section-btn align-center">
+                <a href= "{% url 'products_page' %}" class="btn btn-md btn-red-outline display-4">
+                  View More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-3 col-12 col-md-8 col-lg-4">
+          <div class="card-wrapper ">
+            <div class="card-box">
+              <div class="card-img ">
+                <img src = "{% static 'about/quality_assured.jpeg'%}" alt="quality_assured" width="300" height="300"  >
+              </div>
+              <h4 class="card-title align-center custom-left mbr-bold mbr-black mbr-fonts-style display-5">
+                Quality Assured
+              </h4>
+              <p class="mbr-text align-center custom-left-third mbr-black mbr-fonts-style display-7">
+       
+              </p>
+              <div class="mbr-section-btn align-center">
+                <a href= "{% url 'products_page' %}" class="btn btn-md btn-red-outline display-4">
+                  View More
+                </a>
               </div>
             </div>
           </div>
@@ -448,6 +440,28 @@
       </div>
     </div>
   </section>
+
+
+  <section class="cid-ryh8XVUoGh" id="content04-3a">
+    <div class="container align-center">
+      <div class="row justify-content-md-center">
+        <div class="mbr-black col-md-10 col-lg-6">
+          <h3 class="mbr-section-subtitle mbr-semibold align-center mbr-light mbr-fonts-style display-5">
+            HISTORY
+          </h3>
+          <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
+            About Us
+          </h1>
+          <p class="mbr-text pb-0 mbr-fonts-style">
+            Kao was founded in Istanbul in 1995 by an idelistic and dynamic team with thirty years of experience in machinery, electronics, and metrology. With a strong R&D team and modern production lines, Kao has been able to create remarkable products in terms of the technical specifications, ergonomics, aesthetics, and durability. Kao has been producing metrological test devices with measurement precision beyond world standards and extremely user-friendly interfaces in the field of metrology As Kao-Metrology, we aim to collaborate with industrialists to contribute to creating a more efficient and powerful metrological system for a reliable future. Therefore, we see every product we develop as a helper that opens the door to new possibilities. Please don't hesitate to share your thoughts on our products and technologies you encountered on our website. Wishing for every tomorrow to be brighter than today... 
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
   <section class="header8 cid-ryhaeS2jHO" id="video01-3k">
     <div class="mbr-overlay style-i9wgX" id="style-i9wgX">
     </div>
@@ -495,9 +509,8 @@
   <section class="header3 cid-ryha7dvnCF" id="social01-3g">
     <div class="container">
       <div class="mbr-section-btn align-center pb-3">
-        <a class="btn btn-sm btn-black display-4" href="https://mobirise.co">
-          <span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn">
-          </span>
+        <a class="btn btn-sm btn-black display-4">
+         
           FOLLOW US
         </a>
         <br>
@@ -532,10 +545,11 @@
       </div>
     </div>
   </section>
-foll  <iframe allow="join-ad-interest-group" data-tagging-id="AW-1071863997" data-load-time="1704746206457" height="0" width="0" src="https://td.doubleclick.net/td/rul/1071863997?random=1704746206455&amp;cv=11&amp;fst=1704746206455&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He4130v71321738&amp;gcd=11l1l1l1l1&amp;dma_cps=sypham&amp;dma=1&amp;u_w=1920&amp;u_h=1080&amp;url=https%3A%2F%2Fmobirise.com%2Fextensions%2Fphotom4%2Fphotoshopdemo%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Photography%20Shop%20Demo%20-%20PhotoM4&amp;fledge=1&amp;uaa=x86&amp;uab=64&amp;uafvl=Google%2520Chrome%3B119.0.6045.105%7CChromium%3B119.0.6045.105%7CNot%253FA_Brand%3B24.0.0.0&amp;uamb=0&amp;uap=Linux&amp;uapv=6.2.0&amp;uaw=0" data-gtm-yt-inspected-19="true" data-gtm-yt-inspected-27="true" id="style-yjkdi" class="style-yjkdi">
+  <!--
+<iframe allow="join-ad-interest-group" data-tagging-id="AW-1071863997" data-load-time="1704746206457" height="0" width="0" src="https://td.doubleclick.net/td/rul/1071863997?random=1704746206455&amp;cv=11&amp;fst=1704746206455&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He4130v71321738&amp;gcd=11l1l1l1l1&amp;dma_cps=sypham&amp;dma=1&amp;u_w=1920&amp;u_h=1080&amp;url=https%3A%2F%2Fmobirise.com%2Fextensions%2Fphotom4%2Fphotoshopdemo%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Photography%20Shop%20Demo%20-%20PhotoM4&amp;fledge=1&amp;uaa=x86&amp;uab=64&amp;uafvl=Google%2520Chrome%3B119.0.6045.105%7CChromium%3B119.0.6045.105%7CNot%253FA_Brand%3B24.0.0.0&amp;uamb=0&amp;uap=Linux&amp;uapv=6.2.0&amp;uaw=0" data-gtm-yt-inspected-19="true" data-gtm-yt-inspected-27="true" id="style-yjkdi" class="style-yjkdi">
   </iframe>
+-->
   <noscript>
     <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1123285727682531&amp;ev=PageView&amp;noscript=1">
   </noscript>
  
-  

@@ -3774,8 +3774,16 @@ textarea.form-control-lg {
   margin-right: var(--bs-navbar-brand-margin-end);
   font-size: var(--bs-navbar-brand-font-size);
   color: var(--bs-navbar-brand-color);
-  text-decoration: none;
+  text-decoration: none;  
   white-space: nowrap;
+  display: inline-block; 
+  padding-top: 0rem; 
+  padding-bottom: .3125rem; 
+  margin-right: 2rem; 
+  font-size: 1rem; 
+  line-height: inherit; 
+  white-space: nowrap;
+  
 }
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
