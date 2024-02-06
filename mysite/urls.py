@@ -31,6 +31,7 @@ urlpatterns = [
     path("leaktesting/", include("leak_testing.urls")),
     path("callibrators/", include("callibrators.urls")),
     path("accessories/", include("accessories.urls")),
+    path("services/", include("services.urls")),
 
 ]
 

@@ -1,6 +1,6 @@
 {% load static %}
 
- <link rel="stylesheet" type="text/css" href="{% static 'products/style_alternative.css' %}" /> 
+ <link rel="stylesheet" type="text/css" href="{% static 'services/style_alternative.css' %}" /> 
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -39,8 +39,11 @@
 </div>  
 
 
+    <img src="{% static 'about/Cursor.png' %}"  class="cursor-1" width="75" height="75">
 
 
+
+    
 
 
 
@@ -64,22 +67,20 @@
   <section class="header3 cid-ryh9am114g" id="content01-3d">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-8 col-lg-4 py-2 m-auto">
+        <div class="col-md-12 col-lg-6 py-5 m-auto">
           <div class="media-content">
             <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              Products 
+              Services   
             </h1>
-            <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              Dimensional measurement
-            </h1>
-
-
             <div class="mbr-section-text mbr-white pb-3 ">
               <p class="mbr-text align-center align-center mbr-fonts-style display-7">
-
-                </p>
-            </div>
+                
+                 </p>
+          </div>
             <div class="mbr-section-btn align-right">
+              <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'products_page' %}"  >
+                View More
+              </a>
             </div>
           </div>
 
@@ -96,46 +97,45 @@
     <section class="cid-ryhbKc0wrA" id="image03-3p">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-4">
           <div class="image-block">
-            <a href="{% url 'dimensional_measurement'%}">
-            <img src="{% static 'about/MiniSX_PLUS.JPG' %}" alt="Mobirise">
+            <img src="{% static 'about/probes.jpg' %}">
             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
               <div class="wrap">
                 <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
-                  MiniSx+
+                  Pneumatic Probes
                  </h4>
                 <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
                 </p>
               </div>
-            </a>
             </figcaption>
           </div>
 
           
         </div>
 
-          <div class="col-lg-6">
-          <div class="image-block">
-            <a href="{% url 'dimensional_measurement'%}">
-            <img src="{% static 'about/KA0XC.JPG' %}" alt="Mobirise">
-            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
-              <div class="wrap">
-                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
-                  KA0X
-                 </h4>
-                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
-                </p>
-              </div>
-            </a>
-            </figcaption>
-          </div>
+        <div class="col-lg-6 mbr-bold align-center mbr-text col-lg-4 py-5">
+       
+          <p class="mbr-text align-center align-center mbr-fonts-style display-4">
+             
+             Measurement of parts is sometimes carried out in a workshop with a single pneumatic device.
+              Sometimes there may be situations where a large number of measurements are required. Measuring multiple dimensions of a part simultaneously will shorten the measurement time. 
+              Sometimes, proper positioning of the part is required to ensure measurement accuracy. 
+              Sometimes, geometric tolerances come into play. Not only diameter but also factors such as ovality, cylindricity, and taper may be required. 
+              In such cases, probe design is important. Do not hesitate to consult us, whether it is to measure a single diameter or 5 diameters.
+               We have services in this regard.
+                  
+          </p>          
 
-          
+
+
+          <a class="btn btn-md btn-black display-4" a href= "{% url 'contact_page' %}"  >
+                GET A QUOTE 
+              </a>
+
+                      
+
         </div>
-
-
-          
 
 
      
@@ -148,7 +148,135 @@
   </section>
 
   
-         
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <section class="header3 cid-ryh9am114g" id="content01-3d">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-lg-6 py-5 m-auto">
+          <div class="media-content">
+            <h1 class="mbr-section-title align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+              AUTOMATIC MEASUREMENT MACHINES OR DEVICES
+            </h1>
+      <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-4">
+           </h1>
+            <div class="mbr-section-text mbr-white pb-3 ">
+          
+            <p class="mbr-text align-center align-center mbr-fonts-style display-7">
+              <h1>"</h1>
+                If you're saying you don't have the time or confidence that your operator always measures accurately, yes, we understand.
+                 Provide us with the specifications, characteristics, and desired measurement time of your part.
+                  Let us develop systems to automatically perform this task for you as soon as possible.
+                   Whether it's simple diameters, geometric tolerances, whether you need pneumatic or contact-based measurement methods, or even if it involves moving the part for measurement, it's no problem.
+                   We have services in this regard.
+                   <h1>"</h1>
+          </p>
+
+        <p class="mbr-text align-center align-center mbr-fonts-style display-7"> 
+        We offer the best products and the services  to our customers and the distributors all around the world.
+                </p>
+
+
+
+
+            </div>
+            <div class="mbr-section-btn align-center">
+              <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'products_page' %}"  >
+                GET A QUOTE 
+               </a>
+            </div>
+          </div>
+
+
+        </div>  
+      </div>
+    </div>
+  </section>
+
+
+  <section class="cid-ryhbKc0wrA" id="image03-3p">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="image-block">
+            <img src="{% static 'about/automatic.JPG' %}">
+            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
+                </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+
+                </p>
+              </div>
+            </figcaption>
+          </div>
+
+        </div>
+             <div class="col-lg-4">
+          <div class="image-block">
+            <img src="{% static 'about/probe_application.jpg' %}">
+            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
+                </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+
+                </p>
+              </div>
+            </figcaption>
+          </div>
+
+        </div>
+
+
+             <div class="col-lg-4">
+          <div class="image-block">
+            <img src="{% static 'about/scanner_4.JPG' %}">
+            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
+                </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+
+                </p>
+              </div>
+            </figcaption>
+          </div>
+
+        </div>
+
+
+
+
+             <!--              
+           <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KD300_tur.pdf'%}" download="KD300.pdf">
+            PDF
+               </a>
+              -->
+
+        </div>
+    
+    </div>
+  </section>
+
+
+
+
+
+
   <section class="header3 cid-ryh9am114g" id="content01-3d">
     <div class="container-fluid">
       <div class="row">
@@ -158,17 +286,16 @@
               Are you interested ? 
             </h1>
       <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-        Contact Us
+              Contact Us 
             </h1>
             <div class="mbr-section-text mbr-white pb-3 ">
-              <p class="mbr-text align-right align-right mbr-fonts-style display-7">
-
-			   
-                </p>
+              <p class="mbr-text align-center align-center mbr-fonts-style display-7">
+              </p>
             </div>
             <div class="mbr-section-btn align-center">
               <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'contact_page' %}"  >
-                CONTACT </a>
+                CONTACT 
+              </a>
             </div>
           </div>
 
@@ -184,314 +311,16 @@
 
 
 
-  <section class="cid-ryhbKc0wrA" id="image03-3p">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="image-block">
-            <a href="{% url 'dimensional_measurement'%}">
-            <img src="{% static 'about/KA100.JPG' %}">
-            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
-              <div class="wrap">
-                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
-                  KA100
-                </h4>
-                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
 
-                </p>
-              </div>
-            </a>
-            </figcaption>
-          </div>
-        </div>
 
 
-     <div class="col-lg-6">
-          <div class="image-block">
-            <a href="{% url 'dimensional_measurement'%}">
-            <img src="{% static 'about/KA200.JPG' %}">
-            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
-              <div class="wrap">
-                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
-                  KA200
-                </h4>
-                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
 
-                </p>
-              </div>
-            </figcaption>
-            </a>
-          </div>
-        </div>
 
 
 
 
-        </div>
-    
-    </div>
-  </section>
 
 
-
-
-
-
-
-
-
-
- <section class="header3 cid-ryh9am114g" id="content01-3d">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 col-lg-6 py-5 m-auto">
-          <div class="media-content">
-            <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              Leak-Testing
-            </h1>
-            
-            <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              Relative Leak-Testing Devices
-            </h1>
-
-
-
-      <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-4">
-           </h1>
-            <div class="mbr-section-text mbr-white pb-3 ">
-              <p class="mbr-text align-center align-center mbr-fonts-style display-7">
-          </p>
-
-        <p class="mbr-text align-center align-center mbr-fonts-style display-7"> 
-                </p>
-
-
-
-
-            </div>
-            <div class="mbr-section-btn align-center">
-              
-            </div>
-          </div>
-
-
-        </div>  
-      </div>
-    </div>
-  </section>
-
-
-
-
-
-
-
-  <section class="cid-ryhbKc0wrA" id="image03-3p">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="image-block"> 
-            <a href="{% url 'leak_testing'%}">
-            <img src="{% static 'about/KR100CW.JPG' %}">
-            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
-              <div class="wrap">
-                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
-                  KR100 - Relative Leak Measurement Device 
-                </h4>
-                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
-
-                </p>
-              </div>
-            </figcaption>
-            </a>
-          </div>
-
-        </div>
-
-
-           <div class="col-lg-6">
-          <div class="image-block"> 
-            <a href="{% url 'leak_testing'%}">
-            <img src="{% static 'about/KD201.JPG' %}">
-            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
-              <div class="wrap">
-                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
-                  KR200 - 1 Channel Relative Leak Measurement Device 
-                </h4>
-                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
-
-                </p>
-              </div>
-            </figcaption>
-            </a>
-          </div>
-
-        </div>
-
-
-
-
-
-
-        </div>
-    
-    </div>
-  </section>
-
-
-
-
-
-
-
-
-
-
- <section class="header3 cid-ryh9am114g" id="content01-3d">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 col-lg-6 py-5 m-auto">
-          <div class="media-content">
-            <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              Leak-Testing
-            </h1>
-            
-            <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              Differential Leak-Testing Devices
-            </h1>
-
-
-
-      <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-4">
-           </h1>
-            <div class="mbr-section-text mbr-white pb-3 ">
-              <p class="mbr-text align-center align-center mbr-fonts-style display-7">
-          </p>
-
-        <p class="mbr-text align-center align-center mbr-fonts-style display-7"> 
-                </p>
-
-
-
-
-            </div>
-            <div class="mbr-section-btn align-center">
-              
-            </div>
-          </div>
-
-
-        </div>  
-      </div>
-    </div>
-
-
-
-
-
-
-
-  <section class="cid-ryhbKc0wrA" id="image03-3p">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="image-block">
-            <a href="{% url 'leak_testing'%}">
-            <img src="{% static 'about/KD100CW.JPG' %}" width="100" height="100">
-             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
-              <div class="wrap">
-                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
-                  KD100CW
-                </h4>
-                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
-                  Differential Leak Testing Device 
-                </p>
-              </div>
-            </figcaption>
-            </a>
-          </div>
-
-        </div>
-
-
-        <div class="col-lg-4">
-          <div class="image-block">
-            <a href="{% url 'leak_testing'%}">
-            <img src="{% static 'about/KD251.JPG' %}" width="100" height="100">
-             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
-              <div class="wrap">
-                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
-                  KD251 
-                </h4>
-                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
-                  1 Channel Differential Leak Testing Device 
-                </p>
-              </div>
-            </figcaption>
-            </a>
-          </div>
-
-        </div>
-
-   
-         <div class="col-lg-4">
-          <div class="image-block">
-            <a href="{% url 'leak_testing'%}">
-            <img src="{% static 'about/KD350.JPG' %}" width="100" height="100">
-             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
-              <div class="wrap">
-                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
-                  KD350
-                </h4>
-                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
-                  2 Channel Differential Leak Testing Device 
-                </p>
-              </div>
-            </figcaption>
-            </a>  
-          </div>
-
-        </div>
-
-
-
-        </div>
-    
-    </div>
-  </section>
-
-
-
-
-
- <section class="header3 cid-ryh9am114g" id="content01-3d">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 col-lg-6 py-5 m-auto">
-          <div class="media-content">
-            <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              Are you interested ? 
-            </h1>
-      <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-        Contact Us
-            </h1>
-            <div class="mbr-section-text mbr-white pb-3 ">
-              <p class="mbr-text align-right align-right mbr-fonts-style display-7">
-
-			   
-                </p>
-            </div>
-            <div class="mbr-section-btn align-center">
-              <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'contact_page' %}"  >
-                CONTACT </a>
-            </div>
-          </div>
-
-
-        </div>  
-      </div>
-    </div>
-  </section>
 
 
 
@@ -558,9 +387,8 @@
   </section>
   <section class="header3 cid-ryha7dvnCF" id="social01-3g">
     <div class="container">
-
       <div class="mbr-section-btn align-center pb-3">
-
+         
     <img src="{% static 'about/turkiye-seeklogo.jpg' %}" alt="turkiyelogo" style="width:200px; height:200px;">
     <br>
          <a href="https://www.linkedin.com/company/kao-metrology/">

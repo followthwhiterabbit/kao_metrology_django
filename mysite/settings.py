@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'dimensional_measurement.apps.DimensionalMeasurementConfig',
     'leak_testing.apps.LeakTestingConfig',
     'callibrators.apps.CallibratorsConfig',
+    'services.apps.ServicesConfig',
     'accessories.apps.AccessoriesConfig',
     'django.contrib.admin',
     'django.contrib.auth',

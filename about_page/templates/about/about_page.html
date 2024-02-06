@@ -14,8 +14,10 @@
 
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">Menu</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">Products</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">Services</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'newsnevents_page' %}">News&Events</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}">Contact</a></li>   
+
                       
                       
                       <li class="nav-item dropdown">
@@ -63,7 +65,7 @@
 
 
     <div class="carousel-item" data-bs-interval="5">
-    <a href="{% url 'products_page' %}">
+    <a href="{% url 'dimensional_measurement' %}">
       <img class="d-block w-75 modular_image"  src="{% static 'about/modular_devices.jpg' %}" alt="Second slide">
        <div class="airgages" >
           <h1>AirGages</h1>
@@ -73,7 +75,7 @@
 
 
     <div class="carousel-item" data-bs-interval="5">
-    <a href="{% url 'products_page' %}">
+    <a href="{% url 'leak_testing' %}">
       <img class="d-block w-75 leak_image" src="{% static 'about/leaktesting.gif' %}" alt="Third slide">
       <div class="leakim">
       <h1>Leak-Testing Devices</h1>
@@ -82,7 +84,7 @@
     </div>
 
 <div class="carousel-item" data-bs-interval="5">
-    <a href="{% url 'products_page' %}">
+    <a href="{% url 'callibrators' %}">
       <img class="callibrator-image"  src="{% static 'about/KFC60.JPG' %}" alt="Fourth slide">
        <div class="Callibrators">
           <h1>Flow Callibrators</h1>
@@ -93,7 +95,7 @@
 
     
 <div class="carousel-item" data-bs-interval="5">
-    <a href="{% url 'products_page' %}">
+    <a href="{% url 'callibrators' %}">
       <img class="pressure-scanners"  src="{% static 'about/scanner_2.JPG' %}" alt="Fifth slide">
        <div class="Pressure Scanners">
           <h1>Pressure Scanners</h1>
@@ -122,7 +124,6 @@
        </div>
        </a>
     </div>
-
 
     
   </div>
@@ -156,13 +157,6 @@
 
 
    
-
-
-
-
-
-
-
 
   <section class="header3 cid-ryh9am114g" id="content01-3d">
     <div class="container-fluid">
@@ -211,6 +205,7 @@
       <div class="row">
         <div class="col-lg-4">
           <div class="image-block">
+            <a href="{% url 'dimensional_measurement'%}">
             <img src="{% static 'about/MiniSX_PLUS.JPG' %}" alt="Mobirise">
             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
               <div class="wrap">
@@ -222,10 +217,12 @@
                 </p>
               </div>
             </figcaption>
+            </a>  
           </div>
         </div>
         <div class="col-lg-4">
           <div class="image-block">
+            <a href="{% url 'leak_testing'%}">
             <img src="{% static 'about/KD201.JPG' %}" alt="Mobirise">
              <figcaption class="mbr-figure-caption mbr-figure-caption-over">
                <div class="wrap">
@@ -237,10 +234,12 @@
                 </p>
               </div>
             </figcaption>
+            </a>  
           </div>
         </div>
         <div class="col-lg-4">
           <div class="image-block">
+            <a href="{% url 'callibrators'%}">
             <img src="{% static 'about/KFC60.JPG' %}" alt="Mobirise">
             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
               <div class="wrap">
@@ -252,11 +251,11 @@
                 </p>
               </div>
             </figcaption>
+            </a>
           </div>
         </div>
       </div>
       
-
       
     </div>
   </section>
@@ -317,6 +316,7 @@
       <div class="row">
         <div class="col-lg-4">
           <div class="image-block">
+            <a href="{% url 'callibrators'%}">
             <img src="{% static 'about/scanner_2.JPG' %}" alt="Mobirise">
             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
               <div class="wrap">
@@ -328,10 +328,13 @@
                 </p>
               </div>
             </figcaption>
+            </a>
           </div>
         </div>
+
         <div class="col-lg-4">
           <div class="image-block">
+            <a href="{% url 'services'%}">
             <img src="{% static 'about/probes.jpg' %}" alt="Mobirise">
              <figcaption class="mbr-figure-caption mbr-figure-caption-over">
                <div class="wrap">
@@ -343,12 +346,15 @@
                 </p>
               </div>
             </figcaption>
+            </a>
           </div>
         </div>
+
         <div class="col-lg-4">
-          <div class="image-block">
+            <div class="image-block">
+            <a href="{% url 'accessories'%}">
             <img src="{% static 'about/IO16_exp.jpg' %}" alt="Mobirise">
-            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <figcaption class="mbr-figure-caption mbr-figure-caption-over">
               <div class="wrap">
                 <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2">
                   ACCESORIES 
@@ -358,8 +364,10 @@
                 </p>
               </div>
             </figcaption>
+            </a>
           </div>
         </div>
+        
       </div>
       
 
@@ -369,10 +377,6 @@
 
 
         
-         
-   
-
-
  <section class="features3 cid-rym4BqMZP3" id="features05-3t">
     <div class="container">
       <div class="row">
@@ -509,10 +513,9 @@
   <section class="header3 cid-ryha7dvnCF" id="social01-3g">
     <div class="container">
       <div class="mbr-section-btn align-center pb-3">
-        <a class="btn btn-sm btn-black display-4">
-         
-          FOLLOW US
-        </a>
+        
+
+    <img src="{% static 'about/turkiye-seeklogo.jpg' %}" alt="turkiyelogo" style="width:200px; height:200px;">
         <br>
          <a href="https://www.linkedin.com/company/kao-metrology/">
             <img src="{% static 'about/LI-In-Bug.png' %}" alt="linked-in logo" style="width:50px; height:50px;">
@@ -532,8 +535,12 @@
       </div>
       
       </div>
-    
+                
+   
   </section>
+
+
+
   <section once="footers" class="cid-ryha9vUPBi" id="footer01-3j">
     <div class="container">
       <div class="media-container-row align-center mbr-white">
@@ -541,9 +548,10 @@
           <p class="mbr-text mb-0 mbr-fonts-style display-7">
             © Copyright 2024 KAO Metrology  - All Rights Reserved
           </p>
-        </div>
+        </div> 
       </div>
     </div>
+
   </section>
   <!--
 <iframe allow="join-ad-interest-group" data-tagging-id="AW-1071863997" data-load-time="1704746206457" height="0" width="0" src="https://td.doubleclick.net/td/rul/1071863997?random=1704746206455&amp;cv=11&amp;fst=1704746206455&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He4130v71321738&amp;gcd=11l1l1l1l1&amp;dma_cps=sypham&amp;dma=1&amp;u_w=1920&amp;u_h=1080&amp;url=https%3A%2F%2Fmobirise.com%2Fextensions%2Fphotom4%2Fphotoshopdemo%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Photography%20Shop%20Demo%20-%20PhotoM4&amp;fledge=1&amp;uaa=x86&amp;uab=64&amp;uafvl=Google%2520Chrome%3B119.0.6045.105%7CChromium%3B119.0.6045.105%7CNot%253FA_Brand%3B24.0.0.0&amp;uamb=0&amp;uap=Linux&amp;uapv=6.2.0&amp;uaw=0" data-gtm-yt-inspected-19="true" data-gtm-yt-inspected-27="true" id="style-yjkdi" class="style-yjkdi">
