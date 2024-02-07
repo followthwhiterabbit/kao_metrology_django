@@ -3742,8 +3742,8 @@ textarea.form-control-lg {
   --bs-navbar-brand-padding-y: 0.3125rem;   
   --bs-navbar-brand-margin-end: rem;
   --bs-navbar-brand-font-size: 1.25rem;
-  --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
-  --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-brand-color: rgba(255, 255, 255, 0.9);
+  --bs-navbar-brand-hover-color: rgba(255, 255, 255, 0.9);
   --bs-navbar-nav-link-padding-x: 1rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: rem;
@@ -3837,7 +3837,7 @@ textarea.form-control-lg {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
-  color: var(--bs-navbar-color);
+  color: rgb(255, 255, 255, 0.9); 
   background-color: transparent;
   border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
   border-radius: var(--bs-navbar-toggler-border-radius);
