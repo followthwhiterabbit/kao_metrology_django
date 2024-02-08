@@ -4,6 +4,7 @@ from django.template import loader
 from django.http import Http404
 
 
+
 # Create your views here.
     # return HttpResponse("website under construction !!!")
 def about_func(request):
@@ -13,3 +14,5 @@ def about_func(request):
         }
      
     return HttpResponse(template.render(context, request))
+
+
