@@ -9,16 +9,16 @@
 
     <nav class="navbar-eski  navbar-nav-eski navbar-brand-eski navbar-expand-lg navbar-dark-eski bg-dark-eski">
             <div class="container">
-                <a class="navbar-brand-eski">MEASURING AND CONTROL SYSTEMS MANIFACTURING</a>
+                <a class="navbar-brand-eski"> % trans 'MEASURING AND CONTROL SYSTEMS MANIFACTURING' %</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="navbar-collapse-eski" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">Menu</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">Products</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">Services</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'newsnevents_page' %}">News&Events</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}">Contact</a></li>   
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">% trans 'Menu' %</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">% trans 'Products' %</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">% trans 'Services' %</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'newsnevents_page' %}"> % trans 'News&Events' %</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}"> % trans 'Contact' %</a></li>   
 
                       
                       
@@ -72,7 +72,7 @@
     <a href="{% url 'dimensional_measurement' %}">
       <img class="d-block w-75 modular_image"  src="{% static 'about/modular_devices.jpg' %}" alt="Second slide">
        <div class="airgages" >
-          <h1>AirGages</h1>
+          <h1>% trans 'AirGages' %</h1>
        </div>
        </a>
     </div>
@@ -82,7 +82,7 @@
     <a href="{% url 'leak_testing' %}">
       <img class="d-block w-75 leak_image" src="{% static 'about/leaktesting.gif' %}" alt="Third slide">
       <div class="leakim">
-      <h1>Leak-Testing Devices</h1>
+      <h1>% trans 'Leak-Testing Devices' %</h1>
       </div>
       </a>
     </div>
@@ -91,7 +91,7 @@
     <a href="{% url 'callibrators' %}">
       <img class="callibrator-image"  src="{% static 'about/KFC60.JPG' %}" alt="Fourth slide">
        <div class="Callibrators">
-          <h1>Flow Callibrators</h1>
+          <h1>% trans 'Flow Callibrators' %</h1>
        </div>
        </a>
     </div>
@@ -102,7 +102,7 @@
     <a href="{% url 'callibrators' %}">
       <img class="pressure-scanners"  src="{% static 'about/scanner_2.JPG' %}" alt="Fifth slide">
        <div class="Pressure Scanners">
-          <h1>Pressure Scanners</h1>
+          <h1>% trans 'Pressure Scanners' %</h1>
        </div>
         </a>
     </div>
@@ -113,7 +113,7 @@
     <a href="{% url 'products_page' %}">
       <img class="modular_metrology"  src="{% static 'about/modular_metrology.png' %}" alt="Sixth slide">
        <div class="Modularim">
-          <h1>Modular Metrology</h1>
+          <h1>% trans 'Modular Metrology' %</h1>
        </div>
        </a>
     </div>
@@ -124,7 +124,7 @@
     <a href="{% url 'products_page' %}">
       <img class="probe-image"  src="{% static 'about/probes_new.jpg' %}" alt="Seventh slide">
        <div class="Probes">
-          <h1>Probes</h1>
+          <h1>% trans 'Probes' %</h1>
        </div>
        </a>
     </div>
@@ -168,19 +168,19 @@
         <div class="col-md-12 col-lg-6 py-5 m-auto">
           <div class="media-content">
             <h1 class="mbr-section-title align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              Metrology is our passion 
+              % trans 'Metrology is our passion' % 
             </h1>
             <div class="mbr-section-text mbr-white pb-3 ">
               <p class="mbr-text align-right align-right mbr-fonts-style display-7">
-			  We are more than a metrological device manufaturer combining the latest technologies and the innovations with 
+			  % trans 'We are more than a metrological device manufaturer combining the latest technologies and the innovations with 
 			  the possibility of new advancements in the manifacturing and automation domain. Apart from producing sophisticated 
 			  devices with portable usage and aesthetics, we provide embedded solutions to the embedded problems in metrology and 
-			  automation. 
+			  automation.'% 
                 </p>
             </div>
             <div class="mbr-section-btn align-right">
               <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'products_page' %}"  >
-                View More
+                % trans 'View More' % 
               </a>
             </div>
           </div>
@@ -214,10 +214,10 @@
             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
               <div class="wrap">
                 <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
-                  DIMENSIONAL MEASUREMENT 
+                  % trans 'DIMENSIONAL MEASUREMENT' % 
                 </h4>
                 <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
-                  We are the masters of Air-gaging with 30+ years of experience. 
+                  % trans 'We are the masters of Air-gaging with 30+ years of experience.' % 
                 </p>
               </div>
             </figcaption>
@@ -231,10 +231,10 @@
              <figcaption class="mbr-figure-caption mbr-figure-caption-over">
                <div class="wrap">
                 <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2">
-                  LEAK TESTING 
+                  % trans 'LEAK TESTING' % 
                 </h4>
                 <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
-                  Our Touch Screen Leak Testing Systems offer portability, secure setup and precision beyond world standards. 
+                  % trans 'Our Touch Screen Leak Testing Systems offer portability, secure setup and precision beyond world standards.' % 
                 </p>
               </div>
             </figcaption>
@@ -251,7 +251,7 @@
                   CALLIBRATORS
                 </h4>
                 <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
-                  Our KAO Flow Callibrator offers precise, fast and +12 hours Usage with regular batteries. 
+                  % trans 'Our KAO Flow Callibrator offers precise, fast and +12 hours Usage with regular batteries. '% 
                 </p>
               </div>
             </figcaption>
@@ -274,13 +274,13 @@
         <div class="col-md-12 col-lg-6 py-5 m-auto">
           <div class="media-content">
             <h1 class="mbr-section-title align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              More than Metrology
+              % trans 'More than Metrology' % 
             </h1>
       <h1 class="mbr-section-title align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              Embedded solutions to embedded problems 
+              % trans 'Embedded solutions to embedded problems' % 
             </h1>
             <div class="mbr-section-text mbr-white pb-3 ">
-              Explore innovative answers to embedded challenges with our cutting-edge embedded systems. More than mere measurements, our solutions redefine efficiency, connectivity, and functionality. Dive into a world where precision meets adaptability, shaping the future of technology seamlessly. Discover the power of embedded solutions on our website today.
+              % trans 'Explore innovative answers to embedded challenges with our cutting-edge embedded systems. More than mere measurements, our solutions redefine efficiency, connectivity, and functionality. Dive into a world where precision meets adaptability, shaping the future of technology seamlessly. Discover the power of embedded solutions on our website today.' %
               <p class="mbr-text align-right align-right mbr-fonts-style display-7">
 
 			   
@@ -288,7 +288,7 @@
             </div>
             <div class="mbr-section-btn align-right">
               <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'products_page' %}"  >
-                View More
+                % trans 'View More' % 
               </a>
             </div>
           </div>
@@ -325,10 +325,10 @@
             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
               <div class="wrap">
                 <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
-                  PRESSURE SCANNERS 
+                  % trans 'PRESSURE SCANNERS'% 
                 </h4>
                 <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
-                  High-Tech Precision Scanning 
+                  % trans 'High-Tech Precision Scanning ' %
                 </p>
               </div>
             </figcaption>
@@ -343,10 +343,10 @@
              <figcaption class="mbr-figure-caption mbr-figure-caption-over">
                <div class="wrap">
                 <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2">
-                  PROBES 
+                  % trans 'PROBES '% 
                 </h4>
                 <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
-                  Delivering probes geared to your unique necessities. 
+                  % trans 'Delivering probes geared to your unique necessities. ' % 
                 </p>
               </div>
             </figcaption>
@@ -361,10 +361,10 @@
               <figcaption class="mbr-figure-caption mbr-figure-caption-over">
               <div class="wrap">
                 <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2">
-                  ACCESORIES 
+                  % trans 'ACCESORIES ' % 
                 </h4>
                 <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
-                  Discover accessories and tools for our products 
+                  % trans 'Discover accessories and tools for our products ' %
                 </p>
               </div>
             </figcaption>
@@ -391,7 +391,7 @@
                 <img src = "{% static 'about/environment_friendly.jpg'%}" alt="env_friendly" width="300" height="300" >
               </div>
               <h4 class="card-title align-center custom-left-first mbr-bold mbr-black mbr-fonts-style display-5">
-                Environment-Friendly
+                % trans 'Environment-Friendly' % 
               </h4>
               <p class="mbr-text align-center custom-left-third mbr-black mbr-fonts-style display-7">
            
@@ -399,7 +399,7 @@
               <div class="mbr-section-btn align-center">
                 <a href= "{% url 'products_page' %}" class="btn btn-md btn-red-outline display-4">
 
-                  View More
+                  % trans 'View More' % 
                 </a>
               </div>
             </div>
@@ -412,14 +412,14 @@
                 <img src = "{% static 'about/fast-delivery_image.png'%}" alt="fast_delivery" width="300" height="300" >
               </div>
               <h4 class="card-title align-center custom-left mbr-bold mbr-black mbr-fonts-style display-5">
-                Fast Delivery Time
+                % trans 'Fast Delivery Time' % 
               </h4>
               <p class="mbr-text align-center custom-left-third mbr-black mbr-fonts-style display-7">
                 
               </p>
               <div class="mbr-section-btn align-center">
                 <a href= "{% url 'products_page' %}" class="btn btn-md btn-red-outline display-4">
-                  View More
+                  % trans 'View More' % 
                 </a>
               </div>
             </div>
@@ -432,14 +432,14 @@
                 <img src = "{% static 'about/quality_assured.jpeg'%}" alt="quality_assured" width="300" height="300"  >
               </div>
               <h4 class="card-title align-center custom-left mbr-bold mbr-black mbr-fonts-style display-5">
-                Quality Assured
+                % trans 'Quality Assured' % 
               </h4>
               <p class="mbr-text align-center custom-left-third mbr-black mbr-fonts-style display-7">
        
               </p>
               <div class="mbr-section-btn align-center">
                 <a href= "{% url 'products_page' %}" class="btn btn-md btn-red-outline display-4">
-                  View More
+                  % trans 'View More' % 
                 </a>
               </div>
             </div>
@@ -455,13 +455,13 @@
       <div class="row justify-content-md-center">
         <div class="mbr-black col-md-10 col-lg-6">
           <h3 class="mbr-section-subtitle mbr-semibold align-center mbr-light mbr-fonts-style display-5">
-            HISTORY
+            % trans 'HISTORY' % 
           </h3>
           <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
-            About Us
+            % trans 'About Us' % 
           </h1>
           <p class="mbr-text pb-0 mbr-fonts-style">
-            Kao was founded in Istanbul in 1995 by an idelistic and dynamic team with thirty years of experience in machinery, electronics, and metrology. With a strong R&D team and modern production lines, Kao has been able to create remarkable products in terms of the technical specifications, ergonomics, aesthetics, and durability. Kao has been producing metrological test devices with measurement precision beyond world standards and extremely user-friendly interfaces in the field of metrology As Kao-Metrology, we aim to collaborate with industrialists to contribute to creating a more efficient and powerful metrological system for a reliable future. Therefore, we see every product we develop as a helper that opens the door to new possibilities. Please don't hesitate to share your thoughts on our products and technologies you encountered on our website. Wishing for every tomorrow to be brighter than today... 
+            % trans 'Kao was founded in Istanbul in 1995 by an idelistic and dynamic team with thirty years of experience in machinery, electronics, and metrology. With a strong R&D team and modern production lines, Kao has been able to create remarkable products in terms of the technical specifications, ergonomics, aesthetics, and durability. Kao has been producing metrological test devices with measurement precision beyond world standards and extremely user-friendly interfaces in the field of metrology As Kao-Metrology, we aim to collaborate with industrialists to contribute to creating a more efficient and powerful metrological system for a reliable future. Therefore, we see every product we develop as a helper that opens the door to new possibilities. Please don't hesitate to share your thoughts on our products and technologies you encountered on our website. Wishing for every tomorrow to be brighter than today... ' %
           </p>
         </div>
       </div>
@@ -477,7 +477,7 @@
       <div class="row justify-content-md-center">
         <div class="mbr-white col-md-10">
           <h1 class="mbr-section-title align-center py-2 mbr-fonts-style display-1">
-            Watch Video
+            % trans 'Watch Video' % 
           </h1>
           <div class="mbr-media show-modal align-center py-2" data-modal=".modalWindow">
             <div class="icon-wrap">

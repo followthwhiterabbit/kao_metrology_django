@@ -20,7 +20,6 @@ from django.urls import include, path
 
 urlpatterns = [
 
-
     path("", include("about_page.urls")),
     path("polls/", include("polls.urls")), 
     path("contact/", include("contact_page.urls")),
@@ -34,6 +33,7 @@ urlpatterns = [
     path("callibrators/", include("callibrators.urls")),
     path("accessories/", include("accessories.urls")),
     path("services/", include("services.urls")),
+    path('rosetta/', include('rosetta.urls')), 
 
 ]
 

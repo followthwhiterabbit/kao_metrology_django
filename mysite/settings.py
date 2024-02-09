@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-6x$tjy^k$7lb5utvb6&3w+2kj#f3m#_d8g*l9mfr%2@r39&pfa'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURITY WARNING: don't run with debug turned on in produexction!
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0', '172.17.0.1']
@@ -29,19 +29,20 @@ ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0', '172.17.0.1']
 from django.utils.translation import gettext_lazy as _
 
 LANGUAGES = [
-    ('en', ('English')), 
-    ('fr', ('French')),
-    ('es', ('Spanish')),
+    ('en', _('English')), 
+    ('de', _('German')),
+    ('fr', _('French')),
+    ('es', _('Spanish')),
+
 
 ]
 
 
 LOCALE_PATHS = [
-    os.path.join(BASE_DIR, 'locale'),   
+    os.path.join(BASE_DIR, 'locale'),    
+    os.path.join(BASE_DIR, 'about_page', 'locale'),   
+
 ]
-
-
-
 
 
 
@@ -66,6 +67,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_recaptcha',
+    'rosetta', #NEW
 ]
 
 MIDDLEWARE = [
@@ -140,6 +142,9 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
+
+
+
 
 
 # Static files (CSS, JavaScript, Images)
