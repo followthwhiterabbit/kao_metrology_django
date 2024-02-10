@@ -34,13 +34,13 @@ LANGUAGES = [
     ('fr', _('French')),
     ('es', _('Spanish')),
 
-
 ]
 
 
 LOCALE_PATHS = [
     os.path.join(BASE_DIR, 'locale'),    
     os.path.join(BASE_DIR, 'about_page', 'locale'),   
+
 
 ]
 

@@ -16,10 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from django.conf.urls.i18n import i18n_patterns
 
-
-urlpatterns = [
-
+urlpatterns = i18n_patterns(
     path("", include("about_page.urls")),
     path("polls/", include("polls.urls")), 
     path("contact/", include("contact_page.urls")),
@@ -35,5 +34,5 @@ urlpatterns = [
     path("services/", include("services.urls")),
     path('rosetta/', include('rosetta.urls')), 
 
-]
+)
 
