@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-10 15:49+0100\n"
+"POT-Creation-Date: 2024-02-11 18:54+0100\n"
 "PO-Revision-Date: 2024-02-10 12:55+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,3 +33,17 @@ msgstr "French "
 #: mysite/settings.py:35
 msgid "Spanish"
 msgstr "Spanish"
+
+#: mysite/settings.py:36
+#, fuzzy
+#| msgid "English"
+msgid "Polish"
+msgstr "English"
+
+#: mysite/settings.py:37
+msgid "Italian"
+msgstr ""
+
+#: mysite/settings.py:38
+msgid "Turkish"
+msgstr ""

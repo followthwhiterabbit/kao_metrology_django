@@ -33,16 +33,26 @@ LANGUAGES = [
     ('de', _('German')),
     ('fr', _('French')),
     ('es', _('Spanish')),
-
+    ('pl', _('Polish')),
+    ('it', _('Italian')),
+    ('tr', _('Turkish')),
 ]
 
 
 LOCALE_PATHS = [
     os.path.join(BASE_DIR, 'locale'),    
     os.path.join(BASE_DIR, 'about_page', 'locale'),   
+    os.path.join(BASE_DIR, 'accessories', 'locale'),   
+    os.path.join(BASE_DIR, 'callibrators', 'locale'),  
+    os.path.join(BASE_DIR, 'contact_page', 'locale'), 
+    os.path.join(BASE_DIR, 'dimensional_measurement', 'locale'),
+    os.path.join(BASE_DIR, 'leak_testing', 'locale'),
+    os.path.join(BASE_DIR, 'newsnevents_page', 'locale'),
+    os.path.join(BASE_DIR, 'products_page', 'locale'),
+    os.path.join(BASE_DIR, 'services', 'locale'),
+    
+    ]
 
-
-]
 
 
 
