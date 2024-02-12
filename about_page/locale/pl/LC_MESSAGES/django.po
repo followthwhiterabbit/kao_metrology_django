@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-12 10:31+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2024-02-12 19:51+0100\n"
+"PO-Revision-Date: 2024-02-12 18:26+0000\n"
+"Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -19,10 +19,11 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
 "(n%100<12 || n%100>=14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
 
 #: about_page/templates/about/about_page.html:12
 msgid "MEASURING AND CONTROL SYSTEMS MANIFACTURING"
-msgstr ""
+msgstr "PRODUKCJA SYSTEMÓW POMIAROWYCH I KONTROLNYCH"
 
 #: about_page/templates/about/about_page.html:17
 msgid "Menu"
@@ -30,67 +31,67 @@ msgstr ""
 
 #: about_page/templates/about/about_page.html:18
 msgid "Products"
-msgstr ""
+msgstr "Produkty"
 
 #: about_page/templates/about/about_page.html:19
 msgid "Services"
-msgstr ""
+msgstr "Usługi"
 
 #: about_page/templates/about/about_page.html:20
 msgid "News&Events"
-msgstr ""
+msgstr "Wiadomości&Wydarzenia"
 
 #: about_page/templates/about/about_page.html:21
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 #: about_page/templates/about/about_page.html:28
 msgid "Turkish"
-msgstr ""
+msgstr "Turecki"
 
 #: about_page/templates/about/about_page.html:29
 msgid "German"
-msgstr ""
+msgstr "Niemiecki"
 
 #: about_page/templates/about/about_page.html:30
 msgid "English"
-msgstr ""
+msgstr "Angielski"
 
 #: about_page/templates/about/about_page.html:31
 msgid "Italian"
-msgstr ""
+msgstr "Włoski"
 
 #: about_page/templates/about/about_page.html:32
 msgid "Polish"
-msgstr ""
+msgstr "Polski"
 
 #: about_page/templates/about/about_page.html:77
 msgid "AirGages"
-msgstr ""
+msgstr "Mierniki powietrza"
 
 #: about_page/templates/about/about_page.html:87
 msgid "Leak-Testing Devices"
-msgstr ""
+msgstr "Urządzenia do badania szczelności"
 
 #: about_page/templates/about/about_page.html:96
 msgid "Flow Callibrators"
-msgstr ""
+msgstr "Kalibratory przepływu"
 
 #: about_page/templates/about/about_page.html:107
 msgid "Pressure Scanners"
-msgstr ""
+msgstr "Skanery ciśnienia"
 
 #: about_page/templates/about/about_page.html:118
 msgid "Modular Metrology"
-msgstr ""
+msgstr "Metrologia modułowa"
 
 #: about_page/templates/about/about_page.html:129
 msgid "Probes"
-msgstr ""
+msgstr "Sondy"
 
 #: about_page/templates/about/about_page.html:173
 msgid "Metrology is our passion"
-msgstr ""
+msgstr "Metrologia to nasza pasja"
 
 #: about_page/templates/about/about_page.html:177
 msgid ""
@@ -100,6 +101,11 @@ msgid ""
 "devices with portable usage and aesthetics, we provide embedded solutions to "
 "the embedded problems in metrology and automation."
 msgstr ""
+"Jesteśmy producentem urządzeń metrologicznych, łączącym najnowsze "
+"technologie i innowacje z możliwością nowych postępów w dziedzinie produkcji "
+"i automatyzacji. Oprócz produkcji zaawansowanych urządzeń o przenośnym "
+"zastosowaniu i estetyce, dostarczamy rozwiązania wbudowane dla problemów "
+"związanych z metrologią i automatyzacją."
 
 #: about_page/templates/about/about_page.html:182
 #: about_page/templates/about/about_page.html:288
@@ -107,43 +113,49 @@ msgstr ""
 #: about_page/templates/about/about_page.html:419
 #: about_page/templates/about/about_page.html:439
 msgid "View More"
-msgstr ""
+msgstr "Zobacz więcej"
 
 #: about_page/templates/about/about_page.html:214
 msgid "DIMENSIONAL MEASUREMENT"
-msgstr ""
+msgstr "POMIAR WYMIAROWY"
 
 #: about_page/templates/about/about_page.html:217
 msgid "We are the masters of Air-gaging with 30+ years of experience."
 msgstr ""
+"Jesteśmy mistrzami pomiaru powietrznego z ponad 30-letnim doświadczeniem."
 
 #: about_page/templates/about/about_page.html:231
 msgid "LEAK TESTING"
-msgstr ""
+msgstr "BADANIA SZCZELNOŚCI"
 
 #: about_page/templates/about/about_page.html:234
 msgid ""
 "Our Touch Screen Leak Testing Systems offer portability, secure setup and "
 "precision beyond world standards."
 msgstr ""
+"Nasze systemy testowania szczelności z ekranem dotykowym oferują "
+"przenośność, bezpieczne ustawienie i precyzję przekraczającą światowe "
+"standardy."
 
 #: about_page/templates/about/about_page.html:248
 msgid "CALLIBRATORS"
-msgstr ""
+msgstr "KALIBRATORY"
 
 #: about_page/templates/about/about_page.html:251
 msgid ""
 "Our KAO Flow Callibrator offers precise, fast and +12 hours Usage with "
 "regular batteries. "
 msgstr ""
+"Nasz kalibrator KAO Flow oferuje precyzyjne, szybkie i ponad 12 godzin "
+"użytkowania na zwykłych bateriach."
 
 #: about_page/templates/about/about_page.html:274
 msgid "More than Metrology"
-msgstr ""
+msgstr "Więcej niż metrologia"
 
 #: about_page/templates/about/about_page.html:277
 msgid "Embedded solutions to embedded problems"
-msgstr ""
+msgstr "Wbudowane rozwiązania wbudowanych problemów"
 
 #: about_page/templates/about/about_page.html:280
 msgid ""
@@ -153,50 +165,56 @@ msgid ""
 "precision meets adaptability, shaping the future of technology seamlessly. "
 "Discover the power of embedded solutions on our website today."
 msgstr ""
+"Odkryj innowacyjne odpowiedzi na wbudowane wyzwania dzięki naszym "
+"najnowocześniejszym systemom wbudowanym. Nasze rozwiązania przekształcają "
+"efektywność, łączność i funkcjonalność, przekraczając granice zwykłego "
+"pomiaru. Zanurz się w świecie, gdzie precyzja spotyka się z adaptacyjnością, "
+"kształtując przyszłość technologii w sposób niezauważalny. Odkryj moc "
+"wbudowanych rozwiązań już dziś na naszej stronie internetowej."
 
 #: about_page/templates/about/about_page.html:325
 msgid "PRESSURE SCANNERS"
-msgstr ""
+msgstr "SKANERY CIŚNIENIA"
 
 #: about_page/templates/about/about_page.html:328
 msgid "High-Tech Pressure Scanning "
-msgstr ""
+msgstr "Skanowanie ciśnienia wysokiej technologii"
 
 #: about_page/templates/about/about_page.html:343
 msgid "PROBES "
-msgstr ""
+msgstr "SONDY"
 
 #: about_page/templates/about/about_page.html:346
 msgid "Delivering probes geared to your unique necessities "
-msgstr ""
+msgstr "Dostarczanie sond dostosowanych do Twoich unikalnych potrzeb"
 
 #: about_page/templates/about/about_page.html:361
 msgid "ACCESORIES "
-msgstr ""
+msgstr "AKCESORIA"
 
 #: about_page/templates/about/about_page.html:364
 msgid "Discover accessories and tools for our products "
-msgstr ""
+msgstr "Odkryj akcesoria i narzędzia do naszych produktów"
 
 #: about_page/templates/about/about_page.html:391
 msgid "Environment-Friendly"
-msgstr ""
+msgstr "Przyjazna dla środowiska"
 
 #: about_page/templates/about/about_page.html:412
 msgid "Fast Delivery Time"
-msgstr ""
+msgstr "Szybki czas dostawy"
 
 #: about_page/templates/about/about_page.html:432
 msgid "Quality Assured"
-msgstr ""
+msgstr "Jakość gwarantowana"
 
 #: about_page/templates/about/about_page.html:455
 msgid "HISTORY"
-msgstr ""
+msgstr "HISTORIA"
 
 #: about_page/templates/about/about_page.html:458
 msgid "About Us"
-msgstr ""
+msgstr "O nas"
 
 #: about_page/templates/about/about_page.html:461
 msgid ""
@@ -214,6 +232,21 @@ msgid ""
 "and technologies you encountered on our website. Wishing for every tomorrow "
 "to be brighter than today... "
 msgstr ""
+"Kao zostało założone w Stambule w 1995 roku przez zespół idealistyczny i "
+"dynamiczny, posiadający trzydziestoletnie doświadczenie w dziedzinie maszyn, "
+"elektroniki i metrologii. Dzięki silnemu zespołowi badawczo-rozwojowemu i "
+"nowoczesnym liniom produkcyjnym, Kao był w stanie stworzyć wybitne produkty "
+"pod względem specyfikacji technicznych, ergonomii, estetyki i trwałości. Kao "
+"produkuje urządzenia testowe metrologiczne o precyzji pomiarowej "
+"przekraczającej światowe standardy oraz niezwykle przyjazne interfejsy "
+"użytkownika w dziedzinie metrologii. Jako Kao-Metrology, dążymy do "
+"współpracy z przemysłowcami w celu przyczynienia się do stworzenia bardziej "
+"efektywnego i potężnego systemu metrologicznego dla niezawodnej przyszłości. "
+"Dlatego też, każdy produkt, który opracowujemy, postrzegamy jako pomocnika, "
+"który otwiera drzwi do nowych możliwości. Prosimy nie wahaj się dzielić "
+"swoimi myślami na temat naszych produktów i technologii, z którymi się "
+"spotkałeś na naszej stronie internetowej. Życzymy, aby każde jutro było "
+"jaśniejsze niż dzisiaj..."
 
 #: about_page/templates/about/about_page.html:477
 msgid "Watch Video"

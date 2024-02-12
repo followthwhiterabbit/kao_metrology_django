@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-12 10:31+0100\n"
+"POT-Creation-Date: 2024-02-12 19:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,4 +20,174 @@ msgstr ""
 
 #: services/templates/services/services.html:18
 msgid "Menu"
+msgstr ""
+
+#: services/templates/services/services.html:19
+msgid "Products"
+msgstr ""
+
+#: services/templates/services/services.html:20
+msgid "Services"
+msgstr ""
+
+#: services/templates/services/services.html:21
+msgid "News&Events"
+msgstr ""
+
+#: services/templates/services/services.html:22
+msgid "Contact"
+msgstr ""
+
+#: services/templates/services/services.html:28
+msgid "Turkish"
+msgstr ""
+
+#: services/templates/services/services.html:29
+msgid "German"
+msgstr ""
+
+#: services/templates/services/services.html:30
+msgid "English"
+msgstr ""
+
+#: services/templates/services/services.html:31
+msgid "Italian"
+msgstr ""
+
+#: services/templates/services/services.html:32
+msgid "Polish"
+msgstr ""
+
+#: services/templates/services/services.html:77
+msgid "Services "
+msgstr ""
+
+#: services/templates/services/services.html:86
+msgid "View More"
+msgstr ""
+
+#: services/templates/services/services.html:110
+msgid "Pneumatic Probes"
+msgstr ""
+
+#: services/templates/services/services.html:124
+msgid ""
+" \n"
+"             Measurement of parts is sometimes carried out in a workshop "
+"with a single pneumatic device.\n"
+"              Sometimes there may be situations where a large number of "
+"measurements are required. Measuring multiple dimensions of a part "
+"simultaneously will shorten the measurement time. \n"
+"              Sometimes, proper positioning of the part is required to "
+"ensure measurement accuracy. \n"
+"              Sometimes, geometric tolerances come into play. Not only "
+"diameter but also factors such as ovality, cylindricity, and taper may be "
+"required. \n"
+"              In such cases, probe design is important. Do not hesitate to "
+"consult us, whether it is to measure a single diameter or 5 diameters.\n"
+"               We have services in this regard.\n"
+"            "
+msgstr ""
+
+#: services/templates/services/services.html:137
+#: services/templates/services/services.html:205
+#: services/templates/services/services.html:319
+msgid "GET A QUOTE"
+msgstr ""
+
+#: services/templates/services/services.html:176
+msgid "AUTOMATIC MEASUREMENT MACHINES OR DEVICES"
+msgstr ""
+
+#: services/templates/services/services.html:185
+msgid ""
+"\n"
+"                If you're saying you don't have the time or confidence that "
+"your operator always measures accurately, yes, we understand.\n"
+"                 Provide us with the specifications, characteristics, and "
+"desired measurement time of your part.\n"
+"                  Let us develop systems to automatically perform this task "
+"for you as soon as possible.\n"
+"                   Whether it's simple diameters, geometric tolerances, "
+"whether you need pneumatic or contact-based measurement methods, or even if "
+"it involves moving the part for measurement, it's no problem.\n"
+"                   We have services in this regard.\n"
+"              "
+msgstr ""
+
+#: services/templates/services/services.html:196
+msgid ""
+"We offer the best products and the services  to our customers and the "
+"distributors all around the world."
+msgstr ""
+
+#: services/templates/services/services.html:297
+msgid "Software Support"
+msgstr ""
+
+#: services/templates/services/services.html:304
+msgid ""
+" \n"
+"        All KAO measurement devices record data, store them in their "
+"internal memory, and list the records on their screens.\n"
+"         However, in some applications, it is desired to transfer this data "
+"outside the device. \n"
+"         "
+msgstr ""
+
+#: services/templates/services/services.html:341
+msgid "KAO Data Server Software"
+msgstr ""
+
+#: services/templates/services/services.html:344
+msgid ""
+"\n"
+"                  The DS software serves as a server allowing wired and "
+"wireless KAO devices to exchange data using TCP and UDP protocols. \n"
+"                  It synchronizes the date and time settings of devices with "
+"a computer.\n"
+"                   The wifi router and password for devices in the field are "
+"provided. \n"
+"                   Devices are registered on the QSPY server screen with "
+"their serial numbers. \n"
+"                   The QSPY server automatically assigns IP addresses to "
+"devices.\n"
+"                    QSPY DS establishes its own database using the Windows "
+"SQL infrastructure.\n"
+"                     It records the data received. All operations occur "
+"without user intervention.\n"
+"                      Devices determine data variables.\n"
+"                      "
+msgstr ""
+
+#: services/templates/services/services.html:366
+msgid "KAO Data Monitoring Terminal"
+msgstr ""
+
+#: services/templates/services/services.html:369
+msgid ""
+"\n"
+"              Provides real-time access to data stored in SQL server.\n"
+"               It displays them on screen and exports them to printers in "
+"the form of lists and graphs.\n"
+"                  "
+msgstr ""
+
+#: services/templates/services/services.html:387
+msgid "QDAS Data Converter"
+msgstr ""
+
+#: services/templates/services/services.html:390
+msgid ""
+"\n"
+"                  When data reaches DS, it classifies them with catalog "
+"numbers. \n"
+"                  It prepares them as dfq extension files in the designated "
+"folder according to the qdas precellla protocol.\n"
+"                   All operations occur without user intervention.\n"
+"                   "
+msgstr ""
+
+#: services/templates/services/services.html:427
+msgid "Watch Video"
 msgstr ""

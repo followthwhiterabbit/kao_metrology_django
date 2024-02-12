@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-12 10:31+0100\n"
+"POT-Creation-Date: 2024-02-12 19:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,6 +96,7 @@ msgid "It works with all known probes and is easy to use."
 msgstr ""
 
 #: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:127
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:218
 #: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:322
 #: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:414
 msgid "The membrane keypad provides easy access to settings."

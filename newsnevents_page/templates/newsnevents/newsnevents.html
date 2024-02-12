@@ -9,24 +9,24 @@
 
     <nav class="navbar-eski navbar-nav-eski navbar-expand-lg navbar-dark-eski bg-dark-eski">
             <div class="container">
-                <a class="navbar-brand-eski" href="#">MEASURING AND CONTROL SYSTEMS MANIFACTURING</a>
+                <a class="navbar-brand-eski" href="#"> {% trans 'MEASURING AND CONTROL SYSTEMS MANIFACTURING ' %}</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="navbar-collapse-eski" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">Products</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">Services</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'newsnevents_page' %}">News&Events</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">{% trans 'Products' %}</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'newsnevents_page' %}">{% trans 'News&Events' %}</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}">{% trans 'Contact' %}</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Languages</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Turkish</a></li>
-                                <li><a class="dropdown-item" href="#">German</a></li>
-                                <li><a class="dropdown-item" href="#">English</a></li>
-                                <li><a class="dropdown-item" href="#">Italian</a></li>
-                                <li><a class="dropdown-item" href="#">Polish</a></li>
+                                <li><a class="dropdown-item" href="#">{% trans 'Turkish' %}</a></li>
+                              <li><a class="dropdown-item" href="#">{% trans 'German' %}</a></li>
+                                <li><a class="dropdown-item" href="#">{% trans 'English' %}</a></li>
+                                <li><a class="dropdown-item" href="#">{% trans 'Italian' %}</a></li>
+                                <li><a class="dropdown-item" href="#">{% trans 'Polish' %}</a></li>
                               <li><hr class="dropdown-divider" /></li>
                             </ul>
                         </li>
@@ -53,8 +53,8 @@
     <div class="carousel-item active">
       <img class="d-block w-100" src="{% static 'newsnevents/fuar_image_new.jpeg' %}" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
-        <h2 class="hall-text-1">We attended 12th Control, Automative, Aeronautics & Space Industry Testing Equipment, Metrology and Industrial Software Exhibition</h2>
-        <h3 class="hall-text-2">Come and see us at HALL 10 at Istanbul Expo Center</h3>
+        <h2 class="hall-text-1"> {% trans 'We attended 12th Control, Automative, Aeronautics & Space Industry Testing Equipment, Metrology and Industrial Software Exhibition' %}</h2>
+        <h3 class="hall-text-2"> {% trans 'Come and see us at HALL 10 at Istanbul Expo Center' %}</h3>
       </div>
          </div>
     <div class="carousel-item">
@@ -103,7 +103,7 @@
       <div class="row justify-content-md-center">
         <div class="mbr-white col-md-10">
           <h1 class="mbr-section-title align-center py-2 mbr-fonts-style display-1">
-            Watch Video
+            {% trans 'Watch Video' %}
           </h1>
           <div class="mbr-media show-modal align-center py-2" data-modal=".modalWindow">
             <div class="icon-wrap">
