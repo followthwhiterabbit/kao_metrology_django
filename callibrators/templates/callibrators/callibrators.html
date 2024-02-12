@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n %}
 
  <link rel="stylesheet" type="text/css" href="{% static 'callibrators/style_alternative.css' %}" /> 
 
@@ -7,26 +8,26 @@
 
     <nav class="navbar-eski  navbar-nav-eski navbar-brand-eski navbar-expand-lg navbar-dark-eski bg-dark-eski">
             <div class="container">
-                <a class="navbar-brand-eski">MEASURING AND CONTROL SYSTEMS MANIFACTURING</a>
+                <a class="navbar-brand-eski">{% trans 'MEASURING AND CONTROL SYSTEMS MANIFACTURING' %}</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="navbar-collapse-eski" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu'%}</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">Products</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">Services</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'newsnevents_page' %}">News&Events</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}">Contact</a></li>   
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">{% trans 'Products' %}</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'newsnevents_page' %}">{% trans 'News&Events' %}</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}">{% trans 'Contact' %}</a></li>   
                       
                       
                       <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Languages</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Turkish</a></li>
-                                <li><a class="dropdown-item" href="#">German</a></li>
-                                <li><a class="dropdown-item" href="#">English</a></li>
-                                <li><a class="dropdown-item" href="#">Italian</a></li>
-                                <li><a class="dropdown-item" href="#">Polish</a></li>
+                                <li><a class="dropdown-item" href="#">{% trans 'Turkish' %}</a></li>
+                                <li><a class="dropdown-item" href="#">{% trans 'German' %}</a></li>
+                                <li><a class="dropdown-item" href="#">{% trans 'English' %}</a></li>
+                                <li><a class="dropdown-item" href="#">{% trans 'Italian' %}</a></li>
+                                <li><a class="dropdown-item" href="#">{% trans 'Polish' %}</a></li>
                               <li><hr class="dropdown-divider" /></li>
                             </ul>
                         </li>
@@ -73,14 +74,16 @@
             </h1>
             <div class="mbr-section-text mbr-white pb-3 ">
               <p class="mbr-text align-center align-center mbr-fonts-style display-7">
+                {% blocktrans %}
               Flow calibration in metrology involves the process of measuring and adjusting the performance of flow measurement devices to ensure their accuracy and reliability.
-               Flow measurement is crucial in various industries such as manufacturing, energy, environmental monitoring, and healthcare. 
+              Flow measurement is crucial in various industries such as manufacturing, energy, environmental monitoring, and healthcare. 
                Flow calibration is performed to verify that flow meters and instruments accurately measure the rate of fluid flow, whether it's liquid or gas. 
+               {% endblocktrans %}
                  </p>
             </div>
             <div class="mbr-section-btn align-right">
               <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'products_page' %}"  >
-                View More
+                {% trans 'View More' %}
               </a>
             </div>
           </div>
@@ -116,19 +119,19 @@
         </div>
 
         <div class="col-lg-6 mbr-bold align-center mbr-text col-lg-4 py-5">
-          <h4> - The ideal pneumatic measurement device for countertop use.</h4>
+          <h4> - {% trans 'The ideal pneumatic measurement device for countertop use.' %}</h4>
             <br>
-          <h4> - It works with all known probes and is easy to use. </h4>
+          <h4> - {% trans 'It works with all known probes and is easy to use.' %} </h4>
              <br>
-          <h4> - The membrane keypad provides easy access to settings.  </h4>
+          <h4> - {% trans 'The membrane keypad provides easy access to settings.' %}  </h4>
             <br>
-          <h4> - Measurement resolution is 0.1um with a repeatability of 0.5um.</h4>
+          <h4> - {% trans 'Measurement resolution is 0.1um with a repeatability of 0.5um. '%}</h4>
             <br>
-          <h4> -  It features a 7-inch color graphical display. </h4>
+          <h4> - {% trans  'It features a 7-inch color graphical display.' %} </h4>
           <br>
-          <h4> -  Internal memory stores the last 10,000 records. </h4>
+          <h4> - {% trans  'Internal memory stores the last 10,000 records.' %}</h4>
           <br>
-           <h4> -  Data transfer is possible via wireless Ethernet connection.   </h4>
+           <h4> - {% trans  'Data transfer is possible via wireless Ethernet connection.' %} </h4>
 
 
                 <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KFC60_tur.pdf'%}" download="KAX100_tur.pdf">
@@ -177,12 +180,14 @@
            </h1>
             <div class="mbr-section-text mbr-white pb-3 ">
               <p class="mbr-text align-center align-center mbr-fonts-style display-7">
+                {% blocktrans %}
                 Pressure scanning involves measuring and analyzing pressure variations in systems or devices for purposes such as performance evaluation, quality control, troubleshooting, process optimization, safety monitoring, research and development, and data analysis.
                  It is widely used in industries where pressure is a critical factor, providing insights into system behavior and ensuring operational efficiency and safety.
+                 {% endblocktrans %}
           </p>
 
         <p class="mbr-text align-center align-center mbr-fonts-style display-7"> 
-        We offer the best products and the services  to our customers and the distributors all around the world.
+        {% trans 'We offer the best products and the services  to our customers and the distributors all around the world.' %}
                 </p>
 
 
@@ -191,7 +196,7 @@
             </div>
             <div class="mbr-section-btn align-center">
               <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'products_page' %}"  >
-                GET A QUOTE 
+                {% trans 'GET A QUOTE' %}
                </a>
             </div>
           </div>
@@ -279,10 +284,10 @@
         <div class="col-md-12 col-lg-6 py-5 m-auto">
           <div class="media-content">
             <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              Are you interested ? 
+              {% trans 'Are you interested ?' %}
             </h1>
       <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              Contact Us 
+              {% trans 'Contact Us' %}
             </h1>
             <div class="mbr-section-text mbr-white pb-3 ">
               <p class="mbr-text align-center align-center mbr-fonts-style display-7">
@@ -290,7 +295,7 @@
             </div>
             <div class="mbr-section-btn align-center">
               <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'contact_page' %}"  >
-                CONTACT 
+                {% trans 'CONTACT' %}
               </a>
             </div>
           </div>

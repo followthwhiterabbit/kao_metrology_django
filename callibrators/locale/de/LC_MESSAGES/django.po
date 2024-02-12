@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-11 18:54+0100\n"
+"POT-Creation-Date: 2024-02-12 10:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,127 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: callibrators/templates/callibrators/callibrators.html:15
+#: callibrators/templates/callibrators/callibrators.html:11
+msgid "MEASURING AND CONTROL SYSTEMS MANIFACTURING"
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:16
 msgid "Menu"
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:17
+msgid "Products"
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:18
+msgid "Services"
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:19
+msgid "News&Events"
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:20
+msgid "Contact"
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:26
+msgid "Turkish"
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:27
+msgid "German"
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:28
+msgid "English"
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:29
+msgid "Italian"
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:30
+msgid "Polish"
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:77
+msgid ""
+"\n"
+"              Flow calibration in metrology involves the process of "
+"measuring and adjusting the performance of flow measurement devices to "
+"ensure their accuracy and reliability.\n"
+"              Flow measurement is crucial in various industries such as "
+"manufacturing, energy, environmental monitoring, and healthcare. \n"
+"               Flow calibration is performed to verify that flow meters and "
+"instruments accurately measure the rate of fluid flow, whether it's liquid "
+"or gas. \n"
+"               "
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:86
+msgid "View More"
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:122
+msgid "The ideal pneumatic measurement device for countertop use."
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:124
+msgid "It works with all known probes and is easy to use."
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:126
+msgid "The membrane keypad provides easy access to settings."
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:128
+msgid "Measurement resolution is 0.1um with a repeatability of 0.5um. "
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:130
+msgid "It features a 7-inch color graphical display."
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:132
+msgid "Internal memory stores the last 10,000 records."
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:134
+msgid "Data transfer is possible via wireless Ethernet connection."
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:183
+msgid ""
+"\n"
+"                Pressure scanning involves measuring and analyzing pressure "
+"variations in systems or devices for purposes such as performance "
+"evaluation, quality control, troubleshooting, process optimization, safety "
+"monitoring, research and development, and data analysis.\n"
+"                 It is widely used in industries where pressure is a "
+"critical factor, providing insights into system behavior and ensuring "
+"operational efficiency and safety.\n"
+"                 "
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:190
+msgid ""
+"We offer the best products and the services  to our customers and the "
+"distributors all around the world."
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:199
+msgid "GET A QUOTE"
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:287
+msgid "Are you interested ?"
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:290
+msgid "Contact Us"
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:298
+msgid "CONTACT"
 msgstr ""

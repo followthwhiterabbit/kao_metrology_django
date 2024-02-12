@@ -1,5 +1,6 @@
 {% load static %}
 
+{% load i18n %}
  <link rel="stylesheet" type="text/css" href="{% static 'about/style_alternative.css' %}" /> 
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +8,26 @@
 
     <nav class="navbar-eski  navbar-nav-eski navbar-brand-eski navbar-expand-lg navbar-dark-eski bg-dark-eski">
             <div class="container">
-                <a class="navbar-brand-eski">MEASURING AND CONTROL SYSTEMS MANIFACTURING</a>
+                <a class="navbar-brand-eski">{% trans 'MEASURING AND CONTROL SYSTEMS MANIFACTURING' %}</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="navbar-collapse-eski" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">Products</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">Services</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'newsnevents_page' %}">News&Events</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}">Contact</a></li>   
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">{% trans 'Products' %}</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'newsnevents_page' %}">{% trans 'News&Events' %}</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}">{% trans 'Contact' %}</a></li>   
                       
                       
                       <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Languages</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Turkish</a></li>
-                                <li><a class="dropdown-item" href="#">German</a></li>
-                                <li><a class="dropdown-item" href="#">English</a></li>
-                                <li><a class="dropdown-item" href="#">Italian</a></li>
-                                <li><a class="dropdown-item" href="#">Polish</a></li>
+                                <li><a class="dropdown-item" href="#">{% trans 'Turkish' %}</a></li>
+                                <li><a class="dropdown-item" href="#">{% trans 'German' %}</a></li>
+                                <li><a class="dropdown-item" href="#">{% trans 'English' %}</a></li>
+                                li><a class="dropdown-item" href="#">{% trans 'Italian' %}</a></li>
+                                <li><a class="dropdown-item" href="#">{% trans 'Polish' %}</a></li>
                               <li><hr class="dropdown-divider" /></li>
                             </ul>
                         </li>
@@ -73,15 +74,17 @@
             </h1>
             <div class="mbr-section-text mbr-white pb-3 ">
               <p class="mbr-text align-center align-center mbr-fonts-style display-7">
+              {% blocktrans %}
 		Air gaging, also known as pneumatic gaging or air gauging, 
     is a metrological technique used for precision measurements in manufacturing and quality control processes. 
     It involves the use of compressed air to measure dimensional characteristics of a workpiece. 
     The basic principle of air gaging is to use the interaction between a stream of pressurized air and the surface of the workpiece to make accurate measurements.
+              {% endblocktrans %}
                 </p>
             </div>
             <div class="mbr-section-btn align-right">
               <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'products_page' %}"  >
-                View More
+                {% trans 'View More' %}
               </a>
             </div>
           </div>
@@ -117,19 +120,19 @@
         </div>
 
         <div class="col-lg-6 mbr-bold align-center mbr-text col-lg-4 py-5">
-          <h4> - The ideal pneumatic measurement device for countertop use.</h4>
+          <h4> - {% trans 'The ideal pneumatic measurement device for countertop use.' %}</h4>
             <br>
-          <h4> - It works with all known probes and is easy to use. </h4>
+          <h4> - {% trans 'It works with all known probes and is easy to use.'%} </h4>
              <br>
-          <h4> - The membrane keypad provides easy access to settings.  </h4>
+          <h4> - {% trans 'The membrane keypad provides easy access to settings.'%}  </h4>
             <br>
-          <h4> - Measurement resolution is 0.1um with a repeatability of 0.5um.</h4>
+          <h4> - {% trans 'Measurement resolution is 0.1um with a repeatability of 0.5um.' %}</h4>
             <br>
-          <h4> -  It features a 7-inch color graphical display. </h4>
+          <h4> - {%  trans 'It features a 7-inch color graphical display.' % } </h4>
           <br>
-          <h4> -  Internal memory stores the last 10,000 records. </h4>
+          <h4> - {% trans 'Internal memory stores the last 10,000 records.' %} </h4>
           <br>
-           <h4> -  Data transfer is possible via wireless Ethernet connection.   </h4>
+           <h4> - {% trans  'Data transfer is possible via wireless Ethernet connection.' %}   </h4>
 
 
                 <a class="btn btn-md btn-black display-4" a href= "{% static 'about/MiniSX_tur.pdf'%}" download="KA0X.pdf">
@@ -158,10 +161,10 @@
         <div class="col-md-12 col-lg-6 py-5 m-auto">
           <div class="media-content">
             <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              Are you interested ? 
+              {% trans 'Are you interested ?' %}
             </h1>
       <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-        Contact Us
+        {% trans 'Contact Us' %}
             </h1>
             <div class="mbr-section-text mbr-white pb-3 ">
               <p class="mbr-text align-right align-right mbr-fonts-style display-7">
@@ -171,7 +174,7 @@
             </div>
             <div class="mbr-section-btn align-center">
               <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'contact_page' %}"  >
-                CONTACT </a>
+                {% trans 'CONTACT' %} </a>
             </div>
           </div>
 
@@ -208,19 +211,19 @@
 
 
         <div class="col-lg-6 mbr-bold align-center mbr-text col-lg-4 py-5">
-          <h4> - The ideal pneumatic measurement device for countertop use.</h4>
+          <h4> - {% trans 'The ideal pneumatic measurement device for countertop use.' %}</h4>
             <br>
-          <h4> - It works with all known probes and is easy to use. </h4>
+          <h4> - {% trans 'It works with all known probes and is easy to use.' %} </h4>
              <br>
-          <h4> - The membrane keypad provides easy access to settings.  </h4>
+          <h4> - {% trans 'The membrane keypad provides easy access to settings. %}  </h4>
             <br>
-          <h4> - Measurement resolution is 0.1um with a repeatability of 0.5um.</h4>
+          <h4> - {% trans 'Measurement resolution is 0.1um with a repeatability of 0.5um. '%}</h4>
             <br>
-          <h4> -  It features a 7-inch color graphical display. </h4>
+          <h4> - {% trans  'It features a 7-inch color graphical display.' %} </h4>
           <br>
-          <h4> -  Internal memory stores the last 10,000 records. </h4>
+          <h4> - {% trans  'Internal memory stores the last 10,000 records.'%} </h4>
           <br>
-           <h4> -  Data transfer is possible via wireless Ethernet connection.   </h4>
+           <h4> -{% trans   'Data transfer is possible via wireless Ethernet connection.'%}</h4>
 
 
                 <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KA0X_tur.pdf'%}" download="KA0X.pdf">
@@ -254,17 +257,17 @@
         <div class="col-md-12 col-lg-6 py-5 m-auto">
           <div class="media-content">
             <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              Reason for Air-gaging ? 
+              {% trans 'Reason for Air-gaging ?' %}
             </h1>
       <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-4">
            </h1>
             <div class="mbr-section-text mbr-white pb-3 ">
               <p class="mbr-text align-center align-center mbr-fonts-style display-7">
-        Air gaging is commonly used in situations where high precision is required, especially in industries like machining, automotive manufacturing, and aerospace. It is known for its speed, accuracy, and the ability to measure tight tolerances. Air gaging is particularly suitable for measuring features like bores, grooves, and other internal dimensions where traditional contact methods might be challenging or impractical.
+        {% trans 'Air gaging is commonly used in situations where high precision is required, especially in industries like machining, automotive manufacturing, and aerospace. It is known for its speed, accuracy, and the ability to measure tight tolerances. Air gaging is particularly suitable for measuring features like bores, grooves, and other internal dimensions where traditional contact methods might be challenging or impractical.' %}
           </p>
 
         <p class="mbr-text align-center align-center mbr-fonts-style display-7"> 
-        We offer the best products and the services  to our customers and the distributors all around the world.
+        {% trans 'We offer the best products and the services  to our customers and the distributors all around the world.' %}
                 </p>
 
 
@@ -273,7 +276,7 @@
             </div>
             <div class="mbr-section-btn align-center">
               <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'products_page' %}"  >
-                GET A QUOTE 
+                {% trans 'GET A QUOTE' %}
                </a>
             </div>
           </div>
@@ -312,19 +315,19 @@
 
 
         <div class="col-lg-6 mbr-bold align-center mbr-text col-lg-4 py-5">
-          <h4> - The ideal pneumatic measurement device for countertop use.</h4>
+          <h4> - {% trans 'The ideal pneumatic measurement device for countertop use.'%}</h4>
             <br>
-          <h4> - It works with all known probes and is easy to use. </h4>
+          <h4> - {% trans 'It works with all known probes and is easy to use.'%}</h4>
              <br>
-          <h4> - The membrane keypad provides easy access to settings.  </h4>
+          <h4> - {% trans 'The membrane keypad provides easy access to settings.'%}</h4>
             <br>
-          <h4> - Measurement resolution is 0.1um with a repeatability of 0.5um.</h4>
+          <h4> - {% trans 'Measurement resolution is 0.1um with a repeatability of 0.5um. '%}</h4>
             <br>
-          <h4> -  It features a 7-inch color graphical display. </h4>
+          <h4> - {% trans  'It features a 7-inch color graphical display.' %} </h4>
           <br>
-          <h4> -  Internal memory stores the last 10,000 records. </h4>
+          <h4> - {% trans  'Internal memory stores the last 10,000 records.'%}</h4>
           <br>
-           <h4> -  Data transfer is possible via wireless Ethernet connection.   </h4>
+           <h4> - {% trans  'Data transfer is possible via wireless Ethernet connection.' %}</h4>
 
                <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KA100_tur.pdf'%}" download="KA200.pdf">
                 PDF
@@ -354,10 +357,10 @@
         <div class="col-md-12 col-lg-6 py-5 m-auto">
           <div class="media-content">
             <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              Are you interested ? 
+              {% trans 'Are you interested ?' %}
             </h1>
       <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              Contact Us 
+              {% trans 'Contact Us' %}
             </h1>
             <div class="mbr-section-text mbr-white pb-3 ">
               <p class="mbr-text align-center align-center mbr-fonts-style display-7">
@@ -365,7 +368,7 @@
             </div>
             <div class="mbr-section-btn align-center">
               <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'contact_page' %}"  >
-                CONTACT 
+                {% trans 'CONTACT' %}
               </a>
             </div>
           </div>
@@ -404,19 +407,19 @@
 
 
         <div class="col-lg-6 mbr-bold align-center mbr-text col-lg-4 py-5">
-          <h4> - The ideal pneumatic measurement device for countertop use.</h4>
+          <h4> - {% trans 'The ideal pneumatic measurement device for countertop use. '%}</h4>
             <br>
-          <h4> - It works with all known probes and is easy to use. </h4>
+          <h4> - {% trans 'It works with all known probes and is easy to use.' %} </h4>
              <br>
-          <h4> - The membrane keypad provides easy access to settings.  </h4>
+          <h4> - {% trans 'The membrane keypad provides easy access to settings.' %}</h4>
             <br>
-          <h4> - Measurement resolution is 0.1um with a repeatability of 0.5um.</h4>
+          <h4> - {% trans 'Measurement resolution is 0.1um with a repeatability of 0.5um. '%}</h4>
             <br>
-          <h4> -  It features a 7-inch color graphical display. </h4>
+          <h4> - {% trans  'It features a 7-inch color graphical display.' %} </h4>
           <br>
-          <h4> -  Internal memory stores the last 10,000 records. </h4>
+          <h4> - {% trans  'Internal memory stores the last 10,000 records.' %} </h4>
           <br>
-           <h4> -  Data transfer is possible via wireless Ethernet connection.   </h4>
+           <h4> - {% trans  'Data transfer is possible via wireless Ethernet connection. ' %}   </h4>
 
               <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KA200_tur.pdf'%}" download="KA200.pdf">
                 PDF
@@ -460,7 +463,7 @@
       <div class="row justify-content-md-center">
         <div class="mbr-white col-md-10">
           <h1 class="mbr-section-title align-center py-2 mbr-fonts-style display-1">
-            Watch Video
+            {% trans 'Watch Video' %}
           </h1>
           <div class="mbr-media show-modal align-center py-2" data-modal=".modalWindow">
             <div class="icon-wrap">

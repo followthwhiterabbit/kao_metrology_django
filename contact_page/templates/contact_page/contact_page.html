@@ -1,6 +1,7 @@
 {% load static %}
 
 
+{% load i18n %}
 
 
 
@@ -14,25 +15,25 @@
 
     <nav class="navbar-eski navbar-nav-eski navbar-brand-eski  navbar-expand-lg navbar-dark-eski bg-dark-eski">
             <div class="container">
-                <a class="navbar-brand-eski" href="#">MEASURING AND CONTROL SYSTEMS MANIFACTURING</a>
+                <a class="navbar-brand-eski" href="#">{% trans 'MEASURING AND CONTROL SYSTEMS MANIFACTURING ' %}</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="navbar-collapse-eski" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">Products</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">Services</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'newsnevents_page' %}">News&Events</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}">Contact</a></li> 
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">{% trans 'Products' %}</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'newsnevents_page' %}">{% trans 'News&Events' %}</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}">{% trans 'Contact' %}</a></li> 
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Languages</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Turkish</a></li>
-                                <li><a class="dropdown-item" href="#">German</a></li>
-                                <li><a class="dropdown-item" href="#">English</a></li>
-                                <li><a class="dropdown-item" href="#">Italian</a></li>
-                                <li><a class="dropdown-item" href="#">Polish</a></li>
+                                <li><a class="dropdown-item" href="#">{% trans 'Turkish' %}</a></li>
+                                <li><a class="dropdown-item" href="#">{% trans 'German' %}</a></li>
+                                <li><a class="dropdown-item" href="#">{% trans 'English' %}</a></li>
+                                <li><a class="dropdown-item" href="#">{% trans 'Italian' %}</a></li>
+                                <li><a class="dropdown-item" href="#">{% trans 'Polish' %}</a></li>
                               <li><hr class="dropdown-divider" /></li>
                             </ul>
                         </li>
@@ -111,7 +112,7 @@
 <form method="POST" action="{% url 'contact_page' %}">
  {% csrf_token %} 
  
-<h3 class="get_in_touch">GET IN TOUCH WITH US</h3>
+<h3 class="get_in_touch">{% trans 'GET IN TOUCH WITH US' %}</h3>
 
 <div class="name-fields">
 <input type="text_name" name="first_name" placeholder="First Name" required>
@@ -129,15 +130,15 @@
 <br>
 
             <select class="contact-drop-down"  name="hear" id="hear">
-                <option>How did you hear about us </option>
-                <option value="1">Existing Partner</option>
-                <option value="2">Word of mouth</option>
-                <option value="3">Brochure</option>
+                <option>{% trans 'How did you hear about us' %} </option>
+                <option value="1">{% trans 'Existing Partner' %}</option>
+                <option value="2">{% trans 'Word of mouth' %}</option>
+                <option value="3">{% trans 'Brochure' %}</option>
                 <option value="4">LinkedIn</option>
                 <option value="5">Google</option>
                 <option value="6">Yahoo</option>
                 <option value="7">Bing</option>
-                <option value="9">Other</option>
+                <option value="9">{% trans 'Other '%}</option>
             </select> 
 
 

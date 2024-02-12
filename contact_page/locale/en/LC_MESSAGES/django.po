@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-11 18:54+0100\n"
+"POT-Creation-Date: 2024-02-12 10:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,70 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: contact_page/templates/contact_page/contact_page.html:22
+#: contact_page/templates/contact_page/contact_page.html:18
+msgid "MEASURING AND CONTROL SYSTEMS MANIFACTURING "
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:23
 msgid "Menu"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:24
+msgid "Products"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:25
+msgid "Services"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:26
+msgid "News&Events"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:27
+msgid "Contact"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:32
+msgid "Turkish"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:33
+msgid "German"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:34
+msgid "English"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:35
+msgid "Italian"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:36
+msgid "Polish"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:115
+msgid "GET IN TOUCH WITH US"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:133
+msgid "How did you hear about us"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:134
+msgid "Existing Partner"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:135
+msgid "Word of mouth"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:136
+msgid "Brochure"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:141
+msgid "Other "
 msgstr ""
