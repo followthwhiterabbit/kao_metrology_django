@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-12 19:51+0100\n"
-"PO-Revision-Date: 2024-02-12 19:00+0000\n"
+"PO-Revision-Date: 2024-02-13 09:52+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -89,7 +89,7 @@ msgstr "Mastarlar"
 
 #: about_page/templates/about/about_page.html:173
 msgid "Metrology is our passion"
-msgstr ""
+msgstr "Metroloji bizim tutkumuz"
 
 #: about_page/templates/about/about_page.html:177
 msgid ""
@@ -99,6 +99,11 @@ msgid ""
 "devices with portable usage and aesthetics, we provide embedded solutions to"
 " the embedded problems in metrology and automation."
 msgstr ""
+"En son teknolojileri ve yenilikleri üretim ve otomasyon alanındaki yeni "
+"gelişmelerin olasılığıyla birleştiren bir metrolojik cihaz üreticisinden "
+"daha fazlasıyız. Taşınabilir kullanıma ve estetiğe sahip gelişmiş cihazlar "
+"üretmenin yanı sıra, metroloji ve otomasyon alanındaki gömülü sorunlara "
+"gömülü çözümler sunuyoruz."
 
 #: about_page/templates/about/about_page.html:182
 #: about_page/templates/about/about_page.html:288
@@ -106,19 +111,19 @@ msgstr ""
 #: about_page/templates/about/about_page.html:419
 #: about_page/templates/about/about_page.html:439
 msgid "View More"
-msgstr ""
+msgstr "incele"
 
 #: about_page/templates/about/about_page.html:214
 msgid "DIMENSIONAL MEASUREMENT"
-msgstr ""
+msgstr "BOYUTSAL ÖLÇÜM"
 
 #: about_page/templates/about/about_page.html:217
 msgid "We are the masters of Air-gaging with 30+ years of experience."
-msgstr ""
+msgstr "30 yılı aşkın bir suredır Pnomatık olcumun ustasıyız. "
 
 #: about_page/templates/about/about_page.html:231
 msgid "LEAK TESTING"
-msgstr ""
+msgstr "SIZDIRMAZLIK TESTI"
 
 #: about_page/templates/about/about_page.html:234
 msgid ""
