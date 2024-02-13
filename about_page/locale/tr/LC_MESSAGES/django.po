@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-12 19:51+0100\n"
-"PO-Revision-Date: 2024-02-13 09:46+0000\n"
+"PO-Revision-Date: 2024-02-13 09:52+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -123,7 +123,7 @@ msgstr "30 yılı aşkın bir suredır Pnomatık olcumun ustasıyız. "
 
 #: about_page/templates/about/about_page.html:231
 msgid "LEAK TESTING"
-msgstr ""
+msgstr "SIZDIRMAZLIK TESTI"
 
 #: about_page/templates/about/about_page.html:234
 msgid ""
