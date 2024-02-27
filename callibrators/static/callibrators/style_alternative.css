@@ -12882,7 +12882,7 @@ section {
 .cid-ryh9am114g { 
     padding-top: 0px; 
     padding-bottom: 0px; 
-    background-color: #000000;
+    background-color: #2C4491;
 } 
 
 .cid-ryh9cEwEwT { 
@@ -12930,13 +12930,13 @@ section {
 .cid-ryha7dvnCF { 
     padding-top: 45px; 
     padding-bottom: 45px; 
-    background-color: #767676;
+    background-color: #2C4491;
 } 
 
 .cid-ryha9vUPBi { 
     padding-top: 30px; 
     padding-bottom: 30px; 
-    background-color: #767676;
+    background-color: #2C4491;
 } 
 
 a { 
@@ -16497,4 +16497,32 @@ text-align: center;
   margin-left: -225px;
   color:#fff; 
   font:var(--bs-font-sans-serif);
+}
+
+
+
+#languageDropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
+#languageDropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+#productsdropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
+#productsdropdown:hover .dropdown-menu {
+    display: block;
 }

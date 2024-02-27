@@ -16498,3 +16498,30 @@ text-align: center;
   color:#fff; 
   font:var(--bs-font-sans-serif);
 }
+
+
+#languageDropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
+#languageDropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+#productsdropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
+#productsdropdown:hover .dropdown-menu {
+    display: block;
+}

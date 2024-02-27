@@ -9,27 +9,37 @@
 
     <nav class="navbar-eski  navbar-nav-eski navbar-brand-eski navbar-expand-lg navbar-dark-eski bg-dark-eski">
             <div class="container">
-                <a class="navbar-brand-eski"> {% trans 'MEASURING AND CONTROL SYSTEMS MANIFACTURING' %}</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="navbar-collapse-eski" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">{% trans 'Products' %}</a></li>
+                         <li class="nav-item dropdown" id="productsdropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="{% url 'dimensional_measurement' %}">{% trans 'Dimensional Measurement'  %}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'leak_testing' %}">{% trans 'Leak Testing Devices' %}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'callibrators' %}">{% trans 'Callibrators ' %}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'accessories' %}">{% trans 'Accessories' %}</a></li>
+                              <li><hr class="dropdown-divider" /></li>
+                            </ul>
+                        </li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'newsnevents_page' %}"> {% trans 'News&Events' %}</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}"> {% trans 'Contact' %}</a></li>   
 
                       
                       
-                      <li class="nav-item dropdown">
+                      <li class="nav-item dropdown" id="languageDropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Languages</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">{% trans 'Turkish' %}</a></li>
-                                <li><a class="dropdown-item" href="#">{% trans 'German' %}</a></li>
-                                <li><a class="dropdown-item" href="#">{% trans 'English' %}</a></li>
-                                <li><a class="dropdown-item" href="#">{% trans 'Italian' %}</a></li>
-                                <li><a class="dropdown-item" href="#">{% trans 'Polish' %}</a></li>
+                                <li><a class="dropdown-item" href="/tr">{% trans 'Turkish' %}</a></li>
+                                <li><a class="dropdown-item" href="/en">{% trans 'English' %}</a></li>
+                                <li><a class="dropdown-item" href="/fr">{% trans 'French' %}</a></li>
+                                <li><a class="dropdown-item" href="/de">{% trans 'German' %}</a></li>
+                                <li><a class="dropdown-item" href="/it">{% trans 'Italian' %}</a></li>
+                                <li><a class="dropdown-item" href="/pl">{% trans 'Polish' %}</a></li>
+                                <li><a class="dropdown-item" href="/es">{% trans 'Spanish' %}</a></li>
+
                               <li><hr class="dropdown-divider" /></li>
                             </ul>
                         </li>
@@ -377,74 +387,6 @@
   </section>
 
 
-        
- <section class="features3 cid-rym4BqMZP3" id="features05-3t">
-    <div class="container">
-      <div class="row">
-        <div class="card p-3 col-12 col-md-8 col-lg-4">
-          <div class="card-wrapper">
-            <div class="card-box">
-              <div class="card-img">
-                <img src = "{% static 'about/environment_friendly.jpg'%}" alt="env_friendly" width="300" height="300" >
-              </div>
-              <h4 class="card-title align-center custom-left-first mbr-bold mbr-black mbr-fonts-style display-5">
-                {% trans 'Environment-Friendly' %}
-              </h4>
-              <p class="mbr-text align-center custom-left-third mbr-black mbr-fonts-style display-7">
-           
-              </p>
-              <div class="mbr-section-btn align-center">
-                <a href= "{% url 'products_page' %}" class="btn btn-md btn-red-outline display-4">
-
-                  {% trans 'View More' %}
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card p-3 col-12 col-md-8 col-lg-4">
-          <div class="card-wrapper">
-            <div class="card-box">
-              <div class="card-img">
-                <img src = "{% static 'about/fast-delivery_image.png'%}" alt="fast_delivery" width="300" height="300" >
-              </div>
-              <h4 class="card-title align-center custom-left mbr-bold mbr-black mbr-fonts-style display-5">
-                {% trans 'Fast Delivery Time' %}
-              </h4>
-              <p class="mbr-text align-center custom-left-third mbr-black mbr-fonts-style display-7">
-                
-              </p>
-              <div class="mbr-section-btn align-center">
-                <a href= "{% url 'products_page' %}" class="btn btn-md btn-red-outline display-4">
-                  {% trans 'View More' %}
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card p-3 col-12 col-md-8 col-lg-4">
-          <div class="card-wrapper ">
-            <div class="card-box">
-              <div class="card-img ">
-                <img src = "{% static 'about/quality_assured.jpeg'%}" alt="quality_assured" width="300" height="300"  >
-              </div>
-              <h4 class="card-title align-center custom-left mbr-bold mbr-black mbr-fonts-style display-5">
-                {% trans 'Quality Assured' %}
-              </h4>
-              <p class="mbr-text align-center custom-left-third mbr-black mbr-fonts-style display-7">
-       
-              </p>
-              <div class="mbr-section-btn align-center">
-                <a href= "{% url 'products_page' %}" class="btn btn-md btn-red-outline display-4">
-                  {% trans 'View More' %}
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
 
   <section class="cid-ryh8XVUoGh" id="content04-3a">

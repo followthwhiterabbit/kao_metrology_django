@@ -8,26 +8,35 @@
 
     <nav class="navbar-eski  navbar-nav-eski navbar-brand-eski navbar-expand-lg navbar-dark-eski bg-dark-eski">
             <div class="container">
-                <a class="navbar-brand-eski">{% trans 'MEASURING AND CONTROL SYSTEMS MANIFACTURING' %}</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="navbar-collapse-eski" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu'%}</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">{% trans 'Products' %}</a></li>
+                         <li class="nav-item dropdown" id="productsdropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="{% url 'dimensional_measurement' %}">{% trans 'Dimensional Measurement'  %}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'leak_testing' %}">{% trans 'Leak Testing Devices' %}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'callibrators' %}">{% trans 'Callibrators ' %}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'accessories' %}">{% trans 'Accessories' %}</a></li>
+                              <li><hr class="dropdown-divider" /></li>
+                            </ul>
+                        </li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'newsnevents_page' %}">{% trans 'News&Events' %}</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}">{% trans 'Contact' %}</a></li>   
                       
                       
-                      <li class="nav-item dropdown">
+                      <li class="nav-item dropdown" id="languageDropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Languages</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">{% trans 'Turkish' %}</a></li>
-                                <li><a class="dropdown-item" href="#">{% trans 'German' %}</a></li>
-                                <li><a class="dropdown-item" href="#">{% trans 'English' %}</a></li>
-                                <li><a class="dropdown-item" href="#">{% trans 'Italian' %}</a></li>
-                                <li><a class="dropdown-item" href="#">{% trans 'Polish' %}</a></li>
+                                <li><a class="dropdown-item" href="/tr/callibrators">{% trans 'Turkish' %}</a></li>
+                                <li><a class="dropdown-item" href="/en/callibrators">{% trans 'English' %}</a></li>
+                                <li><a class="dropdown-item" href="/fr/Callibrators">{% trans 'French' %}</a></li>
+                                <li><a class="dropdown-item" href="/de/Callibrators">{% trans 'German' %}</a></li>
+                                <li><a class="dropdown-item" href="/it/callibrators">{% trans 'Italian' %}</a></li>
+                                <li><a class="dropdown-item" href="/pl/callibrators">{% trans 'Polish' %}</a></li>
+                                <li><a class="dropdown-item" href="/es/callibrators">{% trans 'Spanish' %}</a></li>
                               <li><hr class="dropdown-divider" /></li>
                             </ul>
                         </li>
