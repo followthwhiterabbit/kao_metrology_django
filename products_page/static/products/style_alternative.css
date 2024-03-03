@@ -13154,6 +13154,11 @@ nav {
     text-align: right;
 } 
 
+.align-middle
+{
+  margin-left: 25%;
+}
+
 .align-left{
   text-align: left;
 }

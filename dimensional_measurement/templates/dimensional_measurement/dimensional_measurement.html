@@ -27,15 +27,20 @@
                       
                       
                       <li class="nav-item dropdown" id="languageDropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Languages</a>
+                         <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="{% static 'about/language.svg' %}" alt="language icon">
+                                Languages
+                          </a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="/tr/dimensionalmeasurement">{% trans 'Turkish' %}</a></li>
-                                <li><a class="dropdown-item" href="/en/dimensionalmeasurement">{% trans 'English' %}</a></li>
-                                <li><a class="dropdown-item" href="/fr/dimensionalmeasurement">{% trans 'French' %}</a></li>
-                                <li><a class="dropdown-item" href="/de/dimensionalmeasurement">{% trans 'German' %}</a></li>
-                                <li><a class="dropdown-item" href="/it/dimensionalmeasurement">{% trans 'Italian' %}</a></li>
-                                <li><a class="dropdown-item" href="/pl/dimensionalmeasurement">{% trans 'Polish' %}</a></li>
-                                <li><a class="dropdown-item" href="/es/dimensionalmeasurement">{% trans 'Spanish' %}</a></li>
+                            <li><a class="dropdown-item" href="/tr"><img src="{% static 'about/Turkey.png' %}" alt="Turkish flag" style="width: 25px; height: auto;"> {% trans 'Turkish' %}</a></li>
+                                <li><a class="dropdown-item" href="/en"><img src="{% static 'about/England.png' %}" alt="English flag" style="width: 25px; height: auto;">{% trans 'English' %}</a></li>
+                                <li><a class="dropdown-item" href="/fr"><img src="{% static 'about/france.png' %}" alt="French flag" style="width: 25px; height: auto;">{% trans 'French' %}</a></li>
+                                <li><a class="dropdown-item" href="/de"><img src="{% static 'about/German.png' %}" alt="German flag" style="width: 25px; height: auto;">{% trans 'German' %}</a></li>
+                                <li><a class="dropdown-item" href="/it"><img src="{% static 'about/Italy.png' %}" alt="Italian flag" style="width: 25px; height: auto;">{% trans 'Italian' %}</a></li>
+                                <li><a class="dropdown-item" href="/pl"><img src="{% static 'about/Poland.png' %}" alt="Polish flag" style="width: 25px; height: auto;">{% trans 'Polish' %}</a></li>
+                                <li><a class="dropdown-item" href="/ru"><img src="{% static 'about/russia.png' %}" alt="Russian flag" style="width: 25px; height: auto;">{% trans 'Russian' %}</a></li>
+                                <li><a class="dropdown-item" href="/es"><img src="{% static 'about/Spain.png' %}" alt="Spanish flag" style="width: 25px; height: auto;">{% trans 'Spanish' %}</a></li>
+
                             </ul>
                         </li>
                     </ul>
@@ -48,7 +53,6 @@
 </div>  
 
 
-    <img src="{% static 'about/Cursor.png' %}"  class="cursor-1" width="75" height="75">
 
 
 
@@ -146,7 +150,8 @@
                 PDF
                </a>
 
-       
+               
+
 
         </div>
 
@@ -340,6 +345,11 @@
                 PDF
                </a>
 
+                <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KA100.STEP'%}" download="KA100.STEP">
+                STEP
+               </a>
+
+
 
         </div>
 
@@ -404,7 +414,7 @@
             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
               <div class="wrap">
                 <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
-                  KA100
+                  KA200
                 </h4>
                 <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
 
@@ -433,6 +443,11 @@
 
               <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KA200_tur.pdf'%}" download="KA200.pdf">
                 PDF
+               </a>
+
+
+                <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KA200.STEP'%}" download="KA200.STEP">
+                STEP
                </a>
 
         </div>
@@ -540,6 +555,33 @@
       </div>
       
       </div>
+
+      <nav class="navbar-eski  navbar-nav-eski navbar-dark-eski bg-blue-eski ">
+            <div class="container">
+                <div class="align-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+
+                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li> 
+                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">{% trans 'Products' %}</a></li>
+                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li>
+                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}"> {% trans 'Contact' %}</a></li>   
+
+                      
+                   
+                    </ul>
+                </div>
+            </div>
+
+
+                <div class="call_us_section align-middle">
+             <img src="{% static 'about/call_us-Photoroom.png' %}" alt="call us logo" style="width:50px; height:50px;"> 
+          
+             </div>
+
+           <div class="number_section align-middle">
+          <h3>0212 5917039-40</h3> 
+             </div>
+        </nav>
     
   </section>
   <section once="footers" class="cid-ryha9vUPBi" id="footer01-3j">

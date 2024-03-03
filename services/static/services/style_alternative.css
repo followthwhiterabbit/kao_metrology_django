@@ -13116,6 +13116,10 @@ nav {
     text-align: center;
 } 
 
+.align-middle
+{
+  margin-left: 25%;
+}
 
 @media (min-width: 767px){ 
   .cid-rym4BqMZP3 .container  { 

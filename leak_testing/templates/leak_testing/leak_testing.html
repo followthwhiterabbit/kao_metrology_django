@@ -29,15 +29,19 @@
                       
                       
                       <li class="nav-item dropdown" id="languageDropdown">
-                            <a class="nav-link dropdown-toggle" id="languageDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Languages</a>
+                         <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="{% static 'about/language.svg' %}" alt="language icon">
+                                Languages
+                          </a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="/tr/leaktesting">{% trans 'Turkish' %}</a></li>
-                                <li><a class="dropdown-item" href="/en/leaktesting">{% trans 'English' %}</a></li>
-                                <li><a class="dropdown-item" href="/fr/leaktesting">{% trans 'French' %}</a></li>
-                                <li><a class="dropdown-item" href="/de/leaktesting">{% trans 'German' %}</a></li>
-                                <li><a class="dropdown-item" href="/it/leaktesting">{% trans 'Italian' %}</a></li>
-                                <li><a class="dropdown-item" href="/pl/leaktesting">{% trans 'Polish' %}</a></li>
-                                <li><a class="dropdown-item" href="/es/leaktesting">{% trans 'Spanish' %}</a></li> 
+                              <li><a class="dropdown-item" href="/tr"><img src="{% static 'about/Turkey.png' %}" alt="Turkish flag" style="width: 25px; height: auto;"> {% trans 'Turkish' %}</a></li>
+                              <li><a class="dropdown-item" href="/en"><img src="{% static 'about/England.png' %}" alt="English flag" style="width: 25px; height: auto;">{% trans 'English' %}</a></li>
+                              <li><a class="dropdown-item" href="/fr"><img src="{% static 'about/france.png' %}" alt="French flag" style="width: 25px; height: auto;">{% trans 'French' %}</a></li>
+                              <li><a class="dropdown-item" href="/de"><img src="{% static 'about/German.png' %}" alt="German flag" style="width: 25px; height: auto;">{% trans 'German' %}</a></li>
+                              <li><a class="dropdown-item" href="/it"><img src="{% static 'about/Italy.png' %}" alt="Italian flag" style="width: 25px; height: auto;">{% trans 'Italian' %}</a></li>
+                              <li><a class="dropdown-item" href="/pl"><img src="{% static 'about/Poland.png' %}" alt="Polish flag" style="width: 25px; height: auto;">{% trans 'Polish' %}</a></li>
+                              <li><a class="dropdown-item" href="/ru"><img src="{% static 'about/russia.png' %}" alt="Russian flag" style="width: 25px; height: auto;">{% trans 'Russian' %}</a></li>
+                              <li><a class="dropdown-item" href="/es"><img src="{% static 'about/Spain.png' %}" alt="Spanish flag" style="width: 25px; height: auto;">{% trans 'Spanish' %}</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -50,7 +54,6 @@
 </div>  
 
 
-    <img src="{% static 'about/Cursor.png' %}"  class="cursor-1" width="75" height="75">
 
 
 
@@ -234,6 +237,10 @@
                 PDF
                </a>
 
+                  <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KX200.STEP'%}" download="KX200.STEP">
+                STEP
+               </a>
+
 
 
         </div>
@@ -345,6 +352,11 @@
                 PDF
                </a>
 
+            <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KX200.STEP'%}" download="KX200.STEP">
+                STEP
+               </a>
+
+
 
         </div>
 
@@ -439,6 +451,11 @@
             PDF
                </a>
 
+
+            <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KX300.STEP'%}" download="KX300.STEP">
+                STEP
+               </a>
+
         </div>
         </div>
     
@@ -519,6 +536,33 @@
       </div>
       
       </div>
+
+      <nav class="navbar-eski  navbar-nav-eski navbar-dark-eski bg-blue-eski ">
+            <div class="container">
+                <div class="align-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+
+                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li> 
+                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">{% trans 'Products' %}</a></li>
+                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li>
+                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}"> {% trans 'Contact' %}</a></li>   
+
+                      
+                   
+                    </ul>
+                </div>
+            </div>
+
+
+                <div class="call_us_section align-middle">
+             <img src="{% static 'about/call_us-Photoroom.png' %}" alt="call us logo" style="width:50px; height:50px;"> 
+          
+             </div>
+
+           <div class="number_section align-middle">
+          <h3>0212 5917039-40</h3> 
+             </div>
+        </nav>
     
   </section>
   <section once="footers" class="cid-ryha9vUPBi" id="footer01-3j">
@@ -532,10 +576,7 @@
       </div>
     </div>
   </section>
-  <!--
-<iframe allow="join-ad-interest-group" data-tagging-id="AW-1071863997" data-load-time="1704746206457" height="0" width="0" src="https://td.doubleclick.net/td/rul/1071863997?random=1704746206455&amp;cv=11&amp;fst=1704746206455&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He4130v71321738&amp;gcd=11l1l1l1l1&amp;dma_cps=sypham&amp;dma=1&amp;u_w=1920&amp;u_h=1080&amp;url=https%3A%2F%2Fmobirise.com%2Fextensions%2Fphotom4%2Fphotoshopdemo%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Photography%20Shop%20Demo%20-%20PhotoM4&amp;fledge=1&amp;uaa=x86&amp;uab=64&amp;uafvl=Google%2520Chrome%3B119.0.6045.105%7CChromium%3B119.0.6045.105%7CNot%253FA_Brand%3B24.0.0.0&amp;uamb=0&amp;uap=Linux&amp;uapv=6.2.0&amp;uaw=0" data-gtm-yt-inspected-19="true" data-gtm-yt-inspected-27="true" id="style-yjkdi" class="style-yjkdi">
-  </iframe>
--->
+
   <noscript>
     <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1123285727682531&amp;ev=PageView&amp;noscript=1">
   </noscript>

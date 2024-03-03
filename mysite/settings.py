@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os 
+from decouple import config, RepositoryEnv
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -36,6 +38,8 @@ LANGUAGES = [
     ('pl', _('Polish')),
     ('it', _('Italian')),
     ('tr', _('Turkish')),
+    ('ru', _('Russian')),
+
 ]
 
 
@@ -47,7 +51,6 @@ LOCALE_PATHS = [
     os.path.join(BASE_DIR, 'contact_page', 'locale'), 
     os.path.join(BASE_DIR, 'dimensional_measurement', 'locale'),
     os.path.join(BASE_DIR, 'leak_testing', 'locale'),
-    os.path.join(BASE_DIR, 'newsnevents_page', 'locale'),
     os.path.join(BASE_DIR, 'products_page', 'locale'),
     os.path.join(BASE_DIR, 'services', 'locale'),
     
@@ -63,8 +66,6 @@ INSTALLED_APPS = [
     'about_page.apps.AboutPageConfig',
     'contact_page.apps.ContactConfig',
     'products_page.apps.ProductsPageConfig', 
-    'careers.apps.CareersConfig',
-    'newsnevents_page.apps.NewsneventsPageConfig',
     'dimensional_measurement.apps.DimensionalMeasurementConfig',
     'leak_testing.apps.LeakTestingConfig',
     'callibrators.apps.CallibratorsConfig',
@@ -78,6 +79,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_recaptcha',
     'rosetta', #NEW
+    'imagekit', 
 ]
 
 MIDDLEWARE = [
@@ -185,11 +187,11 @@ EMAIL_HOST =  'mail.kaometrology.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT =  465
 EMAIL_HOST_USER =  'kaan.karaalioglu@kaometrology.com'
-EMAIL_HOST_PASSWORD =  '162534Kaan*'
+EMAIL_HOST_PASSWORD =  config('EMAIL_HOST_PASSWORD')
 
 
-RECAPTCHA_PUBLIC_KEY = '6LetokcpAAAAAJme6hGTF17WM32BmBfW0tYEI-K0'
-RECAPTCHA_PRIVATE_KEY = '6LetokcpAAAAAMdGTd73Lp1PAKZFEGnet_RG4jt8A'
+RECAPTCHA_PUBLIC_KEY = config('RECAPTCHA_PUBLIC_KEY')
+RECAPTCHA_PRIVATE_KEY = config('RECAPTCHA_PRIVATE_KEY')
 
 
 

@@ -25,8 +25,6 @@ urlpatterns = i18n_patterns(
     path("about/products", include("products_page.urls")),
     path("admin/", admin.site.urls),
     path("products/", include("products_page.urls") ),
-    path("careers/", include("careers.urls")), 
-    path("events/", include("newsnevents_page.urls")),
     path("dimensionalmeasurement/", include("dimensional_measurement.urls")),
     path("leaktesting/", include("leak_testing.urls")),
     path("callibrators/", include("callibrators.urls")),

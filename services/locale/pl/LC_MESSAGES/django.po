@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-13 10:48+0100\n"
+"POT-Creation-Date: 2024-02-29 19:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,63 +20,75 @@ msgstr ""
 "(n%100<12 || n%100>=14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
-#: services/templates/services/services.html:13
-msgid "MEASURING AND CONTROL SYSTEMS MANIFACTURING"
-msgstr ""
-
-#: services/templates/services/services.html:18
+#: services/templates/services/services.html:17
 msgid "Menu"
 msgstr ""
 
-#: services/templates/services/services.html:19
-msgid "Products"
-msgstr ""
-
-#: services/templates/services/services.html:20
-msgid "Services"
-msgstr ""
-
-#: services/templates/services/services.html:21
-msgid "News&Events"
-msgstr ""
-
 #: services/templates/services/services.html:22
-msgid "Contact"
+msgid "Dimensional Measurement"
+msgstr ""
+
+#: services/templates/services/services.html:23
+msgid "Leak Testing Devices"
+msgstr ""
+
+#: services/templates/services/services.html:24
+msgid "Callibrators "
+msgstr ""
+
+#: services/templates/services/services.html:25
+msgid "Accessories"
 msgstr ""
 
 #: services/templates/services/services.html:28
-msgid "Turkish"
+msgid "Services"
 msgstr ""
 
 #: services/templates/services/services.html:29
-msgid "German"
+msgid "Contact"
 msgstr ""
 
-#: services/templates/services/services.html:30
+#: services/templates/services/services.html:35
+msgid "Turkish"
+msgstr ""
+
+#: services/templates/services/services.html:36
 msgid "English"
 msgstr ""
 
-#: services/templates/services/services.html:31
+#: services/templates/services/services.html:37
+msgid "French"
+msgstr ""
+
+#: services/templates/services/services.html:38
+msgid "German"
+msgstr ""
+
+#: services/templates/services/services.html:39
 msgid "Italian"
 msgstr ""
 
-#: services/templates/services/services.html:32
+#: services/templates/services/services.html:40
 msgid "Polish"
 msgstr ""
 
-#: services/templates/services/services.html:77
+#: services/templates/services/services.html:41
+msgid "Spanish"
+msgstr ""
+
+#: services/templates/services/services.html:84
 msgid "Services "
 msgstr ""
 
-#: services/templates/services/services.html:86
+#: services/templates/services/services.html:93
 msgid "View More"
 msgstr ""
 
-#: services/templates/services/services.html:110
+#: services/templates/services/services.html:117
 msgid "Pneumatic Probes"
 msgstr ""
 
-#: services/templates/services/services.html:124
+#: services/templates/services/services.html:131
 msgid ""
 " \n"
 "             Measurement of parts is sometimes carried out in a workshop "
@@ -95,17 +107,17 @@ msgid ""
 "            "
 msgstr ""
 
-#: services/templates/services/services.html:137
-#: services/templates/services/services.html:205
-#: services/templates/services/services.html:319
+#: services/templates/services/services.html:144
+#: services/templates/services/services.html:212
+#: services/templates/services/services.html:326
 msgid "GET A QUOTE"
 msgstr ""
 
-#: services/templates/services/services.html:176
+#: services/templates/services/services.html:183
 msgid "AUTOMATIC MEASUREMENT MACHINES OR DEVICES"
 msgstr ""
 
-#: services/templates/services/services.html:185
+#: services/templates/services/services.html:192
 msgid ""
 "\n"
 "                If you're saying you don't have the time or confidence that "
@@ -121,17 +133,17 @@ msgid ""
 "              "
 msgstr ""
 
-#: services/templates/services/services.html:196
+#: services/templates/services/services.html:203
 msgid ""
 "We offer the best products and the services  to our customers and the "
 "distributors all around the world."
 msgstr ""
 
-#: services/templates/services/services.html:297
+#: services/templates/services/services.html:304
 msgid "Software Support"
 msgstr ""
 
-#: services/templates/services/services.html:304
+#: services/templates/services/services.html:311
 msgid ""
 " \n"
 "        All KAO measurement devices record data, store them in their "
@@ -141,11 +153,11 @@ msgid ""
 "         "
 msgstr ""
 
-#: services/templates/services/services.html:341
+#: services/templates/services/services.html:348
 msgid "KAO Data Server Software"
 msgstr ""
 
-#: services/templates/services/services.html:344
+#: services/templates/services/services.html:351
 msgid ""
 "\n"
 "                  The DS software serves as a server allowing wired and "
@@ -166,11 +178,11 @@ msgid ""
 "                      "
 msgstr ""
 
-#: services/templates/services/services.html:366
+#: services/templates/services/services.html:373
 msgid "KAO Data Monitoring Terminal"
 msgstr ""
 
-#: services/templates/services/services.html:369
+#: services/templates/services/services.html:376
 msgid ""
 "\n"
 "              Provides real-time access to data stored in SQL server.\n"
@@ -179,11 +191,11 @@ msgid ""
 "                  "
 msgstr ""
 
-#: services/templates/services/services.html:387
+#: services/templates/services/services.html:394
 msgid "QDAS Data Converter"
 msgstr ""
 
-#: services/templates/services/services.html:390
+#: services/templates/services/services.html:397
 msgid ""
 "\n"
 "                  When data reaches DS, it classifies them with catalog "
@@ -194,6 +206,6 @@ msgid ""
 "                   "
 msgstr ""
 
-#: services/templates/services/services.html:427
+#: services/templates/services/services.html:434
 msgid "Watch Video"
 msgstr ""

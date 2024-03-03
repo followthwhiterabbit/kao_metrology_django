@@ -12736,28 +12736,8 @@ body {
 } 
 
 
-@font-face { 
-  font-family:'MobiriseIcons';
-  src:url('https://mobirise.com/extensions/photom4/assets/web/assets/mobirise-icons/mobirise-icons.eot?spat4u');
-  src:url('https://mobirise.com/extensions/photom4/assets/web/assets/mobirise-icons/mobirise-icons.eot?spat4u#iefix') format('embedded-opentype'),
-    url('https://mobirise.com/extensions/photom4/assets/web/assets/mobirise-icons/mobirise-icons.ttf?spat4u') format('truetype'),
-    url('https://mobirise.com/extensions/photom4/assets/web/assets/mobirise-icons/mobirise-icons.woff?spat4u') format('woff'),
-    url('https://mobirise.com/extensions/photom4/assets/web/assets/mobirise-icons/mobirise-icons.svg?spat4u#MobiriseIcons') format('svg');
-  font-weight:normal;
-  font-style:normal;
-  font-display:swap;
-} 
-@font-face { 
-  font-family:'Moririse2';
-  font-display:swap;
-  src:url('https://mobirise.com/extensions/photom4/assets/web/assets/mobirise-icons2/mobirise2.eot?f2bix4');
-  src:url('https://mobirise.com/extensions/photom4/assets/web/assets/mobirise-icons2/mobirise2.eot?f2bix4#iefix') format('embedded-opentype'),
-    url('https://mobirise.com/extensions/photom4/assets/web/assets/mobirise-icons2/mobirise2.ttf?f2bix4') format('truetype'),
-    url('https://mobirise.com/extensions/photom4/assets/web/assets/mobirise-icons2/mobirise2.woff?f2bix4') format('woff'),
-    url('https://mobirise.com/extensions/photom4/assets/web/assets/mobirise-icons2/mobirise2.svg?f2bix4#mobirise2') format('svg');
-  font-weight:normal;
-  font-style:normal;
-} 
+
+
 @import url('https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap'); 
   body {  
     font-family:sans-serif;
@@ -12860,12 +12840,6 @@ section {
     left: -2400px;
 } 
 
-.cid-ryfVKiAqVx { 
-    padding-top: 225px; 
-    padding-bottom: 225px; 
-    background-image: url("https://mobirise.com/extensions/photom4/assets/images/mbr-1.jpg");
-} 
-
 .cid-ryhcqtn4u7 { 
     padding-top: 105px; 
     padding-bottom: 105px; 
@@ -12920,11 +12894,7 @@ section {
     background-color: #ffffff;
 } 
 
-.cid-ryhaeS2jHO { 
-    padding-top: 210px; 
-    padding-bottom: 210px; 
-    background-image: url("https://mobirise.com/extensions/photom4/assets/images/mbr.jpg");
-} 
+ 
 
 .cid-ryha8QwidL { 
     padding-top: 75px; 
@@ -13151,6 +13121,11 @@ nav {
 .align-right { 
     text-align: right;
 } 
+
+.align-middle
+{
+  margin-left: 25%;
+}
 
 .cid-ryfQpXufii .icon-wrap  { 
     width: 100%; 
@@ -13660,12 +13635,6 @@ button {
   } 
 }     
 
-.cid-ryh93nf0oj .mbr-testimonial  { 
-    background-image: url("https://mobirise.com/extensions/photom4/assets/images/background25.jpg"); 
-    background-size: cover; 
-    padding: 8rem;
-} 
-
 .cid-ryh93nf0oj .mbr-testimonial::before { 
     content: ''; 
     position: absolute; 
@@ -14160,12 +14129,6 @@ p {
 }     
 
  
-/*
-.cid-rym4BqMZP3 .card3  { 
-    /*background-image: url("https://mobirise.com/extensions/photom4/assets/images/background33.jpg");
-} 
-*/
-
 
 .media-content { 
     -webkit-flex-basis: 100%; 
@@ -16076,21 +16039,7 @@ strong {
     pointer-events: none;  
     z-index: -100;  
 }  
-#style-5vi5w.style-5vi5w {  
-   background-position: 50% 50%;  
-    background-size: cover;  
-    background-repeat: no-repeat;  
-    background-image: url("https://mobirise.com/extensions/photom4/assets/images/mbr-1.jpg");  
-    position: fixed;  
-    top: 0px;  
-    left: 0px;  
-    width: 1905px;  
-    height: 871.078px;  
-    overflow: hidden;  
-    pointer-events: none;  
-    margin-top: 33.9609px;  
-    transform: translate3d(0px, -33.9609px, 0px);  
-}  
+ 
 #style-xBkoP.style-xBkoP {  
    display: none;  
 }  

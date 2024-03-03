@@ -13153,7 +13153,12 @@ nav {
 
 .align-right { 
     text-align: right;
-} 
+}
+
+.align-middle
+{
+  margin-left: 25%;
+}
 
 .cid-ryfQpXufii .icon-wrap  { 
     width: 100%; 
