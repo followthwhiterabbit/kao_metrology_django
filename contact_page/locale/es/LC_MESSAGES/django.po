@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-29 19:30+0100\n"
+"POT-Creation-Date: 2024-03-03 22:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: contact_page/templates/contact_page/contact_page.html:23
+#: contact_page/templates/contact_page/contact_page.html:258
 msgid "Menu"
 msgstr ""
 
@@ -39,61 +40,71 @@ msgid "Accessories"
 msgstr ""
 
 #: contact_page/templates/contact_page/contact_page.html:34
+#: contact_page/templates/contact_page/contact_page.html:260
 msgid "Services"
 msgstr ""
 
 #: contact_page/templates/contact_page/contact_page.html:35
+#: contact_page/templates/contact_page/contact_page.html:261
 msgid "Contact"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:40
+#: contact_page/templates/contact_page/contact_page.html:43
 msgid "Turkish"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:41
+#: contact_page/templates/contact_page/contact_page.html:44
 msgid "English"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:42
+#: contact_page/templates/contact_page/contact_page.html:45
 msgid "French"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:43
+#: contact_page/templates/contact_page/contact_page.html:46
 msgid "German"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:44
+#: contact_page/templates/contact_page/contact_page.html:47
 msgid "Italian"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:45
+#: contact_page/templates/contact_page/contact_page.html:48
 msgid "Polish"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:46
+#: contact_page/templates/contact_page/contact_page.html:49
+msgid "Russian"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:50
 msgid "Spanish"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:135
+#: contact_page/templates/contact_page/contact_page.html:139
 msgid "GET IN TOUCH WITH US"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:153
+#: contact_page/templates/contact_page/contact_page.html:157
 msgid "How did you hear about us"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:154
+#: contact_page/templates/contact_page/contact_page.html:158
 msgid "Existing Partner"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:155
+#: contact_page/templates/contact_page/contact_page.html:159
 msgid "Word of mouth"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:156
+#: contact_page/templates/contact_page/contact_page.html:160
 msgid "Brochure"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:161
+#: contact_page/templates/contact_page/contact_page.html:165
 msgid "Other "
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:259
+msgid "Products"
 msgstr ""

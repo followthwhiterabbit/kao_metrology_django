@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-29 19:30+0100\n"
+"POT-Creation-Date: 2024-03-03 22:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,6 +21,7 @@ msgstr ""
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: leak_testing/templates/leak_testing/leak_testing.html:17
+#: leak_testing/templates/leak_testing/leak_testing.html:545
 msgid "Menu"
 msgstr ""
 
@@ -41,46 +42,52 @@ msgid "Accessories"
 msgstr ""
 
 #: leak_testing/templates/leak_testing/leak_testing.html:27
+#: leak_testing/templates/leak_testing/leak_testing.html:547
 msgid "Services"
 msgstr ""
 
 #: leak_testing/templates/leak_testing/leak_testing.html:28
+#: leak_testing/templates/leak_testing/leak_testing.html:548
 msgid "Contact"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:34
+#: leak_testing/templates/leak_testing/leak_testing.html:37
 msgid "Turkish"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:35
+#: leak_testing/templates/leak_testing/leak_testing.html:38
 msgid "English"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:36
+#: leak_testing/templates/leak_testing/leak_testing.html:39
 msgid "French"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:37
+#: leak_testing/templates/leak_testing/leak_testing.html:40
 msgid "German"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:38
+#: leak_testing/templates/leak_testing/leak_testing.html:41
 msgid "Italian"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:39
+#: leak_testing/templates/leak_testing/leak_testing.html:42
 msgid "Polish"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:40
+#: leak_testing/templates/leak_testing/leak_testing.html:43
+msgid "Russian"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:44
 msgid "Spanish"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:77
+#: leak_testing/templates/leak_testing/leak_testing.html:81
 msgid "What is Leak Testing ?"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:81
+#: leak_testing/templates/leak_testing/leak_testing.html:85
 msgid ""
 "\n"
 "                Leak testing in metrology refers to the process of checking "
@@ -94,74 +101,74 @@ msgid ""
 "                 "
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:90
+#: leak_testing/templates/leak_testing/leak_testing.html:94
 msgid "View More"
-msgstr ""
-
-#: leak_testing/templates/leak_testing/leak_testing.html:126
-#: leak_testing/templates/leak_testing/leak_testing.html:217
-#: leak_testing/templates/leak_testing/leak_testing.html:333
-#: leak_testing/templates/leak_testing/leak_testing.html:431
-msgid "The ideal pneumatic measurement device for countertop use."
-msgstr ""
-
-#: leak_testing/templates/leak_testing/leak_testing.html:128
-#: leak_testing/templates/leak_testing/leak_testing.html:219
-#: leak_testing/templates/leak_testing/leak_testing.html:335
-#: leak_testing/templates/leak_testing/leak_testing.html:433
-msgid "It works with all known probes and is easy to use."
 msgstr ""
 
 #: leak_testing/templates/leak_testing/leak_testing.html:130
 #: leak_testing/templates/leak_testing/leak_testing.html:221
 #: leak_testing/templates/leak_testing/leak_testing.html:337
-msgid "The membrane keypad provides easy access to settings."
+#: leak_testing/templates/leak_testing/leak_testing.html:435
+msgid "The ideal pneumatic measurement device for countertop use."
 msgstr ""
 
 #: leak_testing/templates/leak_testing/leak_testing.html:132
 #: leak_testing/templates/leak_testing/leak_testing.html:223
-msgid "Measurement resolution is 0.1um with a repeatability of 0.5um."
+#: leak_testing/templates/leak_testing/leak_testing.html:339
+#: leak_testing/templates/leak_testing/leak_testing.html:437
+msgid "It works with all known probes and is easy to use."
 msgstr ""
 
 #: leak_testing/templates/leak_testing/leak_testing.html:134
 #: leak_testing/templates/leak_testing/leak_testing.html:225
 #: leak_testing/templates/leak_testing/leak_testing.html:341
-msgid "It features a 7-inch color graphical display."
+msgid "The membrane keypad provides easy access to settings."
 msgstr ""
 
 #: leak_testing/templates/leak_testing/leak_testing.html:136
 #: leak_testing/templates/leak_testing/leak_testing.html:227
-#: leak_testing/templates/leak_testing/leak_testing.html:343
-msgid "Internal memory stores the last 10,000 records."
+msgid "Measurement resolution is 0.1um with a repeatability of 0.5um."
 msgstr ""
 
 #: leak_testing/templates/leak_testing/leak_testing.html:138
 #: leak_testing/templates/leak_testing/leak_testing.html:229
 #: leak_testing/templates/leak_testing/leak_testing.html:345
-#: leak_testing/templates/leak_testing/leak_testing.html:443
+msgid "It features a 7-inch color graphical display."
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:140
+#: leak_testing/templates/leak_testing/leak_testing.html:231
+#: leak_testing/templates/leak_testing/leak_testing.html:347
+msgid "Internal memory stores the last 10,000 records."
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:142
+#: leak_testing/templates/leak_testing/leak_testing.html:233
+#: leak_testing/templates/leak_testing/leak_testing.html:349
+#: leak_testing/templates/leak_testing/leak_testing.html:447
 msgid "Data transfer is possible via wireless Ethernet connection."
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:167
-#: leak_testing/templates/leak_testing/leak_testing.html:380
+#: leak_testing/templates/leak_testing/leak_testing.html:171
+#: leak_testing/templates/leak_testing/leak_testing.html:384
 msgid "Are you interested ?"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:170
-#: leak_testing/templates/leak_testing/leak_testing.html:383
+#: leak_testing/templates/leak_testing/leak_testing.html:174
+#: leak_testing/templates/leak_testing/leak_testing.html:387
 msgid "Contact Us"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:180
-#: leak_testing/templates/leak_testing/leak_testing.html:391
+#: leak_testing/templates/leak_testing/leak_testing.html:184
+#: leak_testing/templates/leak_testing/leak_testing.html:395
 msgid "CONTACT"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:267
+#: leak_testing/templates/leak_testing/leak_testing.html:271
 msgid "Reason for Leak-Testing ?"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:273
+#: leak_testing/templates/leak_testing/leak_testing.html:277
 msgid ""
 "\n"
 "                Leak testing devices is crucial for ensuring products meet "
@@ -183,29 +190,33 @@ msgid ""
 "                "
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:285
+#: leak_testing/templates/leak_testing/leak_testing.html:289
 msgid ""
 "We offer the best products and the services  to our customers and the "
 "distributors all around the world."
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:294
+#: leak_testing/templates/leak_testing/leak_testing.html:298
 msgid "GET A QUOTE"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:339
-#: leak_testing/templates/leak_testing/leak_testing.html:437
+#: leak_testing/templates/leak_testing/leak_testing.html:343
+#: leak_testing/templates/leak_testing/leak_testing.html:441
 msgid "Measurement resolution is 0.1um with a repeatability of 0.5um. "
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:435
+#: leak_testing/templates/leak_testing/leak_testing.html:439
 msgid "The membrane keypad provides easy access to settings. "
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:439
+#: leak_testing/templates/leak_testing/leak_testing.html:443
 msgid "It features a 7-inch color graphical display. "
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:441
+#: leak_testing/templates/leak_testing/leak_testing.html:445
 msgid "Internal memory stores the last 10,000 records. "
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:546
+msgid "Products"
 msgstr ""

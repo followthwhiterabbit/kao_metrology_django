@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-29 19:30+0100\n"
+"POT-Creation-Date: 2024-03-03 22:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: products_page/templates/products/products_page.html:17
+#: products_page/templates/products/products_page.html:607
 msgid "Menu"
 msgstr ""
 
@@ -38,84 +39,99 @@ msgid "Accessories"
 msgstr ""
 
 #: products_page/templates/products/products_page.html:29
+#: products_page/templates/products/products_page.html:609
 msgid "Services"
 msgstr ""
 
 #: products_page/templates/products/products_page.html:30
+#: products_page/templates/products/products_page.html:610
 msgid "Contact"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:36
+#: products_page/templates/products/products_page.html:39
 msgid "Turkish"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:37
-msgid "German"
-msgstr ""
-
-#: products_page/templates/products/products_page.html:38
+#: products_page/templates/products/products_page.html:40
 msgid "English"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:39
+#: products_page/templates/products/products_page.html:41
+msgid "French"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:42
+msgid "German"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:43
 msgid "Italian"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:40
+#: products_page/templates/products/products_page.html:44
 msgid "Polish"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:81
+#: products_page/templates/products/products_page.html:45
+msgid "Russian"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:46
+msgid "Spanish"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:87
+#: products_page/templates/products/products_page.html:608
 msgid "Products"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:84
+#: products_page/templates/products/products_page.html:90
 msgid "Dimensional measurement"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:169
-#: products_page/templates/products/products_page.html:484
+#: products_page/templates/products/products_page.html:175
+#: products_page/templates/products/products_page.html:490
 msgid "Are you interested ?"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:182
-#: products_page/templates/products/products_page.html:497
+#: products_page/templates/products/products_page.html:188
+#: products_page/templates/products/products_page.html:503
 msgid "CONTACT"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:261
-#: products_page/templates/products/products_page.html:367
+#: products_page/templates/products/products_page.html:267
+#: products_page/templates/products/products_page.html:373
 msgid "Leak-Testing"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:265
+#: products_page/templates/products/products_page.html:271
 msgid "Relative Leak-Testing Devices"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:310
+#: products_page/templates/products/products_page.html:316
 msgid "Relative Leak Measurement Device"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:330
+#: products_page/templates/products/products_page.html:336
 msgid "1 Channel Relative Leak Measurement Device"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:371
+#: products_page/templates/products/products_page.html:377
 msgid "Differential Leak-Testing Devices"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:418
+#: products_page/templates/products/products_page.html:424
 msgid "Differential Leak Testing Device"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:438
+#: products_page/templates/products/products_page.html:444
 msgid "1 Channel Differential Leak Testing Device"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:458
+#: products_page/templates/products/products_page.html:464
 msgid "2 Channel Differential Leak Testing Device"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:533
+#: products_page/templates/products/products_page.html:539
 msgid "Watch Video"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-29 19:30+0100\n"
+"POT-Creation-Date: 2024-03-03 22:05+0100\n"
 "PO-Revision-Date: 2024-02-10 19:42+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,6 +20,7 @@ msgstr ""
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
 #: about_page/templates/about/about_page.html:16
+#: about_page/templates/about/about_page.html:467
 msgid "Menu"
 msgstr ""
 
@@ -44,70 +45,76 @@ msgid "Accessories"
 msgstr ""
 
 #: about_page/templates/about/about_page.html:26
+#: about_page/templates/about/about_page.html:469
 msgid "Services"
 msgstr "Servicios"
 
 #: about_page/templates/about/about_page.html:27
+#: about_page/templates/about/about_page.html:470
 msgid "Contact"
 msgstr "Contacto"
 
-#: about_page/templates/about/about_page.html:34
+#: about_page/templates/about/about_page.html:38
 msgid "Turkish"
 msgstr "Turco"
 
-#: about_page/templates/about/about_page.html:35
+#: about_page/templates/about/about_page.html:39
 msgid "English"
 msgstr "Inglés"
 
-#: about_page/templates/about/about_page.html:36
+#: about_page/templates/about/about_page.html:40
 msgid "French"
 msgstr ""
 
-#: about_page/templates/about/about_page.html:37
+#: about_page/templates/about/about_page.html:41
 msgid "German"
 msgstr "Alemán"
 
-#: about_page/templates/about/about_page.html:38
+#: about_page/templates/about/about_page.html:42
 msgid "Italian"
 msgstr "Italiano"
 
-#: about_page/templates/about/about_page.html:39
+#: about_page/templates/about/about_page.html:43
 msgid "Polish"
 msgstr "Polaco"
 
-#: about_page/templates/about/about_page.html:40
+#: about_page/templates/about/about_page.html:44
+msgid "Russian"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:45
 msgid "Spanish"
 msgstr ""
 
-#: about_page/templates/about/about_page.html:85
+#: about_page/templates/about/about_page.html:90
 msgid "AirGages"
 msgstr "Medidores de aire"
 
-#: about_page/templates/about/about_page.html:95
+#: about_page/templates/about/about_page.html:100
 msgid "Leak-Testing Devices"
 msgstr "Dispositivos de prueba de fugas"
 
-#: about_page/templates/about/about_page.html:104
+#: about_page/templates/about/about_page.html:109
 msgid "Flow Callibrators"
 msgstr "Calibradores de flujo"
 
-#: about_page/templates/about/about_page.html:115
+#: about_page/templates/about/about_page.html:120
 msgid "Pressure Scanners"
 msgstr "Escáneres de presión"
 
-#: about_page/templates/about/about_page.html:126
+#: about_page/templates/about/about_page.html:131
 msgid "Modular Metrology"
 msgstr "Metrología modular"
 
-#: about_page/templates/about/about_page.html:137
+#: about_page/templates/about/about_page.html:142
 msgid "Probes"
 msgstr "Sondas"
 
-#: about_page/templates/about/about_page.html:181
+#: about_page/templates/about/about_page.html:186
 msgid "Metrology is our passion"
 msgstr "La metrología es nuestra pasión"
 
-#: about_page/templates/about/about_page.html:185
+#: about_page/templates/about/about_page.html:190
 msgid ""
 "We are more than a metrological device manufacturer combining the latest "
 "technologies and innovations with the possibility of new advancements in the "
@@ -122,25 +129,25 @@ msgstr ""
 "soluciones integradas a los problemas integrados en la metrología y la "
 "automatización."
 
-#: about_page/templates/about/about_page.html:190
-#: about_page/templates/about/about_page.html:296
+#: about_page/templates/about/about_page.html:195
+#: about_page/templates/about/about_page.html:301
 msgid "View More"
 msgstr "Ver más"
 
-#: about_page/templates/about/about_page.html:222
+#: about_page/templates/about/about_page.html:227
 msgid "DIMENSIONAL MEASUREMENT"
 msgstr "MEDICIÓN DIMENSIONAL"
 
-#: about_page/templates/about/about_page.html:225
+#: about_page/templates/about/about_page.html:230
 msgid "We are the masters of Air-gaging with 30+ years of experience."
 msgstr ""
 "Somos maestros en la medición de aire con más de 30 años de experiencia."
 
-#: about_page/templates/about/about_page.html:239
+#: about_page/templates/about/about_page.html:244
 msgid "LEAK TESTING"
 msgstr "PRUEBA DE FUGAS"
 
-#: about_page/templates/about/about_page.html:242
+#: about_page/templates/about/about_page.html:247
 msgid ""
 "Our Touch Screen Leak Testing Systems offer portability, secure setup and "
 "precision beyond world standards."
@@ -149,11 +156,11 @@ msgstr ""
 "portabilidad, configuración segura y precisión más allá de los estándares "
 "mundiales."
 
-#: about_page/templates/about/about_page.html:256
+#: about_page/templates/about/about_page.html:261
 msgid "CALLIBRATORS"
 msgstr "CALIBRADORES"
 
-#: about_page/templates/about/about_page.html:259
+#: about_page/templates/about/about_page.html:264
 msgid ""
 "Our KAO Flow Callibrator offers precise, fast and +12 hours Usage with "
 "regular batteries. "
@@ -161,15 +168,15 @@ msgstr ""
 "Nuestro calibrador de flujo KAO ofrece precisión, rapidez y más de 12 horas "
 "de uso con pilas regulares."
 
-#: about_page/templates/about/about_page.html:282
+#: about_page/templates/about/about_page.html:287
 msgid "More than Metrology"
 msgstr "Más que metrología"
 
-#: about_page/templates/about/about_page.html:285
+#: about_page/templates/about/about_page.html:290
 msgid "Embedded solutions to embedded problems"
 msgstr "Soluciones integradas a problemas integrados"
 
-#: about_page/templates/about/about_page.html:288
+#: about_page/templates/about/about_page.html:293
 msgid ""
 "Explore innovative answers to embedded challenges with our cutting-edge "
 "embedded systems. More than mere measurements, our solutions redefine "
@@ -184,39 +191,39 @@ msgstr ""
 "futuro de la tecnología de manera perfecta. Descubra el poder de las "
 "soluciones integradas en nuestro sitio web hoy."
 
-#: about_page/templates/about/about_page.html:333
+#: about_page/templates/about/about_page.html:338
 msgid "PRESSURE SCANNERS"
 msgstr "ESCANERES DE PRESIÓN"
 
-#: about_page/templates/about/about_page.html:336
+#: about_page/templates/about/about_page.html:341
 msgid "High-Tech Pressure Scanning "
 msgstr "Escaneo de presión de alta tecnología"
 
-#: about_page/templates/about/about_page.html:351
+#: about_page/templates/about/about_page.html:356
 msgid "PROBES "
 msgstr "SONDAS"
 
-#: about_page/templates/about/about_page.html:354
+#: about_page/templates/about/about_page.html:359
 msgid "Delivering probes geared to your unique necessities "
 msgstr "Entrega de sondas diseñadas para sus necesidades únicas"
 
-#: about_page/templates/about/about_page.html:369
+#: about_page/templates/about/about_page.html:374
 msgid "ACCESORIES "
 msgstr "ACCESORIOS"
 
-#: about_page/templates/about/about_page.html:372
+#: about_page/templates/about/about_page.html:377
 msgid "Discover accessories and tools for our products "
 msgstr "Descubra accesorios y herramientas para nuestros productos"
 
-#: about_page/templates/about/about_page.html:395
+#: about_page/templates/about/about_page.html:400
 msgid "HISTORY"
 msgstr "Historia"
 
-#: about_page/templates/about/about_page.html:398
+#: about_page/templates/about/about_page.html:403
 msgid "About Us"
 msgstr "Acerca de nosotros"
 
-#: about_page/templates/about/about_page.html:401
+#: about_page/templates/about/about_page.html:406
 msgid ""
 "Kao was founded in Istanbul in 1995 by an idelistic and dynamic team with "
 "thirty years of experience in machinery, electronics, and metrology. With a "
@@ -247,15 +254,12 @@ msgstr ""
 "nuestros productos y tecnologías que encontró en nuestro sitio web. Deseando "
 "que cada mañana sea más brillante que hoy..."
 
-#: about_page/templates/about/about_page.html:417
-msgid "Watch Video"
-msgstr ""
+#: about_page/templates/about/about_page.html:468
+msgid "Products"
+msgstr "Productos"
 
 #~ msgid "MEASURING AND CONTROL SYSTEMS MANIFACTURING"
 #~ msgstr "MANUFACTURA DE SISTEMAS DE MEDICIÓN Y CONTROL"
-
-#~ msgid "Products"
-#~ msgstr "Productos"
 
 #~ msgid "News&Events"
 #~ msgstr "Noticias y Eventos"
