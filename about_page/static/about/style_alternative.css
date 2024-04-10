@@ -16540,11 +16540,12 @@ text-align: center;
 
 .loc_second_item
 {
-
+  margin-top: -12%;
   margin-left: 50%;
 }
 
 .loc_third_item
 {
-  margin-left: 95%;
+  margin-left: 100%;
+  margin-top: -12%;
 }
