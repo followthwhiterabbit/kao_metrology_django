@@ -191,69 +191,58 @@
       <div class="row">
         <div class="col-md-12 col-lg-6 py-5 m-auto">
 
-           <h1 class="left-align ">
-
-            <div class="container">
-    
-    <div class="row">
-
-	<div class="four col-md-12 align-center mbr-white">
-		<div class="counter-box">
-      <h1>
-        +
-			<span class="counter">1000</span>
-      </h1>
-			<p>Devices delivered</p>
-		</div>
-
-	</div>
-
-
-  <div class="four col-md-12 align-center mbr-white loc_second_item">
-		<div class="counter-box ">
-      <h1>
-        +
-			<span class="counter">30</span>
-      </h1>
-			<p>Years of Experience</p>
-		</div>
-	</div>
-	
- <div class="four col-md-12 align-center mbr-white loc_third_item">
-		<div class="counter-box ">
-      <h1>
-        +
-			<span class="counter">3</span>
-      </h1>
-			<p>undergoing products</p>
-		</div>
-	</div>
-	
-
-
-
-
-  </div>	
-</div>
-
-
-          </h1>
 
     
             
           <div class="media-content">
 
-        
+          <h1 class="mbr-section-title mbr-bold mbr-white pb-4 mbr-fonts-style display-7">
+
+<div class="container">
+    
+    <div class="row align-middle">
+
+	<div class="four col-md-6">
+		<div class="counter-box align-center">
+      <h1>
+        +
+			<span class="counter mbr-fonts-style mbr-white mbr-section-title">1000</span>
+      </h1>
+        <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+              {% trans 'Devices Delivered' %} 
+            </h1>
+
+		</div>
+	</div>
+	<div class="four col-md-6">
+		<div class="counter-box align-center">
+      <h1>
+        +
+			<span class="counter  mbr-fonts-style mbr-white mbr-section-title">30</span>
+      </h1>
+			<h1 class="mbr-section-title align-middle mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+              {% trans 'Years Experience' %} 
+            </h1>
+		</div>
+	</div>
+
+  </div>	
+</div>
+
+
+
+
+            </h1>
 
             <h1 class="mbr-section-title align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
               {% trans 'Metrology is our passion' %} 
             </h1>
             <div class="mbr-section-text mbr-white pb-3 ">
-              <p class="mbr-text align-right align-right mbr-fonts-style display-7">
+              <p class="mbr-text align-right mbr-fonts-style display-7">
               {% trans 'We are more than a metrological device manufacturer combining the latest technologies and innovations with the possibility of new advancements in the manufacturing and automation domain. Apart from producing sophisticated devices with portable usage and aesthetics, we provide embedded solutions to the embedded problems in metrology and automation.' %}
                 </p>
             </div>
-            <div class="mbr-section-btn align-right">
+            <div class="mbr-section-btn align-center">
               <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'products_page' %}"  >
                 {% trans 'View More' %}
               </a>
@@ -286,7 +275,7 @@ $(document).ready(function() {
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
     }, {
-        duration: 4000,
+        duration: 1500,
         easing: 'swing',
         step: function (now) {
             $(this).text(Math.ceil(now));
@@ -338,7 +327,7 @@ $(document).ready(function() {
         </div>
         <div class="col-lg-4">
           <div class="image-block">
-            <a href="{% url 'callibrators'%}">
+            <a href="{% url 'callibrators'%}#kfc60">
             <img src="{% static 'about/KFC60.JPG' %}" alt="Mobirise">
             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
               <div class="wrap">
@@ -381,7 +370,7 @@ $(document).ready(function() {
 			   
                 </p>
             </div>
-            <div class="mbr-section-btn align-right">
+            <div class="mbr-section-btn align-center">
               <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'products_page' %}"  >
                 {% trans 'View More' %}
               </a>
@@ -415,7 +404,7 @@ $(document).ready(function() {
       <div class="row">
         <div class="col-lg-4">
           <div class="image-block">
-            <a href="{% url 'callibrators'%}">
+            <a href="{% url 'callibrators'%}#scanner">
             <img src="{% static 'about/scanner_2.JPG' %}" alt="Mobirise">
             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
               <div class="wrap">
@@ -433,7 +422,7 @@ $(document).ready(function() {
 
         <div class="col-lg-4">
           <div class="image-block">
-            <a href="{% url 'services'%}">
+            <a href="{% url 'services'%}#probes">
             <img src="{% static 'about/probes.jpg' %}" alt="Mobirise">
              <figcaption class="mbr-figure-caption mbr-figure-caption-over">
                <div class="wrap">
@@ -487,7 +476,7 @@ $(document).ready(function() {
           <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
             {% trans 'About Us' %}
           </h1>
-          <p class="mbr-text pb-0 mbr-fonts-style">
+          <p class="mbr-text pb-0 mbr-fonts-style align-center">
             {% trans 'Kao was founded in Istanbul in 1995 by an idelistic and dynamic team with thirty years of experience in machinery, electronics, and metrology. With a strong R&D team and modern production lines, Kao has been able to create remarkable products in terms of the technical specifications, ergonomics, aesthetics, and durability. Kao has been producing metrological test devices with measurement precision beyond world standards and extremely user-friendly interfaces in the field of metrology As Kao-Metrology, we aim to collaborate with industrialists to contribute to creating a more efficient and powerful metrological system for a reliable future. Therefore, we see every product we develop as a helper that opens the door to new possibilities. Please dont hesitate to share your thoughts on our products and technologies you encountered on our website. Wishing for every tomorrow to be brighter than today... ' %}
           </p>
         </div>

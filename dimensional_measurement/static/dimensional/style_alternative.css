@@ -16479,3 +16479,11 @@ text-align: center;
 #productsdropdown:hover .dropdown-menu {
     display: block;
 }
+
+
+
+
+html
+{
+  scroll-behavior: smooth; 
+}

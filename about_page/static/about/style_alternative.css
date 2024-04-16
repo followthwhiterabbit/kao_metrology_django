@@ -16528,24 +16528,8 @@ text-align: center;
   }
 }
 
-
-
-
-.left-align {
-    width: 50%; /* Set the width of the element */
-    left: 0; /* Reset margin */
-    margin-right: auto; /* Center horizontally */
+html{
+  scroll-behavior: smooth !important; 
 }
 
 
-.loc_second_item
-{
-  margin-top: -12%;
-  margin-left: 50%;
-}
-
-.loc_third_item
-{
-  margin-left: 100%;
-  margin-top: -12%;
-}
