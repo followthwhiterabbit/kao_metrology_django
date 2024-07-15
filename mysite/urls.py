@@ -17,6 +17,17 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 from django.conf.urls.i18n import i18n_patterns
+from django.views.generic.base import TemplateView
+from django.contrib.sitemaps.views import sitemap
+from django.contrib.sitemaps import GenericSitemap
+from about_page.models import About_page
+
+from .sitemaps import MySitemap
+
+sitemaps = {
+    'my_sitemap': MySitemap,
+}
+
 
 urlpatterns = i18n_patterns(
     path("", include("about_page.urls")),
@@ -31,6 +42,14 @@ urlpatterns = i18n_patterns(
     path("accessories/", include("accessories.urls")),
     path("services/", include("services.urls")),
     path('rosetta/', include('rosetta.urls')), 
+    path(
+        "robots.txt",
+        TemplateView.as_view(template_name="robots.txt", content_type="text/plain"),
+    ),
+     path('sitemap.xml', sitemap, {'sitemaps': sitemaps},
+         name='django.contrib.sitemaps.views.sitemap'),
+    
 
 )
 
+    

@@ -80,7 +80,9 @@ INSTALLED_APPS = [
     'django_recaptcha',
     'rosetta', #NEW
     'imagekit', 
+    'django.contrib.sitemaps',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -98,7 +100,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / "templates"], #new 
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

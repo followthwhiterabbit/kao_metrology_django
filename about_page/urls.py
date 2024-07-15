@@ -7,6 +7,7 @@ from django.urls import include, path
 
 urlpatterns = [
     path("", views.about_func, name="about_page"),
+
 ]
 
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-03 22:05+0100\n"
+"POT-Creation-Date: 2024-05-15 23:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,93 +17,69 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: contact_page/templates/contact_page/contact_page.html:23
-#: contact_page/templates/contact_page/contact_page.html:258
+#: contact_page/templates/contact_page/contact_page.html:37
+#: contact_page/templates/contact_page/contact_page.html:236
 msgid "Menu"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:27
+#: contact_page/templates/contact_page/contact_page.html:41
 msgid "Dimensional Measurement"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:28
+#: contact_page/templates/contact_page/contact_page.html:42
 msgid "Leak Testing Devices"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:29
+#: contact_page/templates/contact_page/contact_page.html:43
 msgid "Callibrators "
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:30
+#: contact_page/templates/contact_page/contact_page.html:44
 msgid "Accessories"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:34
-#: contact_page/templates/contact_page/contact_page.html:260
+#: contact_page/templates/contact_page/contact_page.html:48
+#: contact_page/templates/contact_page/contact_page.html:238
 msgid "Services"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:35
-#: contact_page/templates/contact_page/contact_page.html:261
+#: contact_page/templates/contact_page/contact_page.html:49
+#: contact_page/templates/contact_page/contact_page.html:239
 msgid "Contact"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:43
+#: contact_page/templates/contact_page/contact_page.html:57
 msgid "Turkish"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:44
+#: contact_page/templates/contact_page/contact_page.html:58
 msgid "English"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:45
+#: contact_page/templates/contact_page/contact_page.html:59
 msgid "French"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:46
+#: contact_page/templates/contact_page/contact_page.html:60
 msgid "German"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:47
+#: contact_page/templates/contact_page/contact_page.html:61
 msgid "Italian"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:48
+#: contact_page/templates/contact_page/contact_page.html:62
 msgid "Polish"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:49
+#: contact_page/templates/contact_page/contact_page.html:63
 msgid "Russian"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:50
+#: contact_page/templates/contact_page/contact_page.html:64
 msgid "Spanish"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:139
-msgid "GET IN TOUCH WITH US"
-msgstr ""
-
-#: contact_page/templates/contact_page/contact_page.html:157
-msgid "How did you hear about us"
-msgstr ""
-
-#: contact_page/templates/contact_page/contact_page.html:158
-msgid "Existing Partner"
-msgstr ""
-
-#: contact_page/templates/contact_page/contact_page.html:159
-msgid "Word of mouth"
-msgstr ""
-
-#: contact_page/templates/contact_page/contact_page.html:160
-msgid "Brochure"
-msgstr ""
-
-#: contact_page/templates/contact_page/contact_page.html:165
-msgid "Other "
-msgstr ""
-
-#: contact_page/templates/contact_page/contact_page.html:259
+#: contact_page/templates/contact_page/contact_page.html:237
 msgid "Products"
 msgstr ""

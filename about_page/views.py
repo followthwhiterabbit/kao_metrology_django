@@ -4,12 +4,28 @@ from django.template import loader
 from django.http import Http404
 
 
+from django.views.generic import ListView, DetailView
+
+
+from .models import About_page
+
+class AboutPageListView(ListView):
+    model = About_page
+    template_name = "about_page.html"
+
+class AboutPageDetailView(DetailView):
+    model = About_page
+    template_name = "about_page.html"
+
+
+
+
 
 # Create your views here.
     # return HttpResponse("website under construction !!!")
 def about_func(request):
    # if request.LANGUAGE_CODE == 'de-at':
-        #return HttpResponse("You prefer to read Austrial German.")
+        #return HttpResponse("You prefer to read Austrian German.")
     #else:
         #return HttpResponse("You prefer to read another Language.")
      

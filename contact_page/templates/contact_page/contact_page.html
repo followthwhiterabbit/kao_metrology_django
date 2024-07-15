@@ -7,6 +7,20 @@
 
  <link rel="stylesheet" type="text/css" href="{% static 'contact/style.css' %}" /> 
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S1K2JYNCMG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S1K2JYNCMG');
+</script>
+
+
+
+
+ <title>KAO Contact</title>
 
 
 
@@ -71,155 +85,118 @@
 
    
 
+<section class="form cid-ryha8QwidL snipcss0-0-0-1 snipcss-wPkRt" id="form02-3i">
+     <img src="{% static 'contact/airgages.png' %}" class="contact-background">
+    <div class="container snipcss0-1-1-2">
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <div class="row snipcss0-2-2-3">
+            <div class="col-lg-6 col-md-12 mx-auto mbr-form snipcss0-3-3-4" data-form-type="formoid">
+                <form action="{% url 'contact_page' %}" method="POST" class="mbr-form form-with-styler snipcss0-4-4-5" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="HRL95tJIRZRdgUB9tYySicPlCgwVI5eU0UreGKFaj2qDZV4f5ByHW0WyMzv/mpgtIBy5KfjZ5meJHcXmvsgSN/Cah2OO0a+MYvB+C5huIc37+4p+B7zPPBLj9TZi2afQ.Q6SjOq4ciz5PlRzpgqAjhe9lgEKxuFoOxbVDuBDGY6ZCFAD/MwDp2izt5EXTOjUAckUxJwDeok1KFM6abYaC0K5P/N+ogMGSxKautsSUNxUCyXYB/NPqnKAeqODvfIGw" class="snipcss0-5-5-6">
+                {% csrf_token %} 
+                  <div class="form-row snipcss0-5-5-7">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12 snipcss0-6-7-8">Thanks for filling out the form!</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12 snipcss0-6-7-9">Oops...! some problem!</div>
+                    </div>
+                    <div class="dragArea form-row snipcss0-5-5-10">
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group snipcss0-6-10-11">
+                            <div class="form-row snipcss0-7-11-12">
+                                <div class="col snipcss0-8-12-13">
+                                    <span class=" mobi-mbri snipcss0-9-13-14"></span>
+                                    <input type="text" name="first_name" placeholder="First Name" data-form-field="nameFirst" class="form-control text-multiple snipcss0-9-13-15" value="" id="nameFirst-form02-3i">
+                                </div>
+                                <div class="col snipcss0-8-12-16">
+                                    <span class="mobi-mbri snipcss0-9-16-17"></span>
+                                    <input type="text" name="surname" placeholder="Last Name" data-form-field="nameLast" class="form-control text-multiple snipcss0-9-16-18" value="" id="nameLast-form02-3i">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 form-group snipcss0-6-10-19" data-for="email">
+                            <span class=" mobi-mbri snipcss0-7-19-20"></span>
+                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control display-7 snipcss0-7-19-21" value="" id="email-form02-3i">
+                        </div>
+                        <div data-for="subject" class="col-lg-12 col-md-12 col-sm-12 form-group snipcss0-6-10-25">
+                            <span class=" mobi-mbri snipcss0-7-25-26"></span>
+                            <input type="text" name="subject" placeholder="Subject" data-form-field="subject" class="form-control display-7 snipcss0-7-25-27" value="" id="subject-form02-3i">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group snipcss0-6-10-28" data-for="message">
+                            <span class="  mobi-mbri snipcss0-7-28-29"></span>
+                            <textarea name="message" placeholder="Message" data-form-field="message" class="form-control display-7 snipcss0-7-28-30" id="message-form02-3i"></textarea>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group snipcss0-6-10-31" data-for="how">
+                            <span class="  mobi-mbri snipcss0-7-31-32"></span>
+                            <input type="text" name="how" placeholder="How did your hear about us" data-form-field="how" class="form-control display-7 snipcss0-7-31-33" value="" id="how-form02-3i">
+                        </div>
+                        {{ form.captcha }}
 
-        <!--
-    <div class="container-contact-page">
-    <form onsubmit="sendEmail(); reset(); return false; ">
-        <h3>GET IN TOUCH WITH US!</h3>
-        <input type="text" id="name" placeholder="Your Name" required>
-        <input type="email" id="email" placeholder="Email id" required>
-        <input type="text" id="phone" placeholder="Phone No." required>
-        <textarea id="message" rows="4" placeholder="Reach us for further information about our products."></textarea>
-        <button type="submit">SEND</button>
-
-    </form>
+                        <div class="g-recaptcha" data-sitekey="6LetokcpAAAAAJme6hGTF17WM32BmBfW0tYEI-K0"></div>
 
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12044.499649022328!2d28.7119864!3d41.0006391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa0fb16d7bc9d%3A0x415f5b54bf6d0006!2sKAO%20Elektronik%20ve%20Bilgisayar%20San.Tic.Ltd.%C5%9Eti!5e0!3m2!1sen!2spl!4v1703979517447!5m2!1sen!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-</iframe>
+                        <div class="col-auto m-auto snipcss0-6-10-34"><button type="submit" class="btn btn-black display-7 snipcss0-7-34-35">Send</button></div>
+                    </div>
+                </form>
+            </div>
+            
+            
+    <div class="col-md-12 col-lg-6 snipcss0-3-3-36">
+                <div class="media-content snipcss0-4-36-37">
+                    <h1 class="mbr-section-title align-left mbr-black mbr-black pb-3 mbr-fonts-style display-2 snipcss0-5-37-38">Get in touch with us!</h1>
+                    <h3 class="mbr-section-subtitle mbr-bold align-left mbr-black mbr-light pb-3 mbr-fonts-style display-7 snipcss0-5-37-39">TRANSFORM YOUR BUSINESS WITH US!</h3>
+                    <div class="mbr-section-text mbr-black pb-3 snipcss0-5-37-40">
+                        <p class="mbr-text align-left mbr-fonts-style mbr-black display-7 snipcss0-6-40-41">Whether you're looking for industrial metrology devices or a partner for R&D research and collaborations, don't hesitate to contact us!.
+                        <p class="text2 pt-2 align-left mbr-fonts-style display-7 snipcss0-6-40-42"><strong class="snipcss0-7-42-43">Our Address</strong><br class="snipcss0-7-42-44">
+                        <br class="snipcss0-7-42-45">Kao Metrology<br class="snipcss0-7-42-46">Üniversite mah.Firuzköy Bulvari No:79/1 <br class="snipcss0-7-42-47">Avcilar<br class="snipcss0-7-42-48">Istanbul , Turkey<br class="snipcss0-7-42-49">
+                        <br class="snipcss0-7-42-50">Tel: 0212 5917039-40
+                        <br class="snipcss0-7-42-50">kao@kaometrology.com 
+                       <!-- <img src="{% static 'about/kaan_karaalioglu.jpg' %}" alt="Customer Service" style="width:100px; height:100px;"> -->
+                    </p>
+                    </div>
+                </div>
+            </div>
+        
 
-</div>
--->
+
+
+        </div>
+    </div>
+</section>
+
+
 
 <!--
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-
-<script>
-    function sendEmail(){
-        Email.send({
-        Host : "smtp.elasticmail.com",
-        Username : "kaan.karaalioglu@kaometrology.com",
-        Password : "162534Kaan*",
-        To : 'karaaliogluseyit@gmail.com',
-        From : document.getElementById("element").value,
-        Subject : "This is the subject",
-        Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
-}
-    
-</script>
-
-
+  <section class="map1 cid-ryha8paJop" id="map01-3h">
+    <div class="google-map">
+      <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12044.499649022328!2d28.7119864!3d41.0006391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa0fb16d7bc9d%3A0x415f5b54bf6d0006!2sKAO%20Elektronik%20ve%20Bilgisayar%20San.Tic.Ltd.%C5%9Eti!5e0!3m2!1sen!2spl!4v1703979517447!5m2!1sen!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> allowfullscreen="" data-gtm-yt-inspected-19="true" data-gtm-yt-inspected-27="true">
+      </iframe>
+    </div>
+  </section>
 -->
 
-
-
+  
 <!--
-<div class="card bg-dark text-white">
-  <img src="{% static 'index/airgages.png' %}" class="card-img-contact" alt="..." style="width: 1200px; height:250px">
-  <div class="card-img-overlay">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text">Last updated 3 mins ago</p>
-  </div>
-</div>
 
+<section class="testimonials1 cid-ryh93nf0oj snipcss0-0-0-1 snipcss-PpRHJ" id="testimonials-slider04-3c">
+    <div class="container snipcss0-1-1-2">
+        <div class="media-container-row snipcss0-2-2-3">
+            <div class="mbr-testimonial col-12 col-lg-12 col-md-12 snipcss0-3-3-4">
+                <div class="panel-item snipcss0-4-4-5">
+                    <div class="card-block snipcss0-5-5-6">
+                        <p class="mbr-text align-center mbr-fonts-style pb-4 display-2 snipcss0-6-6-7"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper elementum felis in bibendum.</p>
+                    </div>
+                    <div class="card-footer snipcss0-5-5-8">
+                        <div class="testimonial-photo snipcss0-6-8-9">
+                            <img src="https://mobirise.com/extensions/photom4/assets/images/face2.jpg" class="snipcss0-7-9-10">
+                        </div>
+                        <div class="name snipcss0-6-8-11">
+                            <div class="mbr-author-name align-left mbr-fonts-style display-5 snipcss0-7-11-12"> Ann Smith </div>
+                            <small class="mbr-author-desc align-left mbr-italic mbr-light mbr-fonts-style display-7 snipcss0-7-11-13"> Manager</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 -->
-
- <img src="{% static 'contact/airgages.png' %}" class="contact-background">
-
-
-<div class="container-contact-page">
-      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-<form method="POST" action="{% url 'contact_page' %}">
- {% csrf_token %} 
- 
-<h3 class="get_in_touch">{% trans 'GET IN TOUCH WITH US' %}</h3>
-
-<div class="name-fields">
-<input type="text_name" name="first_name" placeholder="First Name" required>
- <br>
- <br>
-
-<input type="text_surname" name="surname" placeholder="Last Name" required>
- <br>
- <br>
-</div>
-
-<div class="business-email">
-<input type="email" name="email" placeholder="Business Email Address*" required>
-<br>
-<br>
-
-            <select class="contact-drop-down"  name="hear" id="hear">
-                <option>{% trans 'How did you hear about us' %} </option>
-                <option value="1">{% trans 'Existing Partner' %}</option>
-                <option value="2">{% trans 'Word of mouth' %}</option>
-                <option value="3">{% trans 'Brochure' %}</option>
-                <option value="4">LinkedIn</option>
-                <option value="5">Google</option>
-                <option value="6">Yahoo</option>
-                <option value="7">Bing</option>
-                <option value="9">{% trans 'Other '%}</option>
-            </select> 
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-<div class="message-us" style="width: 400px;">
-<textarea name="message" placeholder="Reach us for further information about our products." required></textarea> 
-<br>
-<br>
-</div>
-
-
-
-{{ form.captcha }}
-
-<div class="g-recaptcha" data-sitekey="6LetokcpAAAAAJme6hGTF17WM32BmBfW0tYEI-K0"></div>
-
-
-<button class="btn_send btn-primary mt-2" type="submit">send</button>
-<br>
-<br>
-
-
-
- </form>
-
-
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12044.499649022328!2d28.7119864!3d41.0006391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa0fb16d7bc9d%3A0x415f5b54bf6d0006!2sKAO%20Elektronik%20ve%20Bilgisayar%20San.Tic.Ltd.%C5%9Eti!5e0!3m2!1sen!2spl!4v1703979517447!5m2!1sen!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-</div>
-
-
-
-
-
-
- <div class="rounded-rectangle-contact">
-    <h3 class="contact-info-text">Contact Information</h3>
-    <h6 class="contact-address">Headquarters</h6>
-    <h7 class="address">Üniversite, Firuzköy Blv. No:79/1, 34320</h7>
-    <h7 class="address-2"> Avcilar/İstanbul, Türkiye</h7>
-
-
-
- </div>
-
 
 
   
@@ -279,6 +256,8 @@
                 
    
   </section>
+
+
 
 
 

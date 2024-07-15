@@ -4,15 +4,31 @@
 
 <link rel="stylesheet" type="text/css" href="{% static 'about/style_alternative.css' %}" /> 
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Kao Metrology</title>
+<meta name="description" content="Affordable High-Tech Airgages, Leak-Testing Devices and Callibrators. Kao Metrology offers High-Tech metrological devices with very affordable prices. Distributors wanted.">
 
 
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S1K2JYNCMG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S1K2JYNCMG');
+</script>
+
+
+<title>AirGage | AirGaging | Leak-Testing | Leak-Testing Devices</title>
+
+
+
+
+ 
 
     <nav class="navbar-eski  navbar-nav-eski navbar-brand-eski navbar-expand-lg navbar-dark-eski bg-blue-eski">
             <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="navbar-collapse-eski" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
@@ -29,9 +45,23 @@
                           </ul>
                         </li>
                   
-    
 
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li>
+                          <li class="nav-item dropdown" id="servicesdropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" a href="{% url 'services'%}#probes">{% trans 'Probe Design'  %}</a></li>
+                                <li><a class="dropdown-item" a href="{% url 'services'%}#automachines">{% trans 'Automation Projects'  %}</a></li>
+                                <li><a class="dropdown-item" a href="{% url 'services'%}#softwaresupport">{% trans 'Softwares'  %}</a></li>
+
+                          </ul>
+                        </li>
+                      
+
+
+
+
+
+                        <!-- <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li> -->
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}"> {% trans 'Contact' %}</a></li>   
 
 
@@ -61,9 +91,11 @@
             </div>
         </nav>
 
+
+
+
+          
         
-
-
 
 <div id="company_logo">
     <img src="{% static 'about/kao_logo.png' %}" class="logo-img">
@@ -168,10 +200,36 @@
   </a>
 
 
- </div>
-
-
-
+<link rel="stylesheet" type="text/css" media="all" href="https://oguzturk.net/lab/demo/cerez/cerez.css" />
+<script type='text/javascript' src='https://oguzturk.net/lab/demo/cerez/cerez.js'></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+"palette": {
+"popup": {
+"background": "#646478", // şerit arkaplan rengi
+"text": "#ffffff" // şerit üzerindeki yazı rengi
+},
+"button": {
+"background": "#8ec760", // buton arkaplan rengi - "transparent" kullanıp border açabilirsiniz.
+//"border": "#14a7d0", arkaplan rengini transparent yapıp çerçeve kullanabilirsini
+"text": "#ffffff" // buton yazı rengi
+}
+},
+"theme": "classic", // kullanabileceğiniz temalar block, edgeless, classic
+// "type": "opt-out", gizle uyarısını aktif etmek için
+// "position": "top", aktif ederseniz uyarı üst kısımda görünür
+// "position": "top", "static": true, aktif ederseniz uyarı üst kısımda sabit olarak görünür
+// "position": "bottom-left", aktif ederseniz uyarı solda görünür
+//"position": "bottom-right", aktif ederseniz uyarı sağda görünür
+"content": {
+"message": "We use cookies to provide you with the best possible user experience. You agree to our use of cookies and our privacy policy.",
+"dismiss": "Agree",
+"link": "For more Information",
+"href": "http://kaometrology.com/"
+}
+})});
+</script>
 
 
 
@@ -183,6 +241,10 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        
+
+
+        
 
 
 
@@ -197,38 +259,6 @@
           <div class="media-content">
 
           <h1 class="mbr-section-title mbr-bold mbr-white pb-4 mbr-fonts-style display-7">
-
-<div class="container">
-    
-    <div class="row align-middle">
-
-	<div class="four col-md-6">
-		<div class="counter-box align-center">
-      <h1>
-        +
-			<span class="counter mbr-fonts-style mbr-white mbr-section-title">1000</span>
-      </h1>
-        <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              {% trans 'Devices Delivered' %} 
-            </h1>
-
-		</div>
-	</div>
-	<div class="four col-md-6">
-		<div class="counter-box align-center">
-      <h1>
-        +
-			<span class="counter  mbr-fonts-style mbr-white mbr-section-title">30</span>
-      </h1>
-			<h1 class="mbr-section-title align-middle mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              {% trans 'Years Experience' %} 
-            </h1>
-		</div>
-	</div>
-
-  </div>	
-</div>
-
 
 
 
@@ -253,15 +283,7 @@
 
         </div>
 
-        <!--
-        <div class="col-md-12 col-lg-6">
-          <div class="mbr-figure">
-            <img src="{% static 'about/modular_devices.jpg' %}" alt="Mobirise">
-          </div>
-        </div>
-      </div>
 
-    -->
       
     </div>
   </section>
@@ -286,7 +308,141 @@ $(document).ready(function() {
 });  
 
 
+
+
+
+
   </script>
+
+
+
+
+<div class="container ">
+    <div class="row main-row">
+        <div class="col-12 snipcss0-0-0-1">
+            <h2 class="mbr-section-title mbr-fonts-style align-center mb-4 display-5 snipcss0-1-1-2"><strong class="snipcss0-2-2-3">OUR SERVICES</strong></h2>
+        </div>
+        <div class=" card col-12 col-md-6 col-lg-4">
+            <div class="card-wrapper">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="text-wrapper">
+                            <h5 class="card-title mbr-fonts-style display-7"><strong>Automative</strong>
+                                <div><strong>Industry</strong></div>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="img-wrapper">
+                          <img src="{% static 'about/automative.jpeg' %}" alt="automative industry">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" card col-12 col-md-6 col-lg-4">
+            <div class="card-wrapper">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="text-wrapper">
+                            <h5 class="card-title mbr-fonts-style display-7"><strong>White appliances</strong>
+                                <div><strong>Industry</strong></div>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="img-wrapper">
+                            <img src="{% static 'about/white_appliance.jpeg' %}" alt="white appliance industry">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-4">
+            <div class="card-wrapper">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="text-wrapper">
+                            <h5 class="card-title mbr-fonts-style display-7"><strong>Defence</strong>
+                                <div><strong>Sector</strong></div>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="img-wrapper">
+                          <img src="{% static 'about/defence_industry.jpeg' %}" alt="Defence industry">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" card col-12 col-md-6 col-lg-4">
+            <div class="card-wrapper">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="text-wrapper">
+                            <h5 class="card-title mbr-fonts-style display-7"><strong>Hydraulic Equipment</strong>
+                                <div><strong>Manifacturing</strong></div>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="img-wrapper">
+                          <img src="{% static 'about/hydraulic_equipment_manifacturing.jpeg' %}" alt="Hydraulic Equipment Manifacturing industry">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" card col-12 col-md-6 col-lg-4">
+            <div class="card-wrapper">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="text-wrapper">
+                            <h5 class="card-title mbr-fonts-style display-7"><strong>Serial</strong>
+                                <div><strong>Production</strong></div>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="img-wrapper">
+
+                          <img src="{% static 'about/serial_piece_manifacturing.jpeg' %}" alt="Serial Piece Manifacturing">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" card col-12 col-md-6 col-lg-4">
+            <div class="card-wrapper">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="text-wrapper">
+                            <h5 class="card-title mbr-fonts-style display-7"><strong>Embedded Systems</strong>
+                                <div><strong>Consulting</strong></div>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="img-wrapper">
+                          <img src="{% static 'about/Embedded_systems.jpeg' %}" alt="Embedded Systems Consulting">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
 
     <section class="cid-ryhbKc0wrA" id="image03-3p">
     <div class="container-fluid">
@@ -497,6 +653,10 @@ $(document).ready(function() {
 
   <section class="header3 cid-ryha7dvnCF" id="social01-3g">
     <div class="container">
+
+     
+
+
       <div class="mbr-section-btn align-center pb-3">
         
 
@@ -532,10 +692,55 @@ $(document).ready(function() {
       
       
       </div>
+        
+<section class="footer4 cid-ryha9vUPBi snipcss-ozPyT" id="footer02-51">
+    <div class="container">
+        <div class="row content mbr-bold justify-content-center">
+            <div class="col-lg-3 col-md-6">
                 
+                <p class="mbr-text mbr-fonts-style form-text mt-2 display-4">Automation and Metrological Devices Manifacturing</p>
+                  <img src="{% static 'about/kao_logo.png' %}" class="logo-img">
+                  <h2 class="mb-1 footer-main-title mbr-fonts-style display-2"> KAO Metrology</h2>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h3 class="mb-4 mbr-fonts-style footer-title display-5"> Links</h3>
+                <div class="mbr-footer-list mbr-fonts-style display-4">
+                    <ul class="list">
+                        <li><a href="/tr">Home</a></li>
+                        <li><a href="{% url 'products_page' %}"></a> </li>
+                        <li>Events</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h3 class="mb-4 footer-title mbr-fonts-style display-5">About</h3>
+                <div class="mbr-footer-list mbr-fonts-style display-4">
+                    <ul class="list">
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Features</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h3 class="mb-4 footer-title mbr-fonts-style display-5"> Contacts</h3>
+                <div class="mbr-footer-list mbr-fonts-style display-4">
+                    <ul class="list">
+                        <li>Call: +90 212 591 70 39   </li>
+                        <li>Email: kao@kaometrology.com </li>
+                        <li>Address: Üniversite mah.Firuzköy Bulvari No:79/1 Avcilar  Istanbul , Turkey</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+      
+
+<!--
 <nav class="navbar-eski  navbar-nav-eski navbar-dark-eski bg-blue-eski ">
             <div class="container">
-                <div class="align-center" id="navbarSupportedContent">
+              <div class="align-center" id="navbarSupportedContent">
                     <ul class="navbar-nav ">
 
                         <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li> 
@@ -548,21 +753,33 @@ $(document).ready(function() {
                     </ul>
                 </div>
             </div>
+
+            
             <div class="call_us_section align-middle">
              <img src="{% static 'about/call_us-Photoroom.png' %}" alt="call us logo" style="width:50px; height:50px;"> 
           
              </div>
+
+             
 
            <div class="number_section align-middle">
           <h3>0212 5917039-40</h3> 
              </div>
 
 
-        </nav>
+             
 
+        </nav>
+      -->
+
+
+
+        
      
   
   </section>
+
+  
 
 
 
