@@ -1,4 +1,3 @@
-# COMPANY WEBISTE
-##Author: Kaan Karaalioglu
+# COMPANY WEBISTE ##Author: Kaan Karaalioglu
 
-# hey hey hey
+# hey hey hey naber
